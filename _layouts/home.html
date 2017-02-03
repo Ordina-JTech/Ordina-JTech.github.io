@@ -4,8 +4,8 @@ layout: archive
 
 <style>
     .quotes {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .quotes .quote {
@@ -30,14 +30,14 @@ layout: archive
 
 <div class="quotes">
     {% for post in paginator.posts %}
-    <p class="quote">
+    <h2 class="quote">
         <a href="{{ post.url }}">
             {{post.title}}
             <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
         </a>
-    </p>
+    </h2>
     {% endfor %}
-    <i class="quote active">Welcome!</i>
+    <i class="quote active"><h1>Welcome!</h1></i>
 </div>
 
 
