@@ -1,7 +1,3 @@
-# User interface text and labels
-
-# English (default)
-# -----------------
 en: &DEFAULT_EN
   page                       : "Page"
   pagination_previous        : "Previous"
@@ -40,11 +36,3 @@ en: &DEFAULT_EN
   comment_success_msg        : "Thanks for your comment! It will show on the site once it has been approved."
   comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
   loading_label              : "Loading..."
-en-US:
-  <<: *DEFAULT_EN
-en-CA:
-  <<: *DEFAULT_EN
-en-GB:
-  <<: *DEFAULT_EN
-en-AU:
-  <<: *DEFAULT_EN
