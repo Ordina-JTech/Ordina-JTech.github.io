@@ -2,9 +2,69 @@
 layout: archive
 ---
 
+<style>
+    .quotes {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .quotes .quote {
+        position: absolute;
+        transition: opacity 1s ease;
+        opacity: 0;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .quotes .quote.active {
+        opacity: 1;
+        z-index: 5;
+    }
+</style>
 <div style="display: flex; flex-direction: row; justify-content: center;">
-  <img src="/img/logo-small.jpg" style="width: 200px; height: 175px;">
+    <img src="/img/logo-small.jpg" style="width: 200px; height: 175px;">
 </div>
+
+<div class="quotes">
+    {% for post in paginator.posts %}
+    <p class="quote">
+        <a href="{{ post.url }}">
+            {{post.title}}
+            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+        </a>
+    </p>
+    {% endfor %}
+    <i class="quote active">Welcome!</i>
+</div>
+
+
+<script>
+    setInterval(function () {
+        var quotes = document.getElementsByClassName("quote");
+        for (var i = 0; i < quotes.length; i++) {
+            var quote = quotes[i];
+            if (quote.classList.contains("active")) {
+                quote.classList.remove("active");
+                if (i < quotes.length - 1) {
+                    setTimeout(function () {
+                        quotes[i + 1].classList.add("active");
+                    }, 1000);
+                    break;
+                } else {
+                    setTimeout(function () {
+                        quotes[0].classList.add("active");
+                    }, 1000);
+                    break;
+                }
+            }
+        }
+    }, 5000)
+
+
+</script>
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
