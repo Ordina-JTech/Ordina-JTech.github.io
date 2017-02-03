@@ -1,6 +1,7 @@
 # ordina-jtech.github.io
 
 ### Setup
+Make sure you have Ruby 2.0 or higher installed.
 Run the following: `gem install jekyll bundler`.
 
 ### Running
