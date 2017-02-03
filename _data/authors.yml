@@ -11,3 +11,9 @@ naipath:
   bio              : I do stuff... sometimes with computers
   email            : teije.van.sloten@ordina.nl
   github           : naipath
+michel_schudel:
+  name             : Michel Schudel
+  avatar           : /assets/images/bio/michel-bio.jpg
+  bio              : Coding, Craftsmanship, Music, Movies and more...
+  email            : michel.schudel@ordina.nl
+  github           : MichelSchudel
