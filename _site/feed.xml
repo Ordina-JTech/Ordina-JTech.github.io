@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-03T13:25:03+01:00</updated><id>http://localhost:4000//</id><title type="html">JTech</title><subtitle>Awesome tech company</subtitle><author><name>JTech</name><email>jtech@ordina.nl</email><uri>ordina-jtech.github.io</uri></author><entry><title type="html">REST-assured!</title><link href="http://localhost:4000/integration-testing/restassured.1/" rel="alternate" type="text/html" title="REST-assured!" /><published>2017-02-02T21:48:13+01:00</published><updated>2017-02-02T21:48:13+01:00</updated><id>http://localhost:4000/integration-testing/restassured.1</id><content type="html" xml:base="http://localhost:4000/integration-testing/restassured.1/">&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;given_one_income_then_correct_output_is_returned&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;param&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;aanvragerBedr&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;45000&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/aanvragingen&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;maxInkomenBedr&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;188600&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name>Ivo Woltring</name><email>ivo.woltring@ordina.nl</email><uri>ivonet.nl</uri></author><summary type="html">@Test
+public void given_one_income_then_correct_output_is_returned() {
+    given()
+      .param(&quot;aanvragerBedr&quot;, 45000).
+    when()
+      .get(&quot;/aanvragingen&quot;).
+    then()
+      .body(&quot;maxInkomenBedr&quot;, is(188600));
+}</summary></entry><entry><title type="html">SGT’s: Some Great Tools</title><link href="http://localhost:4000/tools/some-great-tools/" rel="alternate" type="text/html" title="SGT's: Some Great Tools" /><published>2017-02-01T21:48:13+01:00</published><updated>2017-02-01T21:48:13+01:00</updated><id>http://localhost:4000/tools/some-great-tools</id><content type="html" xml:base="http://localhost:4000/tools/some-great-tools/">&lt;p&gt;Here are some tools I have grown to love. Give em a spin!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ccmenu.org/&quot;&gt;CCMenu&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Get notifications from your build server (Jenkins, TravisCI, CircleCI, etc)&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew cask install CCMenu&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.hammerspoon.org/&quot;&gt;Hammerspoon&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;OS X automation tool&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew cask install hammerspoon&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Alternative editor for Atom/Sublime&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew cask install visual-studio-code&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://typora.io/&quot;&gt;Typora&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Markdown editor&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew cask install typora&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://justgetflux.com/&quot;&gt;F.lux&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Adapt monitor colors to night setting&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew cask install flux&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Teije van Sloten</name><email>teije.van.sloten@ordina.nl</email></author><summary type="html">Here are some tools I have grown to love. Give em a spin!</summary></entry></feed>

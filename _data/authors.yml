@@ -1,0 +1,13 @@
+ivo_woltring:
+  name             : Ivo Woltring
+  avatar           : /assets/images/bio/ivo-bio.jpg
+  bio              : I'm a Passionate Software Craftsman with a love for Python and Java and to my great surprise JavaScript more and more.
+  email            : ivo.woltring@ordina.nl
+  uri              : ivonet.nl
+  github           : ivonet
+naipath:
+  name             : Teije van Sloten
+  avatar           : /assets/images/bio/naipath-bio.png
+  bio              : I do stuff... sometimes with computers
+  email            : teije.van.sloten@ordina.nl
+  github           : naipath
