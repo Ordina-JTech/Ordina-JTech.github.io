@@ -6,7 +6,16 @@
 </head>
 <body style="margin: 0;">
 <svg width="400" height="350" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M25 250 C -35 -76, 445 -76, 385 250 L 324 250 C 415 -3, -5 -3, 86 250 Z" fill="#ff6600" />
+    <path id="arch" d="M25 250 C -35 -76, 445 -76, 385 250 L 324 250 C 415 -3, -5 -3, 86 250 Z" fill="#ff6600">
+        <animate
+                attributeName="d"
+                values="M25 250 C -35 -76, 445 -76, 385 250 L 324 250 C 415 -3, -5 -3, 86 250 Z;
+                        M20 250 C -35 -86, 445 -86, 390 250 L 320 250 C 415 -10, -5 -10, 90 250 Z;
+                        M25 250 C -35 -76, 445 -76, 385 250 L 324 250 C 415 -3, -5 -3, 86 250 Z"
+                dur="3s"
+                repeatCount="indefinite"
+        />
+    </path>
     <path d="M193 250
              L 214 204 L 191 178
              L 177 187 L 174 200
