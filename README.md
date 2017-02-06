@@ -2,7 +2,7 @@
 
 ### Setup
 Make sure you have Ruby 2.0 or higher installed.
-Run the following: `gem install jekyll bundler`.
+Run `sudo gem install jekyll bundler` and `bundle install`
 
 ### Running
 Run the following: `bundle exec jekyll serve`.
