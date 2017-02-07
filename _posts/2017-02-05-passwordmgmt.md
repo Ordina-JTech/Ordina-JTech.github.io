@@ -30,3 +30,9 @@ A security-wise developer might frown at the third point. How do you get the pas
 # The now (and forever)
 
 It's really easy for a developer to switch to a safer future, but it might not be as easy for others. After you free your own mind from password *forgetting* strategy worries, you might contemplate helping your close ones protect themselves from identity theft.
+
+----
+
+### BertKoor commented on 07-FEB-2017:_
+
+_In case you need a 'classic' generated password, [here](http://www.bertkoor.nl/GeneratePassword.html)'s a little html/javascript thingamabob I created for that._
