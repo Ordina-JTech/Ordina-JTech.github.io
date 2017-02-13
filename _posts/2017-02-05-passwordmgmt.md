@@ -35,4 +35,4 @@ It's really easy for a developer to switch to a safer future, but it might not b
 
 ### BertKoor commented on 07-FEB-2017:
 
-_In case you need a 'classic' generated password, [here](http://www.bertkoor.nl/GeneratePassword.html)'s a little html/javascript thingamabob I created for that._
+> In case you need a 'classic' generated password, [here](http://www.bertkoor.nl/GeneratePassword.html)'s a little html/javascript thingamabob I created for that.
