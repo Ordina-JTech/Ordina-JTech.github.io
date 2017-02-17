@@ -32,6 +32,7 @@ Initieel is gestart met Cucumber feature files die de test case beschrijft.
 Middels zogenaamde Glue code wordt vervolgens een rest service aangeroepen met de juiste parameters.
 
 Bijvoorbeeld:
+
 ```java
 // RestService.feature
 Gegeven de restservice Aanvragingen
@@ -41,6 +42,7 @@ Als de restservice wordt aangeroepen met de volgende parameters:
 Dan wordt de volgende output teruggegeven:
   | maxInkomenBedr                | 188600 |
 ```
+
 ```java
 // RestServiceDefs.java
 @Als("^de restservice wordt aangeroepen met de volgende parameters:$")
@@ -59,6 +61,7 @@ public void wordt_de_volgende_output_teruggegeven(Map<String, String> expectedRe
     assertThat(actual.maxInkomenBedr, is(expected));
 }
 ```
+
 ```java
 // RestInterface.java
 interface RestInterface {
@@ -76,6 +79,7 @@ REST-assured is niet meer dan een HTTP client dat aan voelt als een DSL (Domein 
 Middels deze aanpak was het mogelijk om dezelfde integratie test vele malen eenvoudiger op te zetten.
 
 Een opzet met REST-assured lijkt op Unit-Test met 5 regels code.
+
 ```java
 @Test
 public void given_one_income_then_correct_output_is_returned() {
@@ -93,6 +97,7 @@ Dit artikel zal aan de hand van een aantal voorbeelden de kracht van de REST-ass
 #Requests opstellen
 
 Om op te starten met REST-assured dien je de maven dependency io.rest-assured:rest-assured:3.0.1 toe te voegen.en eventueel een aantal star-imports.
+
 ```xml
 <dependency>
     <groupId>io.rest-assured</groupId>
@@ -111,6 +116,7 @@ import static org.hamcrest.Matchers.*;
 Vervolgens is het mogelijk in je test file Rest-assured requests te maken.
 Hierin hanteert REST-assured twee smaken. Een rechtdoorzee one-liner en een vorm van BDD.
 Beide bieden ze dezelfde mogelijkheden welke beschreven zijn in code.
+
 ```java
 get("https://holidayapi.com/v1/holidays?key=SOME_KEY&country=NL&year=2015").then().log().all();
 
@@ -129,6 +135,7 @@ Vervolgens zou je in de daadwerkelijke test middels de BDD smaak de daadwerkelij
 
 Dit helpt om op een gestructureerde wijze het request op te vragen. Een aantal keer gebruik maken van de IDE auto completion en de ervaring is dat er hiermee voldoende op weg wordt geholpen.
 Een uitgebreider voorbeeld zou er bijvoorbeeld er zo uit kunnen zien als is beschreven in code listing 3. In dit voorbeeld wordt gevraagd aan het spel League of Legends om de data omtrent de champion “Aurelion Sol: The Star Forger”. 
+
 ```java
 given()
     .pathParam("championId", "136")
@@ -146,10 +153,12 @@ given()
     .log().all();    
 // https://global.api.pvp.net/api/lol/static-data/euw/v1.2/champion/136?champData=all&api_key=MY_API_KEY
 ```
+
 ![Aurelion Sol: The Star Forger](/assets/images/blog/rest-assured-Aurelion.png)
 
 Wat opvalt is dat je erg vrij wordt gelaten in de stijl die je wilt hanteren. de `.and()` is niets meer dan syntactic sugar en voegt alleen maar leesbaarheid toe. Alhoewel ik zelf merk dat ik dit nooit toepas is het fijn om in deze keuze vrij te worden gelaten.
 De `.param("", "")` en `.queryParam("", "")` zijn hetzelfde. Ze voegen beide een query parameter toe aan het request. Dit biedt als extra voordeel dat het niet alleen voor een developer leesbaar is, maar ook voor een tester die bekend is met HTTP. Naast de `GET` ondersteunt REST-assured alle andere HTTP methodes ook, je dient simpelweg de `.get(url)` vervangen voor de gewenste methode. Bij code listing 4 zie je hiervan een aantal voorbeelden.
+
 ```java
 head("https://www.google.nl");
 post("SOME_URL", new Object());
@@ -173,6 +182,7 @@ get("/euw/v1.2/champion/136?champData=all&api_key=MY_API_KEY").then().log().all(
 In het opbouwen van het request kunnen we nu REST-assured aanvullen met configuratie, meerdere smaken gebruiken, parameters toevoegen en deze loggen met `.then().log().all()`.
 
 Nu blijft er echter nog een hekelpunt over. Hoe kunnen we een object als text e.d. sturen in een post als JSON, XML en FormData. REST-assured biedt hiervoor de `.body()` en de `.formParam()` methodes. Om het object te serializeren hanteert REST-assured standaard Jackson. Mocht deze niet op het classpath aanwezig zijn dan valt REST-assured terug op Gson en als laatste optie kiest REST-assured JAXB. Op basis van het gegeven content-type zal het object worden geserialiseerd naar JSON dan wel XML. Voorbeelden hiervan zijn te zien in code listing 6.
+
 ```java
 given()
     .body(new Message())
@@ -189,6 +199,7 @@ given()
 ```
 
 Dezelfde toegankelijkheid biedt REST-assured ook voor het opgeven van cookies en toevoegen van autorisatie. Namelijk door het toevoegen van `.cookie("yummie", "cookies")` of de `.auth().basic("username", "password")` na het declareren van de given stap. Een voorbeeld hiervan is te zien in code listing 7.
+
 ```java
 given()
     .auth().basic("teemo", "the-Swift-Scout")
@@ -201,6 +212,7 @@ given()
 # Validatie
 
 Cool, we hebben mooie requests die het flitsend goed doen, maar we hebben eigenlijk nog niets gevalideerd. Ook doen we nog niet met het terug komen de resultaat van het verstuurde request. Om het resultaat terug te krijgen van het uitgevoerde request kan je de `.extract()` methode aanvullen. Het is dan mogelijk om te kiezen om meerdere delen van het request lost te peuteren zoals de body van het HTTP response. In code listing 8 staat hier een voorbeeld van.
+
 ```java
 given()
     /* some build up here */
@@ -216,6 +228,7 @@ get("/{region}/v1.2/champion/{championId}")
 
 Bij het deserializeren wordt dezelfde werkwijze gehanteerd als bij het serializeren van een object in een POST bericht. Veelal is het niet gewenst om het antwoord op deze manier te valideren. Beter is om de standaard ingebouwde GsonPath te gebruiken in combinatie met Hamcrest. Dit is een soort van CSS selector/XPath wat het mogelijk maakt om specifieke waardes uit een bericht te halen en deze te controleren. Dit zorgt voor korte code waarbij je beter specifieke cases kan testen.
 Om hier een beter beeld bij te schetsen is er een voorbeeld gegeven in code listing 9. Hierin pakken we het antwoord van League of Legends en controlleren we een aantal waardes van onze champion.
+
 ```json
 {
     "id": 136,
@@ -263,6 +276,7 @@ Naast het valideren van specifieke waardes in een bericht kan je er ook voor opt
 Let’s recap: We kunnen nu eenvoudige HTTP requests opstellen en het antwoord hiervan valideren. Hierbij wordt aangenomen dat de service die wordt getest al staat te pruttelen en goed benaderbaar is. Veelal is dit niet zo eenvoudig. De applicatie moet ergens werken en als de applicatie gebruik maakt van koppelingen zal daar ook een oplossing voor moeten zijn. Om dit makkelijker te maken kies ik voor de tool WireMock. WireMock is namelijk een mock HTTP-server.
 
 Met WireMock is het mogelijk om een request te definiëren en een bijbehorend response. Vervolgens start WireMock een Netty instantie. Als de applicatie nu een vraag stelt aan WireMock zal hij het correcte response ontvangen. Om WireMock te gebruiken dien je de dependency `com.github.tomakehurst: wiremock` op te nemen. Nu is het mogelijk om WireMock te gebruiken in een test. Zie code listing 10 voor een voorbeeld.
+
 ```java
 @Test
 public void testIAmATeapot() {
@@ -279,6 +293,7 @@ public void testIAmATeapot() {
 ```
 
 Aan dit voorbeeld vallen een aantal dingen op: Start WireMock, mock request met WireMock, voer test uit, stop WireMock. Om dit wat te vereenvoudigen kan je gebruik maken van de `WireMockRule` in combinatie met de `@Rule` annotatie van JUnit. Zie code listing 11. 
+
 ```java
 @Rule
 public WireMockRule wireMock = new WireMockRule();
@@ -289,6 +304,7 @@ Dit zorgt ervoor dat je service testen geïsoleerd zijn en niet toevallig de vor
 
 Om een gemockt request op te bouwen dien je eerst aan te geven op welke url WireMock iets dient terug te geven, vervolgens definieer je wat voor response WireMock geeft.
 Zie code listing 12 voor een simpel voorbeeld.
+
 ```java
 wireMock.stubFor(
     delete(urlMatching("/remove/")).withQueryParam("id", ABSENT)
