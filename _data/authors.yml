@@ -15,8 +15,8 @@ michel_schudel:
   name             : Michel Schudel
   avatar           : /assets/images/bio/michel-bio.jpg
   bio              : Coding, Craftsmanship, Music, Movies and more...
-  email            : michel.schudel@ordina.nl
   github           : MichelSchudel
+  active           : false
 casmarrav:
   name             : Casper Ravenhorst
   avatar           : /assets/images/bio/casmarrav-bio.png
