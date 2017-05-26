@@ -3,3 +3,5 @@ main:
     url: /about
   - title: "Contact us"
     url: /contact
+  - title: "Team"
+    url: /team

@@ -1,0 +1,71 @@
+/* team page */
+
+.author {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.author_member {
+    margin: 1em 0;
+    max-width: 220px;
+    text-align: center;
+}
+
+.author_member_name {
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
+
+.author_member_description {
+    margin-top: 0.5em;
+    font-size: 0.7em;
+    display: inline-block;
+}
+
+.author_member_links {
+    margin-top: 0.4em;
+    list-style: none;
+    padding: 0;
+    
+    a {
+        border:none;
+    }
+}
+
+.author_member_link {
+    display: inline;
+    color: #5c5959;
+    
+    a {
+        border:none;
+        color: #000;
+    }
+    
+    .label {
+        display: none;
+    }
+}
+
+.author_member_image_holder {
+    height: 170px;
+    width: 220px;
+    margin-bottom: 0.5em;
+    
+    a {
+        border:none;
+    }
+}
+
+img.author_member_image {
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+img.author-image {
+    border: 0.3em solid rgba(208,208,208,0.8);
+    border-radius: 999em;
+}

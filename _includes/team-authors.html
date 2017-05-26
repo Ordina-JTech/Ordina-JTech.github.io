@@ -1,0 +1,15 @@
+<div class="wrapper">
+    <section class="author">
+        {% for authors in site.data.authors %}
+        {% assign author = authors[1] %}
+        <div class="author_member">
+            <div class="author_member_image_holder">
+                <img class="author-image author_member_image" src="{{ author.avatar }}">
+            </div>
+            <h1 class="author_member_name" itemprop="name">{{ author.name }}</h1>
+            <span class="author_member_description">{{ author.bio }}</span>
+            {% include author-links.html author=author %}
+        </div>    
+        {% endfor %}
+    </section>
+</div>
