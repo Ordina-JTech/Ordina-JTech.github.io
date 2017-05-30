@@ -15,7 +15,7 @@ author:
   avatar           : /assets/images/bio/jtech-logo-bio.png
   bio              : "Awesome tech company."
   email            : jtech@ordina.nl
-  uri              : ordina-jtech.github.io
+  uri              : "https://ordina-jtech.github.io"
   github           : "ordina-jtech"
 
 # Reading Files
