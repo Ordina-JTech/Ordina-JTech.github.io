@@ -5,18 +5,6 @@ ivo_woltring:
   email            : ivo.woltring@ordina.nl
   uri              : ivonet.nl
   github           : ivonet
-naipath:
-  name             : Teije van Sloten
-  avatar           : /assets/images/bio/naipath-bio.png
-  bio              : I do stuff... sometimes with computers
-  email            : teije.van.sloten@ordina.nl
-  github           : naipath
-michel_schudel:
-  name             : Michel Schudel
-  avatar           : /assets/images/bio/michel-bio.jpg
-  bio              : Coding, Craftsmanship, Music, Movies and more...
-  github           : MichelSchudel
-  active           : false
 casmarrav:
   name             : Casper Ravenhorst
   avatar           : /assets/images/bio/casmarrav-bio.png
@@ -31,6 +19,13 @@ bertkoor:
   email            : bert.koorengevel@ordina.nl
   linkedin         : bertkoor
   github           : BertKoor
+edwin_derks:
+  name             : Edwin Derks
+  avatar           : /assets/images/bio/edwinderks-bio.png
+  bio              : Long-time Java developer with a passion for architecture and complexity. 
+  email            : edwin.derks@ordina.nl
+  linkedin         : edwin-derks-2522a916
+  github           : ederks85
 omerergul:
   name             : Omer Ergul
   avatar           : /assets/images/bio/omerergul-bio.jpg
@@ -38,3 +33,16 @@ omerergul:
   email            : omer.ergul@ordina.nl
   linkedin         : omer-ergul
   github           : OErgul
+naipath:      
+  name             : Teije van Sloten     
+  avatar           : /assets/images/bio/naipath-bio.png       
+  bio              : I do stuff... sometimes with computers       
+  email            : teije.van.sloten@ordina.nl       
+  github           : naipath      
+  active           : false        
+michel_schudel:       
+  name             : Michel Schudel       
+  avatar           : /assets/images/bio/michel-bio.jpg        
+  bio              : Coding, Craftsmanship, Music, Movies and more...     
+  github           : MichelSchudel        
+  active           : false
