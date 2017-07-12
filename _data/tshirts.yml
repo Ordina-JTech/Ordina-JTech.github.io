@@ -1,0 +1,11 @@
+jtech_tshirt_front:
+    side                : Front side
+    image               : /assets/images/tshirt/jtechTshirtVoorkant.png
+    imagesmall          : /assets/images/tshirt/jtechTshirtVoorkantSmall.png
+    description         : Ok, but first coffee
+    
+jtech_tshirt_back:
+    side                : Back side
+    image               : /assets/images/tshirt/jtechTshirtAchterkant.png
+    imagesmall          : /assets/images/tshirt/jtechTshirtAchterkantSmall.png
+    description         : J-Tech Logo
