@@ -1,7 +1,7 @@
 ---
 title:  "First steps Kafka"
-date:   2017-02-01 21:48:13 +0100
-categories: tools
+date:   2017-07-19 21:48:13 +0100
+categories: reactive
 author: etmuller
 ---
 
@@ -23,27 +23,27 @@ kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partit
 Zodra dit is gedaan zijn er meteen berichten op te plaatsen en uit te lezen. Dit kan door de commandline maar ook met een Java Api.
 Bij gebruik van de java api is er een extra maven dependency nodig:
 
-```
- <dependency>
 
-    <groupId>org.apache.kafka</groupId>
+<pre class="lang:xml decode:true">&lt;dependency>
+    &lt;groupId>corg.apache.kafka&lt;/groupId>
+    &lt;artifactId>kafka-clients&lt;/artifactId>
+    &lt;version>0.11.0.0&lt;/version>
+    &lt;scope>test&lt;/scope>
+&lt;/dependency>
+</pre>
 
-    <artifactId>kafka-clients</artifactId>
-
-    <version>0.11.0.0</version>
-
-</dependency>
-```
 
 Berichten kunnen gepubliceerd worden op de volgende manier:
 
 ```java
- 		KafkaProducer<String, String> producer= new KafkaProducer<String, String>(props)
+		KafkaProducer<String, String> producer= new KafkaProducer<String, String>(props)
 
  		producer.send(new ProducerRecord<String, String>("topic-name", message, message));
  
  		producer.close();
+
 ```
+
   
  Nu staat er een bericht op het topic en de subscribers kunnen dit nu van de het topic verkrijgen.
 
