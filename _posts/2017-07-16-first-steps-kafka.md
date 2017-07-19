@@ -24,13 +24,13 @@ Zodra dit is gedaan zijn er meteen berichten op te plaatsen en uit te lezen. Dit
 Bij gebruik van de java api is er een extra maven dependency nodig:
 
 
-<pre class="lang:xml decode:true">&lt;dependency>
+&lt;dependency>
     &lt;groupId>corg.apache.kafka&lt;/groupId>
     &lt;artifactId>kafka-clients&lt;/artifactId>
     &lt;version>0.11.0.0&lt;/version>
-    &lt;scope>test&lt;/scope>
+   
 &lt;/dependency>
-</pre>
+
 
 
 Berichten kunnen gepubliceerd worden op de volgende manier:
