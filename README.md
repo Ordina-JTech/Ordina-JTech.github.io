@@ -1,4 +1,5 @@
 # ordina-jtech.github.io
+This repository contains the content hosted on https://ordina-jtech.github.io/
 
 ## You can add a blog post
 Blog posts are just markdown documents, so anyone can write them!
@@ -15,11 +16,15 @@ If not, then maybe you need to clear your browser's cache (Ctrl-F5)
 But don't apply changes without seeing they work for yourself.
 
 ### Setup
+
 Make sure you have Ruby 2.0 or higher installed.
 Run `sudo gem install jekyll bundler` and `bundle install`
 
 ### Running
+
 Run the following: `bundle exec jekyll serve`.
 Go to the url `http://localhost:4000/`
+
 ----
+
 The commands above assume a non-windows development environment.
