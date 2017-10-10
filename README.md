@@ -6,7 +6,9 @@ Blog posts are just markdown documents, so anyone can write them!
 
 1. Clone this repository
 1. Create a new markdown file in folder `/_posts` with the format `yyyy-mm-dd-YOUR-TITLE`
-1. First-timers: add yourself as an author to `/_data/authors.yml`
+1. First-time authors:
+   1. add yourself as an author to `/_data/authors.yml` 
+   1. put a thumbnail of yourself in `/assets/images/bio/${author}-bio.jpg`
 1. Commit & Push!
 
 GitHub will automagically refresh the site content within a few minutes.
@@ -17,13 +19,13 @@ But don't apply changes without seeing they work for yourself.
 
 ### Setup
 
-Make sure you have Ruby 2.0 or higher installed.
-Run `sudo gem install jekyll bundler` and `bundle install`
+* Make sure you have Ruby 2.0 or higher installed.
+* Run `sudo gem install jekyll bundler` and `bundle install`
 
 ### Running
 
-Run the following: `bundle exec jekyll serve`.
-Go to the url `http://localhost:4000/`
+* Run the following: `bundle exec jekyll serve`.
+* Go to the url `http://localhost:4000/`
 
 ----
 
