@@ -5,12 +5,12 @@ This repository contains the content hosted on https://ordina-jtech.github.io/
 Blog posts are just markdown documents, so anyone can write them!
 
 1. Clone this repository
-1. Add yourself as an author to `/_data/authors.yml`.
-1. Create a new markdown file in folder `/_posts` with the format `yyyy-mm-dd-YOUR-TITLE`.
+1. Create a new markdown file in folder `/_posts` with the format `yyyy-mm-dd-YOUR-TITLE`
+1. First-timers: add yourself as an author to `/_data/authors.yml`
 1. Commit & Push!
 
-GitHub will automatically refresh the site content within a few minutes.
-If not, then maybe you need to clear your browser's cache (Ctrl-F5)
+GitHub will automagically refresh the site content within a few minutes.
+Maybe you need to clear your browser's cache.
 
 ## You can make bigger changes than just add a blog
 But don't apply changes without seeing they work for yourself.
