@@ -46,3 +46,10 @@ michel_schudel:
   bio              : Coding, Craftsmanship, Music, Movies and more...     
   github           : MichelSchudel        
   active           : false
+rogier_vanapeldoorn:
+  name             : Rogier van Apeldoorn
+  avatar           : /assets/images/bio/rogier-bio.jpg
+  bio              : Love coding apps.
+  email            : rogier.van.apeldoorn@ordina.nl
+  linkedin         : rogier-van-apeldoorn-3265794
+  github           : rogiervapeldoorn
