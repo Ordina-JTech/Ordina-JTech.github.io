@@ -1,11 +1,21 @@
-jtech_tshirt_front:
-    side                : Front side
-    image               : /assets/images/tshirt/jtechTshirtVoorkant.png
-    imagesmall          : /assets/images/tshirt/jtechTshirtVoorkantSmall.png
-    description         : Ok, but first coffee
-    
-jtech_tshirt_back:
-    side                : Back side
-    image               : /assets/images/tshirt/jtechTshirtAchterkant.png
-    imagesmall          : /assets/images/tshirt/jtechTshirtAchterkantSmall.png
-    description         : J-Tech Logo
+jtech_tshirt:
+    name                : J-Tech T-Shirt
+    color               : Black
+    imagefront          : /assets/images/tshirt/jtechTshirtVoorkant.png
+    imagefrontsmall     : /assets/images/tshirt/jtechTshirtVoorkantSmall.png
+    descriptionfront    :
+    imageback           : /assets/images/tshirt/jtechTshirtAchterkant.png
+    imagebacksmall      : /assets/images/tshirt/jtechTshirtAchterkantSmall.png
+    descriptionback     :
+    emailbody           : Dear%20Sir%2FMadam,
+                        %0D%0D%28Please%20fill%20in%20the%20template%20for%20this%20e-mail%20and%20send%20it%20to:%20secretariaat@ordina.nl%29
+                        %0D%0DI%20would%20like%20to%20order%20a%20JTech%20Tshirt.%20
+                        %0D%0DMy%20contact%20information.%20
+                        %0DName:%20
+                        %0DStreet:%20
+                        %0DPostal%20Code:%20
+                        %0DCity:%20
+                        %0DT-Shirt%20size:%20%28Pick%20either%20of%20the%20following%20sizes:%20S,%20M,%20L,%20XL,%20or%20XXL.%29
+                        %0D%0DThanks%20in%20advance!%20
+                        %0D%0DKind%20regards,
+                        %0D%0D%28Enter Name%29
