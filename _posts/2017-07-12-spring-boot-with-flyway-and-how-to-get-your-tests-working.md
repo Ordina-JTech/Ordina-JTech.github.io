@@ -2,7 +2,7 @@
 title: "spring-boot with flyway and how to get your tests working"
 date: 2017-07-12 17:57:00 +0100
 categories: unit-testing, test, spring
-author: ivonet
+author: ivo_woltring
 ---
 
 # Problem
