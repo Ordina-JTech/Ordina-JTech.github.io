@@ -1,8 +1,6 @@
 main:
   - title: "Team"
     url: /team
-  - title: "Order T-Shirt"
-    url: /orderTshirt
   - title: "Codesmith Manifesto"
     url: /codesmithManifesto
   - title: "Contact us"
