@@ -24,7 +24,7 @@ But don't apply changes without seeing they work for yourself.
 
 ### Running
 
-* Run the following: `bundle exec jekyll serve`.
+* Run the following: `bundle exec jekyll serve --no-watch`.
 * Go to the url `http://localhost:4000/`
 
 ----
