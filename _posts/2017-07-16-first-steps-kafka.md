@@ -5,17 +5,15 @@ categories: reactive
 author: etmuller
 ---
 
-#Waarom
-
 Mede ingegeven door de ontwikkelingen bij verschillende banken heb ik de laatste dagen naar apache kafka gekeken. Kafka is bijzonder geschikt om events af te handelen en werkt met een publish-subscribe mechanisme. Verder kunnen streams efficient worden geprocessed en wordt alle data veilig opgeslagen in een gerepliceerd cluster.
 
-#Architecture
+# Architecture
 
 Een architectuur kan er als volgt uit zien:
 
 ![Architectuur](/assets/images/blog/kafka.png)
 
-#Gebruik
+# Gebruik
 
 Het installeert gemakkelijk, tenminste op de macbook. En vervolgens is de eerste activiteit een topic maken wat kan met het volgende commando.
 kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test

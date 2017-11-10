@@ -1,17 +1,10 @@
-ivo_woltring:
+ivonet:
   name             : Ivo Woltring
   avatar           : /assets/images/bio/ivo-bio.jpg
   bio              : I'm a Passionate Software Craftsman with a love for Python and Java and to my great surprise JavaScript more and more.
   email            : ivo.woltring@ordina.nl
   uri              : http://www.ivonet.nl
   github           : ivonet
-casmarrav:
-  name             : Casper Ravenhorst
-  avatar           : /assets/images/bio/casmarrav-bio.png
-  bio              : Software / Music / Music software
-  email            : casper.ravenhorst@ordina.nl
-  linkedin         : casperravenhorst
-  github           : casmarrav
 bertkoor:
   name             : Bert Koorengevel
   avatar           : /assets/images/bio/bertkoor-bio.jpg
@@ -26,6 +19,19 @@ edwin_derks:
   email            : edwin.derks@ordina.nl
   linkedin         : edwin-derks-2522a916
   github           : ederks85
+rogier_vanapeldoorn:
+  name             : Rogier van Apeldoorn
+  avatar           : /assets/images/bio/rogier-bio.jpg
+  bio              : Love coding apps.
+  email            : rogier.van.apeldoorn@ordina.nl
+  linkedin         : rogier-van-apeldoorn-3265794
+  github           : rogiervapeldoorn
+etmuller:
+  name             : Eelco Muller
+  email            : eelco.muller@ordina.nl
+  avatar           : /assets/images/bio/emu16460-bio.jpg
+  linkedin         : eelco-muller-4446a52
+  github           : EelcoMuller
 omerergul:
   name             : Omer Ergul
   avatar           : /assets/images/bio/omerergul-bio.jpg
@@ -45,10 +51,11 @@ michel_schudel:
   bio              : Coding, Craftsmanship, Music, Movies and more...     
   github           : MichelSchudel        
   active           : false
-rogier_vanapeldoorn:
-  name             : Rogier van Apeldoorn
-  avatar           : /assets/images/bio/rogier-bio.jpg
-  bio              : Love coding apps.
-  email            : rogier.van.apeldoorn@ordina.nl
-  linkedin         : rogier-van-apeldoorn-3265794
-  github           : rogiervapeldoorn
+casmarrav:
+  name             : Casper Ravenhorst
+  avatar           : /assets/images/bio/casmarrav-bio.png
+  bio              : Software / Music / Music software
+  email            : casper.ravenhorst@ordina.nl
+  linkedin         : casperravenhorst
+  github           : casmarrav
+  active           : false

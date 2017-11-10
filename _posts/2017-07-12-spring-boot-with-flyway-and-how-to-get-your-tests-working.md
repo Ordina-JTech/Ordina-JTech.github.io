@@ -5,9 +5,7 @@ categories: unit-testing, test, spring
 author: ivonet
 ---
 
-# Problem
-
-You have a spring boot application with flyway migration scripts for a MySQL database. Now your tests are failing because you don't have the database available during unit testing and flyway is complaining.
+__Problem:__ you have a spring boot application with flyway migration scripts for a MySQL database. Now your tests are failing because you don't have the database available during unit testing and flyway is complaining.
 
 # Solution
 
