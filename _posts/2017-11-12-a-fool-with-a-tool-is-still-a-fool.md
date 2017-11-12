@@ -9,7 +9,8 @@ author: ivonet
 
 This is a a much heard quote in the IT world and it is of course true, but IMHO that is not the end of it.
 <!-- more -->
-There is more to this quote.
+There is more to this quote.  
+
 I would argue that:
 
 > A genius not using the correct tools is also a fool
