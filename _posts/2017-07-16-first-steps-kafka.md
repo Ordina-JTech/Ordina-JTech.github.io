@@ -22,14 +22,13 @@ Zodra dit is gedaan zijn er meteen berichten op te plaatsen en uit te lezen. Dit
 Bij gebruik van de java api is er een extra maven dependency nodig:
 
 
-&lt;dependency>
-    &lt;groupId>corg.apache.kafka&lt;/groupId>
-    &lt;artifactId>kafka-clients&lt;/artifactId>
-    &lt;version>0.11.0.0&lt;/version>
-   
-&lt;/dependency>
-
-
+```xml
+<dependency>
+  <groupId>corg.apache.kafka</groupId>
+  <artifactId>kafka-clients</artifactId>
+  <version>0.11.0.0</version>
+</dependency>
+```
 
 Berichten kunnen gepubliceerd worden op de volgende manier:
 
@@ -39,15 +38,12 @@ Berichten kunnen gepubliceerd worden op de volgende manier:
  		producer.send(new ProducerRecord<String, String>("topic-name", message, message));
  
  		producer.close();
-
 ```
-
-  
- Nu staat er een bericht op het topic en de subscribers kunnen dit nu van de het topic verkrijgen.
+ 
+Nu staat er een bericht op het topic en de subscribers kunnen dit nu van de het topic verkrijgen.
 
 
 ```java
-
  kafkaConsumer.subscribe(topics );
  
  	while (true) {
