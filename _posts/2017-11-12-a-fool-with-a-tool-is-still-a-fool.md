@@ -31,7 +31,7 @@ On the other hand we also hear the following a lot...
 
 There is even a [Software Craftsmanship Manifesto](http://manifesto.softwarecraftsmanship.org/) explaining it.
 
-So if we as Software Craftsmen allow for this can we then also compare ourselves with, for example, a carpenter?
+So if we as, Software Craftsmen, allow for this can we then also compare ourselves with, for example, a carpenter?
 
 Would a carpenter build a house with only a hammer and nails? I think not...
 
