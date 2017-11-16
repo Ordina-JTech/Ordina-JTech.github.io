@@ -1,14 +1,26 @@
 <div class="wrapper">
     <section class="tshirt">
-        {% for tshirts in site.data.tshirts %}
-        {% assign tshirt = tshirts[1] %}
-            <div class="tshirt_member">
-                <div class="tshirt_member_image_holder">
-                	<a href="{{ tshirt.image }}"><img class="tshirt-image tshirt_member_image" src="{{ tshirt.imagesmall }}"></a>
-                </div>
-                <h1 class="tshirt_member_side" itemprop="side">{{ tshirt.side }}</h1>
-                <span class="tshirt_member_description">{{ tshirt.description }}</span>
-            </div>   
-        {% endfor %}
-    </section>
+		{% for tshirts in site.data.tshirts %}
+		{% assign tshirt = tshirts[1] %}
+		<div class="tshirt-member">
+    		<div class="tshirt-side">
+    			<div class="tshirt-image-holder">
+    				<a href="{{ tshirt.imagefront }}"><img class="tshirt-image tshirt_member_image" src="{{ tshirt.imagefrontsmall }}"></a>
+   				</div>
+ 				<span class="tshirt-description">Front Side</span>
+   				<span class="tshirt-description">{{ tshirt.descriptionfront }}</span>
+   			</div>
+   			<div class="tshirt-side">
+   				<div class="tshirt-image-holder">
+   					<a href="{{ tshirt.imageback }}"><img class="tshirt-image tshirt_member_image" src="{{ tshirt.imagebacksmall }}"></a>
+ 				</div>
+ 				<span class="tshirt-description">Back Side</span>
+ 				<span class="tshirt-description">{{ tshirt.descriptionback }}</span>
+ 			</div>
+ 			<form action="mailto:&subject=Bestel%20{{tshirt.name}}&body={{tshirt.emailbody}}">
+    			<input type="submit" value="Bestel T-Shirt" name="submit">
+ 			</form>
+ 		</div>
+    	{% endfor %}
+	</section>
 </div>
