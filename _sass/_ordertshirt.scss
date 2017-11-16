@@ -1,4 +1,6 @@
-/* order shirt page */
+/* ==========================================================================
+   T-SHIRT ORDERING PAGE
+   ========================================================================== */
 
 .tshirt {
     align-items: flex-start;
@@ -7,41 +9,38 @@
     justify-content: space-around;
 }
 
-.tshirt_member {
-    margin: 1em 0;
-    max-width: 220px;
-    text-align: center;
+.tshirt-member{
+	text-align: center;
 }
 
-.tshirt_member_side {
-    font-size: 0.9em;
-    margin-bottom: 0;
+.tshirt-side{
+	display: inline-block;
+	margin: 15px;
 }
 
-.tshirt_member_description {
-    margin-top: 0.5em;
-    font-size: 0.7em;
-    display: inline-block;
+
+.tshirt-image-holder{
+	display: inline-block;
 }
 
-.tshirt_member_image_holder {
-    height: 170px;
-    width: 220px;
-    margin-bottom: 0.5em;
-    
-    a {
-        border:none;
-    }
+.tshirt-description{
+	display: block;
+	text-align: center;	
 }
 
 img.tshirt_member_image {
-    display: block;
-    margin: auto;
+	display:block;
+	margin-left: 15px;
+	margin-right: 15px;
     max-height: 100%;
     max-width: 100%;
 }
 
 img.tshirt-image {
     border: 0.3em solid rgba(208,208,208,0.8);
-    border-radius: 999em;
+    border-radius: 1em;
+    
+    figcaption{
+    		
+    }
 }
