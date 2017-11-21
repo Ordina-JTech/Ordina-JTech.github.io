@@ -1,5 +1,5 @@
 jtech_tshirt:
-    name                : J-Tech T-Shirt
+    name                : Java Coffee Shirt
     color               : Black
     imagefront          : /assets/images/tshirt/jtechTshirtVoorkant.png
     imagefrontsmall     : /assets/images/tshirt/jtechTshirtVoorkantSmall.png
@@ -8,9 +8,8 @@ jtech_tshirt:
     imagebacksmall      : /assets/images/tshirt/jtechTshirtAchterkantSmall.png
     descriptionback     :
     emailbody           : Dear%20Sir%2FMadam,
-                        %0D%0D%28Please%20fill%20in%20the%20template%20for%20this%20e-mail%20and%20send%20it%20to:%20secretariaat@ordina.nl%29
-                        %0D%0DI%20would%20like%20to%20order%20a%20JTech%20Tshirt.%20
-                        %0D%0DMy%20contact%20information.%20
+                        %0D%0DI%20would%20like%20to%20order%20a%20Java%20Coffee%20Shirt.%20
+                        %0D%0DMy%20contact%20information.%20%28Please%20fill%20in%20the%20template.%29
                         %0DName:%20
                         %0DStreet:%20
                         %0DPostal%20Code:%20
