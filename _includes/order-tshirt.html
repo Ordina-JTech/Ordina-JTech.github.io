@@ -16,10 +16,9 @@
  				</div>
  				<span class="tshirt-description">Back Side</span>
  				<span class="tshirt-description">{{ tshirt.descriptionback }}</span>
- 			</div>
- 			<form action="mailto:secretariaat@ordina.nl&subject=Order%20{{tshirt.name}}&body={{tshirt.emailbody}}">
-    			<input type="submit" value="Bestel T-Shirt" name="submit">
- 			</form>
+			 </div>
+			 <br />
+ 			<a href="mailto:secretariaat@ordina.nl?subject=Order%20{{tshirt.name}}&body={{tshirt.emailbody}}">Bestel T-Shirt</a>
  		</div>
     	{% endfor %}
 	</section>
