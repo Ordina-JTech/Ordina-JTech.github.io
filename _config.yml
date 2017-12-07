@@ -3,7 +3,7 @@ locale                   : "en"
 title                    : "JTech"
 title_separator          : "-"
 name                     : "JTech"
-description              : "Awesome tech company"
+description              : "JTech is Ordina’s Java en open source unit met 150 ervaren software developers. Front-end, backend en app developers die met cutting edge technologie werken voor onze klanten."
 url                      : "https://ordina-jtech.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ordina-jtech/ordina-jtech.github.io"
@@ -12,10 +12,8 @@ words_per_minute         : 200
 
 author:
   name             : "JTech"
-  avatar           : /assets/images/bio/jtech-logo-bio.png
-  bio              : "Awesome tech company."
+  bio              : "JTech is Ordina’s Java en open source unit met 150 ervaren software developers. Front-end, backend en app developers die met cutting edge technologie werken voor onze klanten."
   email            : jtech@ordina.nl
-  uri              : "https://ordina-jtech.github.io"
   github           : "ordina-jtech"
 
 # Reading Files
@@ -78,7 +76,7 @@ sass:
   style: compressed
 
 permalink: /:categories/:title/
-paginate: 5
+paginate: 3
 paginate_path: /page:num/
 
 gems:

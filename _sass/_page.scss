@@ -399,3 +399,12 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+.page__content p, 
+.page__content ul li,
+.page__content ol li,
+.page__content pre {
+  font-size: $type-size-6;
+}
+
+.layout--home { margin-bottom: 180px; }

@@ -1,11 +1,17 @@
 main:
   - title: "Team"
     url: /team
-  - title: "Order T-Shirt"
-    url: /orderTshirt
-  - title: "Codesmith Manifesto"
+  - title: "Blogs"
+    url: /blogs
+  - title: "Trainings"
+    url: /trainings
+  - title: "Talks"
+    url: /talks
+  - title: "Codesmith"
     url: /codesmithManifesto
-  - title: "Contact us"
-    url: /contact
+  - title: "Order Shirt"
+    url: /orderTshirt
   - title: "About"
     url: /about
+  - title: "Contact"
+    url: /contact

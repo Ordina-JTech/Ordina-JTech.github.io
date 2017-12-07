@@ -1,7 +1,7 @@
 ---
 title: "A fool with a tool is still a fool"
 date: 2017-11-12 20:48:54 +0100
-categories: programming, agile, tools
+categories: programming agile tools
 author: ivonet
 ---
 
