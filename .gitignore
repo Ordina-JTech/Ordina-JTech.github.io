@@ -4,6 +4,6 @@ _site
 Gemfile.lock
 
 /.idea/
-*.iml
 
 .DS_STORE
+.tmp
