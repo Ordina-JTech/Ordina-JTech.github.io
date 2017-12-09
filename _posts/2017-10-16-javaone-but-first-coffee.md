@@ -28,8 +28,8 @@ I walked two blocks away from the Moscone Centre, but did't see any coffee bar.
 After three blocks I became aware that apparently I had walked into the wrong direction.
 So I thought, better continue for a block or so. And indeed, I saw a Subway at the corner.
 I rather had visited a local venue instead of a worldwide franchise chain, but this had to do.
-So inside I went, and saw above the counter that one cup of coffee costed two something.
-Nice, because at Starbucks it would cost three something.
+So inside I went, and saw above the counter that one cup of coffee costed two dollar something.
+Nice, because at Starbucks it would cost three dollar something.
 
 Beside the counter a homeless lady addressed me, and asked me weather I could spare a dollar.
 So I replied:
@@ -38,7 +38,7 @@ So I replied:
 > And I'm in a good mood today, so you can have that dollar.
 
 She was very grateful for the dollar I gave her. I got in cue to order.
-The lady behind the counter had noticed my good dead, but had some bad news for me.
+The lady behind the counter had noticed my good deed, but had some bad news for me.
 Because it turned out they only served coffee until 12:00.
 
 Now the question that popped up in me was about the previous transaction with the homeless lady:
@@ -52,4 +52,4 @@ So the next conference I'll visit, I will be wearing this neat TShirt
 
 ![Coffee TShirt](/assets/images/blog/JanHeinFirstCoffeeUSA.png)
 
-Oh, by the way, you can have one too!
+Oh, by the way, you can [have one too](/orderTshirt/) !
