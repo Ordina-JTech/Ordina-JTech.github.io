@@ -68,30 +68,30 @@ If you already have a spring boot (or other type of application) in which you ca
 Let’s start by adding some dependencies to your pom. The first dependency is the deeplearning4j core.
 
 ```xml
-		<dependency>
-			<groupId>org.deeplearning4j</groupId>
-			<artifactId>deeplearning4j-core</artifactId>
-			<version>0.9.1</version>
-		</dependency>
+<dependency>
+	<groupId>org.deeplearning4j</groupId>
+	<artifactId>deeplearning4j-core</artifactId>
+	<version>0.9.1</version>
+</dependency>
 ```
 
 Secondly we also need to add ND4J which is a scientific computing library for java. This library is used for the necessary array computations which come with deep learning. 
 
 ```xml
-		<dependency>
-			<groupId>org.nd4j</groupId>
-			<artifactId>nd4j-native-platform</artifactId>
-			<version>0.9.1</version>
-		</dependency>
+<dependency>
+	<groupId>org.nd4j</groupId>
+	<artifactId>nd4j-native-platform</artifactId>
+	<version>0.9.1</version>
+</dependency>
 ```
 Finally we also add the dependency for the model zoo. Within in this zoo a collection of pertained deep learning networks is present.
 
 ```xml
-				<dependency>
-			<groupId>org.deeplearning4j</groupId>
-			<artifactId>deeplearning4j-zoo</artifactId>
-			<version>0.9.1</version>
-		</dependency>
+<dependency>
+	<groupId>org.deeplearning4j</groupId>
+	<artifactId>deeplearning4j-zoo</artifactId>
+	<version>0.9.1</version>
+</dependency>
 ```
 It is important to note that all dependencies have to be of on the same version number. 
 
