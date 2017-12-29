@@ -59,3 +59,10 @@ casmarrav:
   linkedin         : casperravenhorst
   github           : casmarrav
   active           : false
+remcorunge:
+  name             : Remco Runge
+  avatar           : /assets/images/bio/remcorunge-bio.png
+  bio              : Software Engineer with a background in Artificial Intelligence.
+  email            : remco.runge@ordina.nl
+  linkedin         : remcorunge
+  github           : RRunge
