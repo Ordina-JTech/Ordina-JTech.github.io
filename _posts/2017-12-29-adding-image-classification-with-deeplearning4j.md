@@ -1,8 +1,9 @@
 ---
 title: "Adding Image classification with Deeplearning4J to your (Spring Boot) application"
-date: 2017-12-19 13:25:00 +0100
-categories: 
+date: 2018-01-05 13:25:00 +0100
+categories: DeepLearning
 author: remcorunge
+
 ---
 
 
@@ -75,7 +76,7 @@ Let’s start by adding some dependencies to your pom. The first dependency is t
 </dependency>
 ```
 
-Secondly we also need to add ND4J which is a scientific computing library for java. This library is used for the necessary array computations which come with deep learning. 
+Secondly we also need to add ND4J which is a scientific computing library for java. This library is used for the necessary array computations which come with deep learning. There are multiple implementations for the nd4j library. You can also use the CUDA variant if you would like to run the network on your GPU instead of your CPU.
 
 ```xml
 <dependency>
@@ -83,6 +84,7 @@ Secondly we also need to add ND4J which is a scientific computing library for ja
 	<artifactId>nd4j-native-platform</artifactId>
 	<version>0.9.1</version>
 </dependency>
+
 ```
 Finally we also add the dependency for the model zoo. Within in this zoo a collection of pertained deep learning networks is present.
 
