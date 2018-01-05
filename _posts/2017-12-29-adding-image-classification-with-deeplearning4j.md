@@ -1,7 +1,7 @@
 ---
 title: "Adding Image classification with Deeplearning4J to your (Spring Boot) application"
 date: 2018-01-05 13:25:00 +0100
-categories: DeepLearning
+categories: 
 author: remcorunge
 
 ---
