@@ -22,7 +22,7 @@ You have a file with lots of diacritics but need to have them as "normal" text.
 # Solution
 
 Here it is.  
-Simple of you know it, but hell to find out if you don't. 
+Simple if you know it, but hell to find out if you don't. 
 
 ```java
 import java.io.IOException;
