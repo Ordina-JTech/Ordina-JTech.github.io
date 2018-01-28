@@ -132,8 +132,7 @@ Luckily I have the time to do the research as I have not received all the compon
 
 # Status
 
-The monitor works and that gives me the confidence to say that creating the monitor will probably succeed, but
-that I have a challenge getting it to have it's own power supply. 
+The monitor works and that gives me the confidence to say that creating the monitor will probably succeed, but that I have a challenge getting it to have it's own power supply. 
 Most of the parts I ordered have been very cheap except for the vinyl wrap. I hope that it is not a wasted investment and that I can do more projects with it. 
 That would make it less expensive on this project.
 
