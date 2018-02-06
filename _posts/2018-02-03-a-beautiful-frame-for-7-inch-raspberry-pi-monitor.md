@@ -16,7 +16,7 @@ author: ivonet
 ---
 
 
-I had this small 7" screen lying around and in order to practice for [this](http://ivo2u.nl/5x) post.
+I had this small 7" screen lying around and in order to practice for [this](http://ivo2u.nl/5p) post.
 I decided to create a nice frame for this monitor and have some fun...
 
 <!-- more -->
