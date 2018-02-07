@@ -14,7 +14,7 @@ author: ivonet
 ---
 
 
-<img src="/assets/images/blog/2018/fun-with-git/fun-with-git.png" style="width:50%;height:50%;display: block;margin: 0 auto;"/>
+<img src="/assets/images/blog/2018/fun-with-git/fun-with-git.png" style="width:75%;height:75%;display: block;margin: 0 auto;"/>
 
 The goal of this blog is to have some fun with git and learn something along the way...
 
