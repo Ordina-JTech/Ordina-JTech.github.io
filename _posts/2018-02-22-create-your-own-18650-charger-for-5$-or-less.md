@@ -11,7 +11,7 @@ tags:
 author: ivonet
 ---
 
-<img src="/assets/images/blog/2018/create-your-own-18650-charger-for-5$-or-less/Charger.jpg" style="width: 50%;height: 50%;display: block;margin: 0 auto;"/>
+<img src="/assets/images/blog/2018/create-your-own-18650-charger-for-5$-or-less/Charger.jpg" style="width: 75%;height: 75%;display: block;margin: 0 auto;"/>
 
 This DIY project provided me with a new charger for my 18650 batteries.
 
