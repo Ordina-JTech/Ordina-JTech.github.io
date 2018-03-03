@@ -17,15 +17,14 @@ author: petereijgermans
 
 -------
 
-WHAT ARE THE DIFFERENCES THAT PEOPLE MIGHT NOT BE FAMILIAR WITH BETWEEN A MONOLITH AND MICROSERVICES?
+**What are the differences that people might not be familiar with between a monolith and microservices?**
 
 Microservices have a much more complex eco-system than monolithic applications, sometimes the complexity of the system as a whole is much larger than a monolithic application. Think, for example, of container management, distributed tooling such as rancher, mesos, etc ... Also testing and deployments to production are significantly more complex. The organization must be geared to making microservices. In other words, a monolith is often much simpler.
 - Microservices communicate (preferably) asynchronously via a message bus instead of synchronous calls in a monolith. That makes debugging etc, much more complex.
 - Monitoring is essential in a microservices architecture (which is often forgotten or not well set up).
 
-=============================================================
-
-What are the advantages and disadvantages for each approach?
+-------
+**What are the advantages and disadvantages for each approach?**
 
 Compared to de monolithic model,
 a microservice has the following pros and cons:
@@ -60,17 +59,17 @@ time. In a monolithic application, it is usually straightforward to change the A
 In a microservices-based application it is a lot more difficult, even if all of the consumers of your API are other services in the same application.
 You usually cannot force all clients to upgrade in lockstep with the service. Also, you will probably incrementally deploy new versions of a service such that both old and new versions of a service will be running simultaneously.
 
-=============================================================
+-------
 
-What is the correct way to use microservices?
+**What is the correct way to use microservices?**
 
 The question is: for what type of systems do you have to use microservices and when not?
 - Competing websites that need to be adapted quickly to changes in the market are suitable (webshops, banks, newspapers, search engines, etc).
 - Application in which a lot of data is processed.
 
-=============================================================
+-------
 
-What kind of tools do you use when managing microservices?
+**What kind of tools do you use when managing microservices?**
 
 Resilience:
 Netflix OSS tools, Hystrix, Ribbon, etc…
@@ -91,9 +90,9 @@ Kafka, RabbitMQ, …
 (Distributed) Databases:
 MongoDb, CouchDb, Cassandra, MySQL, Postgress
 
-=============================================================
+-------
 
-What do most people or businesses get wrong about microservices?
+**What do most people or businesses get wrong about microservices?**
 
 People are often unaware that microservices really need to be independent. 
 
@@ -102,17 +101,15 @@ Another problem is that people program what they were used to doing in a monolit
 Neither is attention paid to spagetti structure that can arise from all kinds of services that use each other and services are tightly coupled. 
 The infrastructure for monitoring, automatic testing and deployments is often not fully set up but for 3/4 or 1/2, so the benefits of micro services can not be used, but the burden.
 
-=============================================================
-
-What’s the most important lesson you’ve learned from implementing a microservice architecture?
+-------
+W**hat’s the most important lesson you’ve learned from implementing a microservice architecture?**
 
 See answer:  
 
 What do most people or businesses get wrong about microservices?
 
-=============================================================
-
-What will participants be able to take away from your talk?
+-------
+**What will participants be able to take away from your talk?**
 
 My talk is focusing on the following topics:
 - Microservice Design Patterns 
