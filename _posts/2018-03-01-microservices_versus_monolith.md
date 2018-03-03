@@ -105,7 +105,7 @@ Neither is attention paid to spagetti structure that can arise from all kinds of
 The infrastructure for monitoring, automatic testing and deployments is often not fully set up but for 3/4 or 1/2, so the benefits of micro services can not be used, but the burden.
 
 -------
-W**hat’s the most important lesson you’ve learned from implementing a microservice architecture?**
+**What’s the most important lesson you’ve learned from implementing a microservice architecture?**
 
 See answer:  
 
