@@ -1,5 +1,5 @@
 ---
-title:  "Microservices versus Monolith"
+title:  "Monolith versus Microservices"
 date:   2018-03-01 21:48:13 +0100
 categories: architecture
 author: petereijgermans
@@ -102,7 +102,7 @@ People are often unaware that microservices really need to be independent.
 For example, you often see that all kinds of services are being made but that 1 database is shared. 
 Another problem is that people program what they were used to doing in a monolith, making the chain of synchronous calls between services (over the network !!!) much too long. 
 Neither is attention paid to spagetti structure that can arise from all kinds of services that use each other and services are tightly coupled. 
-The infrastructure for monitoring, automatic testing and deployments is often not fully set up but for 3/4 or 1/2, so the benefits of micro services can not be used, but the burden.
+The infrastructure for monitoring, automatic testing and deployments is often not fully set up but for 3/4 or 1/2, so the benefits of microservices can not be used, but the burden.
 
 -------
 **What’s the most important lesson you’ve learned from implementing a microservice architecture?**
