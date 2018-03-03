@@ -1,11 +1,9 @@
 ---
-title:  "Microservices or Monolith"
+title:  "Microservices versus Monolith"
 date:   2018-03-01 21:48:13 +0100
 categories: architecture
 author: petereijgermans
 ---
-
-# Monolith-versus-Microservices.
 
 <img src="/assets/images/blog/2018/microservices-or-monolith/monolith-versus-microservices.jpeg" style="width: 75%;height: 75%;display: block;margin: 0 auto;"/>
 
