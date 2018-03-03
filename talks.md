@@ -8,4 +8,5 @@ author_profile: true
 |-------|--------|---------|---------|
 | NativeScript with Angular and Vue.js | Peter Eijgermans | CodeSmith | 60 miunutes
 | Angular versus React | Peter Eijgermans | CodeSmith | 120 miunutes
-| Microservices of Monoliet | Peter Eijgermans | CodeSmith | 60 miunutes
+| Microservices or Monolith | Peter Eijgermans | CodeSmith | 60 miunutes
+| Frontend tools & coding | Peter Eijgermans | CodeSmith | 180 miunutes
