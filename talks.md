@@ -6,7 +6,6 @@ author_profile: true
 
 | Talk | Spreker | Niveau | Duur |
 |-------|--------|---------|---------|
-| NativeScript with Angular and Vue.js | Peter Eijgermans | CodeSmith | 60 miunutes
-| Workshop Angular versus ReactJS | Peter Eijgermans | CodeSmith | 120 miunutes
-| Microservices or Monolith | Peter Eijgermans | CodeSmith | 60 miunutes
-| Workshop frontend tools & coding | Peter Eijgermans | CodeSmith | 180 miunutes
+| NativeScript with Angular and Vue.js | Peter Eijgermans | gemiddeld | 60 miunutes
+| Angular versus ReactJS | Peter Eijgermans | gemiddeld | 120 miunutes
+| Microservices or Monolith | Peter Eijgermans | gemiddeld | 60 miunutes
