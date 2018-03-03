@@ -5,6 +5,11 @@ categories: architecture
 author: petereijgermans
 ---
 
+# Monolith-versus-Microservices.
+
+<img src="/assets/images/blog/2018/microservices-or-monolith/monolith-versus-microservices.jpeg" style="width: 75%;height: 75%;display: block;margin: 0 auto;"/>
+
+This interview is published in 2018 in the JAX DevOps Magazine:
 
 1. What are the differences that people might not be familiar with between a monolith and microservices?
 2. What are the advantages and disadvantages for each approach?3. What is the correct way to use microservices? 
