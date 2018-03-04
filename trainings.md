@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Training session
+title: Training sessions
 author_profile: true
 ---
 
