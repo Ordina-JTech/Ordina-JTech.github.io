@@ -6,5 +6,7 @@ author_profile: true
 
 | Training | Trainer | Niveau | Duur |
 |-------|--------|---------|---------|
-| Workshop frontend tools & coding | Peter Eijgermans | gemiddeld | 180 miunutes
-| Android fundamentals | Peter Eijgermans | gemiddeld | 120 miunutes
+| Workshop frontend tools & coding | Peter Eijgermans | gemiddeld | 180 min.
+| Android fundamentals | Peter Eijgermans | gemiddeld | 120 min.
+| Met Maven kun je Alles Bouwen | Bert Koorengevel | gemiddeld | 180 min.
+| Continuous Integration met Jenkns | Bert Koorengevel | beginner | 180 min.
