@@ -3,7 +3,7 @@ main:
     url: /team
   - title: "Blogs"
     url: /blogs
-  - title: "Trainings"
+  - title: "Training sessions"
     url: /trainings
   - title: "Talks"
     url: /talks
