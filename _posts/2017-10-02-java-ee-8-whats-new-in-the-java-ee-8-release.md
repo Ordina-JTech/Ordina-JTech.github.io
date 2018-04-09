@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: "Java EE 8: What's New in the Java EE 8 Release"
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/java-ee-8-what_s-new-in-the-java-ee-8-release/CON2661__java-ee-8-what_s-new-in-the-java-ee-8-release.jpg
 tags: [OOW17, Java, Java EE 8]
 category: JavaOne2017
 comments: true

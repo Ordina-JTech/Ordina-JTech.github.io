@@ -2,7 +2,7 @@
 layout: post
 authors: [bert_koorengevel]
 title: 'JavaOne - but first... Coffee !!'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/javaone-but-first-coffee/MosconeSquare.jpg
 tags: [codesmiths, conferences, javaone, coffee]
 category: JavaOne2017
 comments: true

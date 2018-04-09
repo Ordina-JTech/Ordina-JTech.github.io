@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Visual JShell: JShell on Steroids'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/visual-jshell-jshell-on-steroids/CON6166__visual-jshell-jshell-on-steroids.jpg
 tags: [OOW17, Java]
 category: JavaOne2017
 comments: true

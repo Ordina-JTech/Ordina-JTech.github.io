@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Java Keynote'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/java-keynote/KEY7692__java-keynote.jpg
 tags: [OOW17, Java]
 category: JavaOne2017
 comments: true

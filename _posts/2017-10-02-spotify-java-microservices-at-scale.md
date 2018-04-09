@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Spotify: Java Microservices at Scale'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/spotify-java-microservices-at-scale/CON7953__spotify-java-microservices-at-scale.jpg
 tags: [OOW17, Java]
 category: JavaOne2017
 comments: true

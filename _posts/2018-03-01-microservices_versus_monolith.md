@@ -2,7 +2,7 @@
 layout: post
 authors: [peter_eijgermans]
 title: 'Monolith versus Microservices'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2018/microservices-or-monolith/monolith-versus-microservices.jpeg
 tags: [Microservices, Monolith]
 category: Architecture
 comments: true

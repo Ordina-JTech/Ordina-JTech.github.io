@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Big Data Processing with Apache Spark: Scala or Java?'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java.jpg
 tags: [OOW17, Java]
 category: JavaOne2017
 comments: true

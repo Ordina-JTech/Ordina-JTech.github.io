@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Create Your Own 18650 Charger For 5$ Or Less'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2018/create-your-own-18650-charger-for-5$-or-less/Charger.jpg
 tags: [Hobby, Justbecauseican, '18650', TP4056]
 category: DIY
 comments: true

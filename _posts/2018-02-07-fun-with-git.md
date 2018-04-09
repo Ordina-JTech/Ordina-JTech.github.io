@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Fun With Git'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2018/fun-with-git/fun-with-git.png
 tags: [Source, SCM, GIT, Version management, Alias, CLI]
 category: Programming
 comments: true

@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Maven Build Local Project With Docker ... Why?'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2018/maven-build-local-project-with-docker-___-why/docker_maven.png
 tags: [Java, Docker, Maven, Build, Centos, Linux, Mac, Build, Jdk, Native bindings]
 category: Programming
 comments: true

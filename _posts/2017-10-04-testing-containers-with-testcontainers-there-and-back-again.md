@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Testing Containers with TestContainers: There and Back Again'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again.jpg
 tags: [OOW17, Java]
 category: JavaOne2017
 comments: true

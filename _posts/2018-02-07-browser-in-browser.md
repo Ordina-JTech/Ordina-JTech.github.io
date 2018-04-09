@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Browser In Browser'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2018/browser-in-browser/browser-in-browser_1.jpg
 tags: [Web, Browser, Privacy, Internet, Docker, Apache guacamole, Justbecauseican]
 category: Docker
 comments: true

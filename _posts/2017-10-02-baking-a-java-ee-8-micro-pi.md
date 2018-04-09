@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Baking a Java EE 8 Micro Pi'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/baking-a-java-ee-8-micro-pi/TUT2112__baking-a-java-ee-8-micro-pi.jpg
 tags: [OOW17, Java, RaspberryPi]
 category: JavaOne2017
 comments: true

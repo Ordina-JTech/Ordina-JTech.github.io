@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Creating a Connected Home: Live Coding and Demos'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/creating-a-connected-home-live-coding-and-demos/CON2991__creating-a-connected-home-live-coding-and-demos.jpg
 tags: [OOW17, Java]
 category: JavaOne2017
 comments: true

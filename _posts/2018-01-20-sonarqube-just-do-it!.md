@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'SonarQube Just Do It!'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2018/sonarqube-just-do-it/docker_maven_sonarqube.png
 tags: [Java, Sonarqube, Docker, Docker-compose, Pmd, Checkstyle, Howto, Guide, Tutorial, Setup]
 category: Programming
 comments: true

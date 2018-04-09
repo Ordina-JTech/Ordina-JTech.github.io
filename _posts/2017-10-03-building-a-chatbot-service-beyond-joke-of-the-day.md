@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Building a Chatbot Service: Beyond Joke of the Day'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/building-a-chatbot-service-beyond-joke-of-the-day/CON7802__building-a-chatbot-service-beyond-joke-of-the-day.jpg
 tags: [OOW17, Java]
 category: JavaOne2017
 comments: true

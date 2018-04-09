@@ -2,7 +2,7 @@
 layout: post
 authors: [remco_runge]
 title: 'Adding Image classification with Deeplearning4J to your (Spring Boot) application'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2018/adding-image-classification-with-deeplearning4j/DL-web-app.png
 tags: [Java, Deeplearning]
 category: Programming
 comments: true

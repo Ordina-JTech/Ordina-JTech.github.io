@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Modern Web Apps with HTML5 Web Components, Polymer, Java EE MVC 1.0, and JAX-RS'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs/CON2716__modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs.jpg
 tags: [OOW17, Java]
 category: JavaOne2017
 comments: true

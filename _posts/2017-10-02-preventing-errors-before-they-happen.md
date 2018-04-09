@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Preventing Errors Before They Happen'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/preventing-errors-before-they-happen/TUT3045__preventing-errors-before-they-happen.jpg
 tags: [OOW17, Java]
 category: JavaOne2017
 comments: true

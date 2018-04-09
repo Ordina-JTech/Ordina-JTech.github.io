@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Java Community Keynote Reloaded'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/java-community-keynote-reloaded/KEY7694__java-community-keynote-reloaded.jpg
 tags: [OOW17, Java]
 category: JavaOne2017
 comments: true

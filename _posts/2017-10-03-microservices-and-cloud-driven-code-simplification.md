@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Microservices and Cloud-Driven Code Simplification'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/microservices-and-cloud-driven-code-simplification/CON5252__microservices-and-cloud-driven-code-simplification.jpg
 tags: [OOW17, Java]
 category: JavaOne2017
 comments: true

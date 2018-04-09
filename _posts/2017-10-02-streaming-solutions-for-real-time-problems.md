@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Streaming Solutions for Real-Time Problems'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/streaming-solutions-for-real-time-problems/CON6059__streaming-solutions-for-real-time-problems.jpg
 tags: [OOW17, Java]
 category: JavaOne2017
 comments: true

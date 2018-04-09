@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Java EE: Heavyweight or Lightweight--Mythbusters'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/java-ee-heavyweight-or-lightweight--mythbusters/CON5578__java-ee-heavyweight-or-lightweight--mythbusters.jpg
 tags: [OOW17, Java]
 category: JavaOne2017
 comments: true

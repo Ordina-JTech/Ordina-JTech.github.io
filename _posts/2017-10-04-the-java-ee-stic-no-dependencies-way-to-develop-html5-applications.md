@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'The Java EE-stic (=No Dependencies) Way to Develop HTML5 Applications'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/the-java-ee-stic-no-dependencies-way-to-develop-html5-applications/CON5567__the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications.jpg
 tags: [OOW17, Java]
 category: JavaOne2017
 comments: true

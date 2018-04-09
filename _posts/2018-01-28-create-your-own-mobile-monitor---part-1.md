@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Create your own mobile monitor - Part 1'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2018/create-your-own-mobile-monitor---Part-1/old_monitor.jpg
 tags: [Diy, IoT, Driver board, Monitor]
 category: DIY
 comments: true

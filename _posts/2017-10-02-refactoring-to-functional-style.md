@@ -2,7 +2,7 @@
 layout: post
 authors: [ivo_woltring]
 title: 'Refactoring to Functional Style'
-image: /img/blogs/default-blog.png
+image: /img/blogs/2017/refactoring-to-functional-style/CON7323__refactoring-to-functional-style.jpg
 tags: [OOW17, Java]
 category: JavaOne2017
 comments: true
