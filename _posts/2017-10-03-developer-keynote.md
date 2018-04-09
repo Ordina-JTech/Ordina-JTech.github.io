@@ -1,12 +1,11 @@
 ---
-title:  "Developer Keynote"
-date:   2017-10-03 15:55
-categories:
-- JavaOne2017
-tags:
-- OOW17
-- java
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Developer Keynote'
+image: /img/blogs/default-blog.png
+tags: [OOW17, Java]
+category: JavaOne2017
+comments: true
 ---
 
 
@@ -31,25 +30,25 @@ The Rise of the Cloud DeveloperArchitectural designs are changing from monolithi
 
 # My Notes
 
-<img src="/assets/images/blog/KEY7383__developer-keynote.jpg" style="width:50%;height:50%;"/>
+![developer-keynote](/img/blogs/2017/developer-keynote/KEY7383__developer-keynote.jpg)
 
 ## Oracle developer community 
 
-<img src="/assets/images/blog/KEY7383__developer-keynote_1.jpg" style="width:50%;height:50%;"/>
+![developer-keynote](/img/blogs/2017/developer-keynote/KEY7383__developer-keynote_1.jpg)
 
 ## slack
 
-<img src="/assets/images/blog/KEY7383__developer-keynote_2.jpg" style="width:50%;height:50%;"/>
+![developer-keynote](/img/blogs/2017/developer-keynote/KEY7383__developer-keynote_2.jpg)
 
-<img src="/assets/images/blog/KEY7383__developer-keynote_3.jpg" style="width:50%;height:50%;"/>
+![developer-keynote](/img/blogs/2017/developer-keynote/KEY7383__developer-keynote_3.jpg)
 
 ## API platform (apiary)
 
-<img src="/assets/images/blog/KEY7383__developer-keynote_4.jpg" style="width:50%;height:50%;"/>
+![developer-keynote](/img/blogs/2017/developer-keynote/KEY7383__developer-keynote_4.jpg)
 
-<img src="/assets/images/blog/KEY7383__developer-keynote_5.jpg" style="width:50%;height:50%;"/>
+![developer-keynote](/img/blogs/2017/developer-keynote/KEY7383__developer-keynote_5.jpg)
 
-<img src="/assets/images/blog/KEY7383__developer-keynote_6.jpg" style="width:50%;height:50%;"/>
+![developer-keynote](/img/blogs/2017/developer-keynote/KEY7383__developer-keynote_6.jpg)
 
 Not much to blog about...
 💤 

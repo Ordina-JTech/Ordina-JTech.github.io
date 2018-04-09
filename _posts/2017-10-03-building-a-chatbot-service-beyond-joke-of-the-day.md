@@ -1,12 +1,11 @@
 ---
-title:  "Building a Chatbot Service: Beyond Joke of the Day"
-date:   2017-10-03 13:09
-categories:
-- JavaOne2017
-tags:
-- OOW17
-- java
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Building a Chatbot Service: Beyond Joke of the Day'
+image: /img/blogs/default-blog.png
+tags: [OOW17, Java]
+category: JavaOne2017
+comments: true
 ---
 
 
@@ -18,8 +17,8 @@ This session provides an overview of building chatbot services that deliver valu
 
 |Name|Title|Company|
 |:---|:---|:---|
-|Lyudmil Pelov|Oracle||
-|Dan Nguyen|Oracle||
+|Lyudmil Pelov| |Oracle|
+|Dan Nguyen| |Oracle|
 
 
 ## Session Info
@@ -30,31 +29,31 @@ This session provides an overview of building chatbot services that deliver valu
 
 # My Notes
 
-<img src="/assets/images/blog/CON7802__building-a-chatbot-service-beyond-joke-of-the-day.jpg" style="width:50%;height:50%;"/>
+![building-a-chatbot-service-beyond-joke-of-the-day](/img/blogs/2017/building-a-chatbot-service-beyond-joke-of-the-day/CON7802__building-a-chatbot-service-beyond-joke-of-the-day.jpg)
 
-<img src="/assets/images/blog/CON7802__building-a-chatbot-service-beyond-joke-of-the-day_1.jpg" style="width:50%;height:50%;"/>
+![building-a-chatbot-service-beyond-joke-of-the-day](/img/blogs/2017/building-a-chatbot-service-beyond-joke-of-the-day/CON7802__building-a-chatbot-service-beyond-joke-of-the-day_1.jpg)
 
-<img src="/assets/images/blog/CON7802__building-a-chatbot-service-beyond-joke-of-the-day_2.jpg" style="width:50%;height:50%;"/>
+![building-a-chatbot-service-beyond-joke-of-the-day](/img/blogs/2017/building-a-chatbot-service-beyond-joke-of-the-day/CON7802__building-a-chatbot-service-beyond-joke-of-the-day_2.jpg)
 
-<img src="/assets/images/blog/CON7802__building-a-chatbot-service-beyond-joke-of-the-day_3.jpg" style="width:50%;height:50%;"/>
+![building-a-chatbot-service-beyond-joke-of-the-day](/img/blogs/2017/building-a-chatbot-service-beyond-joke-of-the-day/CON7802__building-a-chatbot-service-beyond-joke-of-the-day_3.jpg)
 
 ## Use Case
 
-<img src="/assets/images/blog/CON7802__building-a-chatbot-service-beyond-joke-of-the-day_4.jpg" style="width:50%;height:50%;"/>
+![building-a-chatbot-service-beyond-joke-of-the-day](/img/blogs/2017/building-a-chatbot-service-beyond-joke-of-the-day/CON7802__building-a-chatbot-service-beyond-joke-of-the-day_4.jpg)
 
-<img src="/assets/images/blog/CON7802__building-a-chatbot-service-beyond-joke-of-the-day_5.jpg" style="width:50%;height:50%;"/>
+![building-a-chatbot-service-beyond-joke-of-the-day](/img/blogs/2017/building-a-chatbot-service-beyond-joke-of-the-day/CON7802__building-a-chatbot-service-beyond-joke-of-the-day_5.jpg)
 
 ## intent Resolution
 
-<img src="/assets/images/blog/CON7802__building-a-chatbot-service-beyond-joke-of-the-day_6.jpg" style="width:50%;height:50%;"/>
+![building-a-chatbot-service-beyond-joke-of-the-day](/img/blogs/2017/building-a-chatbot-service-beyond-joke-of-the-day/CON7802__building-a-chatbot-service-beyond-joke-of-the-day_6.jpg)
 
 ## Entity Recognition (NER)
 
-<img src="/assets/images/blog/CON7802__building-a-chatbot-service-beyond-joke-of-the-day_7.jpg" style="width:50%;height:50%;"/>
+![building-a-chatbot-service-beyond-joke-of-the-day](/img/blogs/2017/building-a-chatbot-service-beyond-joke-of-the-day/CON7802__building-a-chatbot-service-beyond-joke-of-the-day_7.jpg)
 
 What do back-end services require to query the information asked by the user?
 
-<img src="/assets/images/blog/CON7802__building-a-chatbot-service-beyond-joke-of-the-day_8.jpg" style="width:50%;height:50%;"/>
+![building-a-chatbot-service-beyond-joke-of-the-day](/img/blogs/2017/building-a-chatbot-service-beyond-joke-of-the-day/CON7802__building-a-chatbot-service-beyond-joke-of-the-day_8.jpg)
 
 
 

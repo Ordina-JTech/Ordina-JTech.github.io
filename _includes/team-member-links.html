@@ -1,0 +1,44 @@
+{% if include.author %}
+<ul class="team-member-links">
+    {% if include.author.phone %}
+    <li class="team-member-link">
+        <a href="tel:{{ include.author.phone }}">
+        <i class="fa fa-phone"></i>
+        <span class="label">Phone</span>
+        </a>
+    </li>
+    {% endif %}
+    {% if include.author.email %}
+    <li class="team-member-link">
+        <a href="mailto:{{ include.author.email }}">
+        <i class="fa fa-envelope-o"></i>
+        <span class="label">Email</span>
+        </a>
+    </li>
+    {% endif %}
+    {% if include.author.twitter %}
+    <li class="team-member-link">
+        <a href="https://www.twitter.com/{{ include.author.twitter }}" target="_blank">
+        <i class="fa fa-twitter"></i>
+        <span class="label">Twitter</span>
+        </a>
+    </li>
+    {% endif %}
+    {% if include.author.github %}
+    <li class="team-member-link">
+        <a href="https://www.github.com/{{ include.author.github }}" target="_blank">
+        <i class="fa fa-github"></i>
+        <span class="label">GitHub</span>
+        </a>
+    </li>
+    {% endif %}
+    {% if include.author.linkedin %}
+    <li class="team-member-link">
+        <a href="https://be.linkedin.com/in/{{ include.author.linkedin }}" target="_blank">
+        <i class="fa fa-linkedin"></i>
+        <span class="label">LinkedIn</span>
+        </a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}

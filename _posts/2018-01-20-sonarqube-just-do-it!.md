@@ -1,23 +1,14 @@
 ---
-title:  "SonarQube Just Do It!"
-date:   2018-01-20 21:44
-categories:
-- Programming
-tags:
-- java
-- sonarqube
-- docker
-- docker-compose
-- pmd
-- checkstyle
-- howto
-- guide
-- tutorial
-- setup
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'SonarQube Just Do It!'
+image: /img/blogs/default-blog.png
+tags: [Java, Sonarqube, Docker, Docker-compose, Pmd, Checkstyle, Howto, Guide, Tutorial, Setup]
+category: Programming
+comments: true
 ---
 
-<img src="/assets/images/blog/2018/sonarqube-just-do-it/docker_maven_sonarqube.png" style="width:50%;height:50%;display: block;margin: 0 auto;"/>
+![Docker Maven Sonarqube](/img/blogs/2018/sonarqube-just-do-it/docker_maven_sonarqube.png)
 # Code transparency ... Yes please...
 
 Recently I gave a small seminar for my current client about Clean Code and Craftsmanship. The group I was talking to
@@ -67,7 +58,7 @@ for (i = 0; i < 10; j++) {  // Noncompliant
 
 Lots of these language constructions can be tested statically and at the point of this writing there are 423 checks done.
 
-<img src="/assets/images/blog/sonarqube-just-do-it.md_1.png" style="width:50%;height:50%;display: block;margin: 0 auto;"/>
+![Sonarqube just do it](/img/blogs/2018/sonarqube-just-do-it/sonarqube-just-do-it.md_1.png)
 
 ## Use it yourself
 

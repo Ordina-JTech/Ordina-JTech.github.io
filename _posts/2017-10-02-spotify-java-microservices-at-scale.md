@@ -1,12 +1,11 @@
 ---
-title:  "Spotify: Java Microservices at Scale"
-date:   2017-10-02 17:26
-categories:
-- JavaOne2017
-tags:
-- OOW17
-- java
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Spotify: Java Microservices at Scale'
+image: /img/blogs/default-blog.png
+tags: [OOW17, Java]
+category: JavaOne2017
+comments: true
 ---
 
 
@@ -29,7 +28,7 @@ Spotify has a long history of using a microservice architecture and has gone thr
 | Introductory | Conference Session | Java, Cloud, and Server-Side Development |
 
 # My Notes
-<img src="/assets/images/blog/CON7953__spotify-java-microservices-at-scale.jpg" style="width:50%;height:50%;"/>
+![spotify-java-microservices-at-scale](/img/blogs/2017/spotify-java-microservices-at-scale/CON7953__spotify-java-microservices-at-scale.jpg)
 * Conway’s Law is embraced
 * Teams design their own services
 
@@ -50,9 +49,9 @@ Spotify has a long history of using a microservice architecture and has gone thr
 	* cross cutting concerns should be kinda uniform
 	* Appollo
 
-<img src="/assets/images/blog/CON7953__spotify-java-microservices-at-scale_1.jpg" style="width:50%;height:50%;"/>
+![spotify-java-microservices-at-scale](/img/blogs/2017/spotify-java-microservices-at-scale/CON7953__spotify-java-microservices-at-scale_1.jpg)
 
-<img src="/assets/images/blog/CON7953__spotify-java-microservices-at-scale_2.jpg" style="width:50%;height:50%;"/>
+![spotify-java-microservices-at-scale](/img/blogs/2017/spotify-java-microservices-at-scale/CON7953__spotify-java-microservices-at-scale_2.jpg)
 
 * testing is very easy on this kind of code
 
@@ -78,11 +77,11 @@ Spotify has a long history of using a microservice architecture and has gone thr
 	* containers register thenselves
 	* DNS is scalable to a ridiculous degree
 
-<img src="/assets/images/blog/CON7953__spotify-java-microservices-at-scale_3.jpg" style="width:50%;height:50%;"/>
+![spotify-java-microservices-at-scale](/img/blogs/2017/spotify-java-microservices-at-scale/CON7953__spotify-java-microservices-at-scale_3.jpg)
 
 The index is immutable in Lucene and sometimes the index is switched out wit a new index and the old one discarded this makes it linearly scalable 
 
-<img src="/assets/images/blog/CON7953__spotify-java-microservices-at-scale_4.jpg" style="width:50%;height:50%;"/>
+![spotify-java-microservices-at-scale](/img/blogs/2017/spotify-java-microservices-at-scale/CON7953__spotify-java-microservices-at-scale_4.jpg)
 
 ## Scaling out
 
@@ -91,7 +90,7 @@ The index is immutable in Lucene and sometimes the index is switched out wit a n
 * Casandra will replicate all to all data centers. 
 * failover can also be done
 
-<img src="/assets/images/blog/CON7953__spotify-java-microservices-at-scale_5.jpg" style="width:50%;height:50%;"/>
+![spotify-java-microservices-at-scale](/img/blogs/2017/spotify-java-microservices-at-scale/CON7953__spotify-java-microservices-at-scale_5.jpg)
 
 # Ownership
 
@@ -99,7 +98,7 @@ Each team owns multiple services ans services are always owned by 1 team.
 
 # Operations
 
-<img src="/assets/images/blog/CON7953__spotify-java-microservices-at-scale_6.jpg" style="width:50%;height:50%;"/>
+![spotify-java-microservices-at-scale](/img/blogs/2017/spotify-java-microservices-at-scale/CON7953__spotify-java-microservices-at-scale_6.jpg)
 
 ## Conclusion 
 

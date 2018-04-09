@@ -1,15 +1,12 @@
 ---
-title:  "Baking a Java EE 8 Micro Pi"
-date:   2017-10-02 09:18
-categories:
-- JavaOne2017
-tags:
-- OOW17
-- java
-- raspberrypi
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Baking a Java EE 8 Micro Pi'
+image: /img/blogs/default-blog.png
+tags: [OOW17, Java, RaspberryPi]
+category: JavaOne2017
+comments: true
 ---
-
 
 # Session abstract
 
@@ -34,7 +31,7 @@ Microservices are already a popular architecture for new applications, particula
 So my first talk of the day and of JavaOne. I’m curious. It’s a small crowd here.  But hidden gems are sometimes found.  Something is going wrong. No screen and stuff am about to walk out. Will give it 5 more minutes. 
 He is started but de demo heavyness has been cancelled I think because of connection problems. 
 
-<img src="/assets/images/blog/TUT2112__baking-a-java-ee-8-micro-pi.jpg" style="width:50%;height:50%;"/>
+![baking a java ee 8 micro pi](/img/blogs/2017/baking-a-java-ee-8-micro-pi/TUT2112__baking-a-java-ee-8-micro-pi.jpg)
 
 ## How lightweight is java EE, really?
 ###  Recent history...
@@ -54,24 +51,22 @@ He is started but de demo heavyness has been cancelled I think because of connec
 
 ## What’s in java EE today?
 
-
-<img src="/assets/images/blog/TUT2112__baking-a-java-ee-8-micro-pi_2.jpg" style="width:50%;height:50%;"/>
+![baking a java ee 8 micro pi](/img/blogs/2017/baking-a-java-ee-8-micro-pi/TUT2112__baking-a-java-ee-8-micro-pi_2.jpg)
 
 * jax-rs now has a reactive profile
 
 ### what is Payara Micro
 
-<img src="/assets/images/blog/TUT2112__baking-a-java-ee-8-micro-pi_3.jpg" style="width:50%;height:50%;"/>
+![baking a java ee 8 micro pi](/img/blogs/2017/baking-a-java-ee-8-micro-pi/TUT2112__baking-a-java-ee-8-micro-pi_3.jpg)
 
-<img src="/assets/images/blog/TUT2112__baking-a-java-ee-8-micro-pi_4.jpg" style="width:50%;height:50%;"/>
+![baking a java ee 8 micro pi](/img/blogs/2017/baking-a-java-ee-8-micro-pi/TUT2112__baking-a-java-ee-8-micro-pi_4.jpg)
 
 
 ## What could be in Java EE EE4J??? In the future?
 
 # demo
 
-<img src="/assets/images/blog/TUT2112__baking-a-java-ee-8-micro-pi_6.jpg" style="width:50%;height:50%;"/>
+![baking a java ee 8 micro pi](/img/blogs/2017/baking-a-java-ee-8-micro-pi/TUT2112__baking-a-java-ee-8-micro-pi_6.jpg)
 
 But no demo DAMN
 👎
-        

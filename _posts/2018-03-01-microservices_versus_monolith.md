@@ -1,11 +1,14 @@
 ---
-title:  "Monolith versus Microservices"
-date:   2018-03-01 21:48:13 +0100
-categories: architecture
-author: petereijgermans
+layout: post
+authors: [peter_eijgermans]
+title: 'Monolith versus Microservices'
+image: /img/blogs/default-blog.png
+tags: [Microservices, Monolith]
+category: Architecture
+comments: true
 ---
 
-<img src="/assets/images/blog/2018/microservices-or-monolith/monolith-versus-microservices.jpeg" style="width: 75%;height: 75%;display: block;margin: 0 auto;"/>
+![monolith-versus-microservices](/img/blogs/2018/microservices-or-monolith/monolith-versus-microservices.jpeg)
 
 This interview is published in 2018 in the JAX DevOps Magazine:
 

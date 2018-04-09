@@ -1,122 +1,52 @@
-# Site Settings
-locale                   : "en"
-title                    : "JTech"
-title_separator          : "-"
-name                     : "JTech"
-description              : "JTech is Ordina’s Java en open source unit met 150 ervaren software developers. Front-end, backend en app developers die met cutting edge technologie werken voor onze klanten."
-url                      : "https://ordina-jtech.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "ordina-jtech/ordina-jtech.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-words_per_minute         : 200
-
-author:
-  name             : "JTech"
-  bio              : "JTech is Ordina’s Java en open source unit met 150 ervaren software developers. Front-end, backend en app developers die met cutting edge technologie werken voor onze klanten."
-  email            : jtech@ordina.nl
-  github           : "ordina-jtech"
-
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - README
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Conversion
+# Site settings
+title: Ordina JTech
+email: jtech@ordina.nl
+description: > # this means to ignore newlines until "baseurl:"
+  We build innovative solutions with Java and JavaScript. To support this mission, we have several Competence Centers. From within those Competence Centers, we provide coaching to the employee and expert advice towards our customer. In order to keep in sync with the latest technologies and the latest trends, we frequently visit conferences around the globe.
+metadata:
+    author: Ordina Nederland
+    keywords: Ordina,JTech,Blog,Java,JavaScript,TypeScript,Angular,DevOps
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://ordina-jtech.github.io" # the base hostname & protocol for your site
+twitter_username: ordina
+github_username:  ordina-jtech
+facebook: ordina
+plugins: [jekyll-paginate, jekyll-feed]
+# Build settings
 markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
 
 sass:
-  sass_dir: _sass
-  style: compressed
+    sass_dir: _sass
+    style: compressed
 
-permalink: /:categories/:title/
-paginate: 3
-paginate_path: /page:num/
+# Pagination
+paginate: 10
 
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
-
-theme: minimal-mistakes-jekyll
+collections:
+    # Needed for our job board
+    jobs:
+        output: true
+        permalink: /jobs/:path/
+    training:
+        output: true
+        permalink: /training/:path/
+    talks:
+        output: true
+        permalink: /talks/:path/
 
 defaults:
-  # _posts
   - scope:
-      path: ""
-      type: posts
+      path: "jobs"
+      type: jobs
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      layout: job
+  - scope:
+      path: "training"
+      type: training
+    values:
+      layout: training
+  - scope:
+      path: "talks"
+      type: talks
+    values:
+      layout: talk

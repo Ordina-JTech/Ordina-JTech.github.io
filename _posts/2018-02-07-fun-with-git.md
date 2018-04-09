@@ -1,20 +1,15 @@
 ---
-title:  "Fun With Git"
-date:   2018-02-07 01:12:18
-categories:
-- Programming
-tags:
-- source
-- scm
-- git
-- version management
-- alias
-- cli
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Fun With Git'
+image: /img/blogs/default-blog.png
+tags: [Source, SCM, GIT, Version management, Alias, CLI]
+category: Programming
+comments: true
 ---
 
 
-<img src="/assets/images/blog/2018/fun-with-git/fun-with-git.png" style="width:75%;height:75%;display: block;margin: 0 auto;"/>
+![fun-with-git](/img/blogs/2018/fun-with-git/fun-with-git.png)
 
 The goal of this blog is to have some fun with git and learn something along the way...
 

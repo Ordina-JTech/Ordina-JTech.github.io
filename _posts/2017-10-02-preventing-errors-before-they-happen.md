@@ -1,12 +1,11 @@
 ---
-title:  "Preventing Errors Before They Happen"
-date:   2017-10-02 09:19
-categories:
-- JavaOne2017
-tags:
-- OOW17
-- java
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Preventing Errors Before They Happen'
+image: /img/blogs/default-blog.png
+tags: [OOW17, Java]
+category: JavaOne2017
+comments: true
 ---
 
 
@@ -33,33 +32,32 @@ Are you tired of null pointer exceptions, unintended side effects, SQL injection
 I came into this talk late because the other talk did not meet my expectations. 
 Hope this one this is better. 
 
-<img src="/assets/images/blog/TUT3045__preventing-errors-before-they-happen.jpg" style="width:50%;height:50%;"/>
+![preventing-errors-before-they-happen](/img/blogs/2017/preventing-errors-before-they-happen/TUT3045__preventing-errors-before-they-happen.jpg)
 
-<img src="/assets/images/blog/TUT3045__preventing-errors-before-they-happen_1.jpg" style="width:50%;height:50%;"/>
+![preventing-errors-before-they-happen](/img/blogs/2017/preventing-errors-before-they-happen/TUT3045__preventing-errors-before-they-happen_1.jpg)
 
-<img src="/assets/images/blog/TUT3045__preventing-errors-before-they-happen_2.jpg" style="width:50%;height:50%;"/>
+![preventing-errors-before-they-happen](/img/blogs/2017/preventing-errors-before-they-happen/TUT3045__preventing-errors-before-they-happen_2.jpg)
 
-<img src="/assets/images/blog/TUT3045__preventing-errors-before-they-happen_3.jpg" style="width:50%;height:50%;"/>
+![preventing-errors-before-they-happen](/img/blogs/2017/preventing-errors-before-they-happen/TUT3045__preventing-errors-before-they-happen_3.jpg)
 
-<img src="/assets/images/blog/TUT3045__preventing-errors-before-they-happen_4.jpg" style="width:50%;height:50%;"/>
+![preventing-errors-before-they-happen](/img/blogs/2017/preventing-errors-before-they-happen/TUT3045__preventing-errors-before-they-happen_4.jpg)
 
 Looks like a nice framework. Annotation based extra checks you can also build yourself 
 
-<img src="/assets/images/blog/TUT3045__preventing-errors-before-they-happen_5.jpg" style="width:50%;height:50%;"/>
-<img src="/assets/images/blog/TUT3045__preventing-errors-before-they-happen_6.jpg" style="width:50%;height:50%;"/>
-<img src="/assets/images/blog/TUT3045__preventing-errors-before-they-happen_7.jpg" style="width:50%;height:50%;"/>
-<img src="/assets/images/blog/TUT3045__preventing-errors-before-they-happen_8.jpg" style="width:50%;height:50%;"/>
-<img src="/assets/images/blog/TUT3045__preventing-errors-before-they-happen_9.jpg" style="width:50%;height:50%;"/>
-<img src="/assets/images/blog/TUT3045__preventing-errors-before-they-happen_10.jpg" style="width:50%;height:50%;"/>
-<img src="/assets/images/blog/TUT3045__preventing-errors-before-they-happen_11.jpg" style="width:50%;height:50%;"/>
-<img src="/assets/images/blog/TUT3045__preventing-errors-before-they-happen_12.jpg" style="width:50%;height:50%;"/>
-<img src="/assets/images/blog/TUT3045__preventing-errors-before-they-happen_13.jpg" style="width:50%;height:50%;"/>
+![preventing-errors-before-they-happen](/img/blogs/2017/preventing-errors-before-they-happen/TUT3045__preventing-errors-before-they-happen_5.jpg)
+![preventing-errors-before-they-happen](/img/blogs/2017/preventing-errors-before-they-happen/TUT3045__preventing-errors-before-they-happen_6.jpg)
+![preventing-errors-before-they-happen](/img/blogs/2017/preventing-errors-before-they-happen/TUT3045__preventing-errors-before-they-happen_7.jpg)
+![preventing-errors-before-they-happen](/img/blogs/2017/preventing-errors-before-they-happen/TUT3045__preventing-errors-before-they-happen_8.jpg)
+![preventing-errors-before-they-happen](/img/blogs/2017/preventing-errors-before-they-happen/TUT3045__preventing-errors-before-they-happen_9.jpg)
+![preventing-errors-before-they-happen](/img/blogs/2017/preventing-errors-before-they-happen/TUT3045__preventing-errors-before-they-happen_10.jpg)
+![preventing-errors-before-they-happen](/img/blogs/2017/preventing-errors-before-they-happen/TUT3045__preventing-errors-before-they-happen_11.jpg)
+![preventing-errors-before-they-happen](/img/blogs/2017/preventing-errors-before-they-happen/TUT3045__preventing-errors-before-they-happen_12.jpg)
+![preventing-errors-before-they-happen](/img/blogs/2017/preventing-errors-before-they-happen/TUT3045__preventing-errors-before-they-happen_13.jpg)
 
 # Tips
 
-<img src="/assets/images/blog/TUT3045__preventing-errors-before-they-happen_14.jpg" style="width:50%;height:50%;"/>
-<img src="/assets/images/blog/TUT3045__preventing-errors-before-they-happen_15.jpg" style="width:50%;height:50%;"/>
-<img src="/assets/images/blog/TUT3045__preventing-errors-before-they-happen_15.jpg" style="width:50%;height:50%;"/>
+![preventing-errors-before-they-happen](/img/blogs/2017/preventing-errors-before-they-happen/TUT3045__preventing-errors-before-they-happen_14.jpg)
+![preventing-errors-before-they-happen](/img/blogs/2017/preventing-errors-before-they-happen/TUT3045__preventing-errors-before-they-happen_15.jpg)
 
 # Conclusion
 Nice framework. Worth looking into.  It is just an annotation processor. This means that any tool or IDE should be able to use it.  It has been thought through and seems to have been created with easy of use in mind. 

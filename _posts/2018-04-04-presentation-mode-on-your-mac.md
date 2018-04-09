@@ -1,20 +1,16 @@
 ---
-title:  "Presentation Mode On Your Mac"
-date:   2018-04-04 09:37:28
-categories:
-- Programming
-tags:
-- Apple script
-- presentation
-- automation
-- personal effectiveness
-- efficiency
-- do not disturb
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Presentation Mode On Your Mac'
+intro: When giving a presentation you do not want to have distractions like notifications and Dropbox syncs etc. So why not automate this.
+image: /img/blogs/2018/presentation-mode-on-your-mac/presentation-mode-on-your-mac.png
+tags: [Apple script, Presentation, Automation, Personal effectiveness, Efficiency, Do not disturb]
+category: Programming
+comments: true
 ---
 
 
-<img src="/assets/images/blog/2018/presentation-mode-on-your-mac/presentation-mode-on-your-mac.png" style="width:50%;height:50%;display: block;margin: 0 auto;"/>
+![presentation-mode-on-your-mac](/img/blogs/2018/presentation-mode-on-your-mac/presentation-mode-on-your-mac.png)
 
 When giving a presentation you do not want to have distractions like notifications and Dropbox syncs etc.
 
@@ -88,11 +84,11 @@ set tDate to do shell script "date -u \"+%Y-%m-%dT%TZ\"" -- the current date in 
 do shell script "defaults -currentHost write com.apple.notificationcenterui doNotDisturb -bool TRUE; defaults -currentHost write com.apple.notificationcenterui doNotDisturbDate -date " & tDate & "; osascript -e 'quit application \"NotificationCenter\" ' && killall usernoted" --this set 'Do not disturb' to true in the pref
 ```
 
-<img src="/assets/images/blog/2018/presentation-mode-on-your-mac/presentation-mode-on-your-mac_2.png" style="width: 50%;height: 50%;display: block;margin: 0 auto;"/>
+![presentation-mode-on-your-mac](/img/blogs/2018/presentation-mode-on-your-mac/presentation-mode-on-your-mac_2.png)
 
 Of course you need to remove the could services you do not use or add the once you do use and then save it like te picture below shows.
 
-<img src="/assets/images/blog/2018/presentation-mode-on-your-mac/presentation-mode-on-your-mac_3.png" style="width: 50%;height: 50%;display: block;margin: 0 auto;"/>
+![presentation-mode-on-your-mac](/img/blogs/2018/presentation-mode-on-your-mac/presentation-mode-on-your-mac_3.png)
 
 Just sure you save it as an Application and then you are set.
 Just run the `PresentationMode.app` and you will see the cloud services disappear and the do not disturb being turned on.

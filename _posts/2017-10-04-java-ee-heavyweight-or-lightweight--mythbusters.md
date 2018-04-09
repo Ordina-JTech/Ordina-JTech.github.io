@@ -1,12 +1,11 @@
 ---
-title:  "Java EE: Heavyweight or Lightweight--Mythbusters"
-date:   2017-10-04 08:27
-categories:
-- JavaOne2017
-tags:
-- OOW17
-- java
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Java EE: Heavyweight or Lightweight--Mythbusters'
+image: /img/blogs/default-blog.png
+tags: [OOW17, Java]
+category: JavaOne2017
+comments: true
 ---
 
 
@@ -29,12 +28,12 @@ How fast is a deployment? What is the minimum size of a Java EE thin WAR? What a
 
 # My Notes
 
-<img src="/assets/images/blog/CON5578__java-ee-heavyweight-or-lightweight--mythbusters.jpg" style="width:50%;height:50%;"/>
+![java-ee-heavyweight-or-lightweight--mythbusters](/img/blogs/2017/java-ee-heavyweight-or-lightweight--mythbusters/CON5578__java-ee-heavyweight-or-lightweight--mythbusters.jpg)
 
-<img src="/assets/images/blog/CON5578__java-ee-heavyweight-or-lightweight--mythbusters_1.jpg" style="width:50%;height:50%;"/>
-<img src="/assets/images/blog/CON5578__java-ee-heavyweight-or-lightweight--mythbusters_2.jpg" style="width:50%;height:50%;"/>
+![java-ee-heavyweight-or-lightweight--mythbusters](/img/blogs/2017/java-ee-heavyweight-or-lightweight--mythbusters/CON5578__java-ee-heavyweight-or-lightweight--mythbusters_1.jpg)
+![java-ee-heavyweight-or-lightweight--mythbusters](/img/blogs/2017/java-ee-heavyweight-or-lightweight--mythbusters/CON5578__java-ee-heavyweight-or-lightweight--mythbusters_2.jpg)
 
-<img src="/assets/images/blog/CON5578__java-ee-heavyweight-or-lightweight--mythbusters_3.jpg" style="width:50%;height:50%;"/>
+![java-ee-heavyweight-or-lightweight--mythbusters](/img/blogs/2017/java-ee-heavyweight-or-lightweight--mythbusters/CON5578__java-ee-heavyweight-or-lightweight--mythbusters_3.jpg)
 
 # Live demos
 
@@ -50,10 +49,10 @@ Premature optimization is the root of all evil.
 
 By using application servers you get full monitoring for free. 
 
-<img src="/assets/images/blog/CON5578__java-ee-heavyweight-or-lightweight--mythbusters_4.jpg" style="width:50%;height:50%;"/>
+![java-ee-heavyweight-or-lightweight--mythbusters](/img/blogs/2017/java-ee-heavyweight-or-lightweight--mythbusters/CON5578__java-ee-heavyweight-or-lightweight--mythbusters_4.jpg)
 
 * Payara micro
-<img src="/assets/images/blog/CON5578__java-ee-heavyweight-or-lightweight--mythbusters_5.jpg" style="width:50%;height:50%;"/>
+![java-ee-heavyweight-or-lightweight--mythbusters](/img/blogs/2017/java-ee-heavyweight-or-lightweight--mythbusters/CON5578__java-ee-heavyweight-or-lightweight--mythbusters_5.jpg)
 
 Is only 10 megs smallet the the full version.  The sane goes for Wildfly swarm. 
 

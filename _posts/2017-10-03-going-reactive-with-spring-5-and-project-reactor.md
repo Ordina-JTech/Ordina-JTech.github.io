@@ -1,12 +1,11 @@
 ---
-title:  "Going Reactive with Spring 5 and Project Reactor"
-date:   2017-10-03 08:33
-categories:
-- JavaOne2017
-tags:
-- OOW17
-- java
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Going Reactive with Spring 5 and Project Reactor'
+image: /img/blogs/default-blog.png
+tags: [OOW17, Java]
+category: JavaOne2017
+comments: true
 ---
 
 

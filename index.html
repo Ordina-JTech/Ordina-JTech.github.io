@@ -1,3 +1,88 @@
 ---
-layout: home
+layout: default
+title: 'JTech'
+subtitle: 'Powered by <img src="/img/ordina-logo-orange-300px.png" class="header-logo">'
+show_logo: true
+transparent_header: false
 ---
+
+<section id="one" class="wrapper spotlight style1">
+    <div class="inner">
+        <div class="content" style="text-align: left">
+            <h2 class="major">Nieuwste posts</h2>
+
+            <section class="features">
+
+                {% for post in paginator.posts %}
+                    {% include blog-article.html %}
+                {% endfor %}
+
+            </section>
+
+            <!-- Pagination -->
+            {% if paginator.total_pages > 1 %}
+            <ul class="actions"> <!-- pagination center-block -->
+                {% if paginator.previous_page %}
+                <li>
+                    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+                       aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                {% endif %}
+                {% for page in (1..paginator.total_pages) %}
+                {% if page == 1 %}
+                {% capture url %}
+                {{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: 'page:num', '' }}
+                {% endcapture %}
+                {% else %}
+                {% capture url %}
+                {{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}
+                {% endcapture %}
+                {% endif %}
+                <li><a href="{{ url }}" {% if page== paginator.page %}class="disabled" {% endif %}>{{ page }}</a></li>
+                {% endfor %}
+                {% if paginator.next_page %}
+                <li>
+                    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+                       aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+            {% endif %}
+            <!-- End Pagination -->
+        </div>
+    </div>
+</section>
+
+<section id="two" class="wrapper alt spotlight style2">
+    <div class="inner">
+        <div class="content">
+            <h2 class="major">Categorieën</h2>
+
+            <ul class="list-6 categories">
+                {% for cat in site.categories %}
+                <li><a href="/categories/{{cat[0] | downcase | replace:' ','-' }}">{{cat[0]}}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="three" class="wrapper spotlight style3">
+    <div class="inner">
+        <div class="content">
+            <h2 class="major">Tags</h2>
+
+            {% assign shown_tags = '' %}
+            {% for tag in site.tags %}{% assign tag_ = tag[0] | downcase | replace:' ','-' %}
+                {% unless shown_tags contains tag_ %}
+                <a href="/tags/{{tag_ }}">{{tag[0]}}</a>
+                {% assign shown_tags = shown_tags | append: ', ' | append: tag_ %}
+                {% endunless %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

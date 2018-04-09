@@ -1,0 +1,66 @@
+    <!-- Header -->
+    <header id="header"{% if page.transparent_header %} class="alt" {% endif %}>
+        <h1>
+            <a href="{{ site.baseurl }}/">
+                JTech
+            </a>
+        </h1>
+
+        <nav>
+            <a href="#menu">Menu</a>
+            <form action="/search/" method="get" class="header-search search-form">
+                <input type="text" id="search-box-header" name="query" placeholder="Zoeken &hellip;">
+            </form>
+        </nav>
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+        <div class="inner">
+            <h2>Menu</h2>
+            <ul class="links">
+                <li class="menu-item"><a href="{{ site.baseurl }}/">Home</a></li>
+                <li class="menu-item"><a href="{{ site.baseurl }}/knowledge">Kennisdeling</a></li>
+                <li class="menu-item"><a href="{{ site.baseurl }}/about">Schrijvers</a></li>
+                <li class="menu-item"><a href="{{ site.baseurl }}/jobs">Vacatures</a></li>
+                <li class="menu-item"><a href="{{ site.baseurl }}/launch-your-career">Carrière</a></li>
+                <li class="menu-item"><a href="{{ site.baseurl }}/search">Zoeken</a></li>
+                <li class="menu-item"><a href="{{ site.baseurl }}/contact">Contact</a></li>
+            </ul>
+            <a href="#" class="close">Sluiten</a>
+        </div>
+    </nav>
+
+    <section id="banner">
+        <header>
+            <div class="inner">
+                {% if page.show_logo %}
+                <div class="logo">
+                     <img src="{{ site.baseurl }}/img/jtech/site-logo.png" width="150" />
+                </div>
+                {% endif %}
+
+                <h2>{{ page.title }}</h2>
+
+                {% if page.title == 'Zoeken' %}
+                <form action="/search/" method="get" class="search-form">
+                    <input type="text" id="search-box" name="query" placeholder="Zoeken &hellip;">
+                </form>
+                {% endif %}
+
+                {% if page.subtitle %}
+                    <p>{{ page.subtitle }}</p>
+                {% endif %}
+
+                {% if page.layout == 'post' %}
+                    {% include banner-post.html %}
+                {% endif %}
+                {% if page.layout == 'talk' or page.layout == 'training' %}
+                    {% include banner-session.html %}
+                {% endif %}
+
+                {% include banner-team-member.html %}
+
+            </div>
+        </header>
+    </section>

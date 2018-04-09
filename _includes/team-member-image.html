@@ -1,0 +1,10 @@
+{% if include.author %}
+<div class="team-member-image-holder">
+    <a href="{{ include.author.permalink | prepend: site.baseurl }}">
+        <img src="{{ '/img/author/' | append: include.author.avatar | prepend: site.baseurl }}"
+             onerror="this.src='/img/author/default-author.png';"
+             alt="{{ include.author.first_name }}"
+             class="p-image team-member-image"/>
+    </a>
+</div>
+{% endif %}

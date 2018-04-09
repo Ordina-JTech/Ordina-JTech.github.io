@@ -1,8 +1,11 @@
 ---
-title:  "REST-assured, wees gerust!!"
-date:   2017-02-02 21:48:13 +0100
-categories: integration-testing
-author: naipath
+layout: post
+authors: [naipath]
+title: 'REST-assured, wees gerust!'
+image: /img/blogs/rest.jpg
+tags: [Integration testing]
+category: Testing
+comments: true
 ---
 
 Bij het realiseren van een microservices architectuur is een van de uitdagingen het doortesten van een of meerdere services. 
@@ -20,7 +23,7 @@ Indien services een database vereisen integreren ze met een ElasticSearch databa
 Ook vereisen een aantal services connecties met zogenaamde services die buiten de Rabobank leven.
 Zie figuur 1 voor deze architectuur.
 
-![Architectuur](/assets/images/blog/rest-assured-architectuur.png)
+![Architectuur](/img/blogs/2017/rest-assured/rest-assured-architectuur.png)
 
 
 Binnen deze architectuur hanteren we veel services, waardoor het belang van het testen van deze services onderling nog belangrijker wordt. 
@@ -94,7 +97,7 @@ public void given_one_income_then_correct_output_is_returned() {
 
 Dit artikel zal aan de hand van een aantal voorbeelden de kracht van de REST-assured DSL laten zien.
 
-#Requests opstellen
+## Requests opstellen
 
 Om op te starten met REST-assured dien je de maven dependency io.rest-assured:rest-assured:3.0.1 toe te voegen.en eventueel een aantal star-imports.
 
@@ -154,7 +157,7 @@ given()
 // https://global.api.pvp.net/api/lol/static-data/euw/v1.2/champion/136?champData=all&api_key=MY_API_KEY
 ```
 
-![Aurelion Sol: The Star Forger](/assets/images/blog/rest-assured-Aurelion.png)
+![Aurelion Sol: The Star Forger](/img/blogs/2017/rest-assured/rest-assured-Aurelion.png)
 
 Wat opvalt is dat je erg vrij wordt gelaten in de stijl die je wilt hanteren. de `.and()` is niets meer dan syntactic sugar en voegt alleen maar leesbaarheid toe. Alhoewel ik zelf merk dat ik dit nooit toepas is het fijn om in deze keuze vrij te worden gelaten.
 De `.param("", "")` en `.queryParam("", "")` zijn hetzelfde. Ze voegen beide een query parameter toe aan het request. Dit biedt als extra voordeel dat het niet alleen voor een developer leesbaar is, maar ook voor een tester die bekend is met HTTP. Naast de `GET` ondersteunt REST-assured alle andere HTTP methodes ook, je dient simpelweg de `.get(url)` vervangen voor de gewenste methode. Bij code listing 4 zie je hiervan een aantal voorbeelden.
@@ -209,7 +212,7 @@ given()
 .then().log().body();
 ```
 
-# Validatie
+## Validatie
 
 Cool, we hebben mooie requests die het flitsend goed doen, maar we hebben eigenlijk nog niets gevalideerd. Ook doen we nog niet met het terug komen de resultaat van het verstuurde request. Om het resultaat terug te krijgen van het uitgevoerde request kan je de `.extract()` methode aanvullen. Het is dan mogelijk om te kiezen om meerdere delen van het request lost te peuteren zoals de body van het HTTP response. In code listing 8 staat hier een voorbeeld van.
 
@@ -271,7 +274,7 @@ Dit kan je op precies dezelfde manier toepassen als het antwoord een XML-documen
 
 Naast het valideren van specifieke waardes in een bericht kan je er ook voor opteren om te valideren middels een schema. Voor Json wordt de Json Schema vocabular gebruikt. Hierbij hoort de dependency `io.rest-assured:json-schema-validator`. Hierna kan je ergens op het classpath een JSON-bestand  toevoegen die voldoet aan Json Schema. Het is dan mogelijk om het request te valideren middels REST-assured door de volgende regel: `.body(matchesJsonSchemaInClasspath(“lol-champion-schema.json")`.
 
-# A note on mocking: WireMock
+## A note on mocking: WireMock
 
 Let’s recap: We kunnen nu eenvoudige HTTP requests opstellen en het antwoord hiervan valideren. Hierbij wordt aangenomen dat de service die wordt getest al staat te pruttelen en goed benaderbaar is. Veelal is dit niet zo eenvoudig. De applicatie moet ergens werken en als de applicatie gebruik maakt van koppelingen zal daar ook een oplossing voor moeten zijn. Om dit makkelijker te maken kies ik voor de tool WireMock. WireMock is namelijk een mock HTTP-server.
 
@@ -312,7 +315,7 @@ wireMock.stubFor(
 );
 ```
 
-# To Conclude
+## To Conclude
 
 Het schrijven van integratie testen is veelal niet triviaal. Het vergt vaak complexere mocking, veel setup en Glue code om de daadwerkelijke test uit te kunnen voeren. In dit artikel heb ik laten zien dat REST-assured veel Glue code overbodig maakt. Dat een developer beschikt over een krachtige, natuurlijke DSL waarmee snel functionele testen geautomatiseerd kunnen worden. Dit in combinatie met WireMock zorgt voor een krachtige combinatie voor het goed door testen van een rest service.
 

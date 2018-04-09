@@ -1,20 +1,20 @@
 ---
-title:  "First steps Kafka"
-date:   2017-07-19 21:48:13 +0100
-categories: reactive
-author: etmuller
+layout: post
+authors: [eelco_muller]
+title: 'First steps Kafka' 
+image: /img/blogs/kafka.png
+tags: [Architecture, Reactive, Kafka, Spring]
+category: Architecture
+comments: true
 ---
-
 Mede ingegeven door de ontwikkelingen bij verschillende banken heb ik de laatste dagen naar apache kafka gekeken. Kafka is bijzonder geschikt om events af te handelen en werkt met een publish-subscribe mechanisme. Verder kunnen streams efficient worden geprocessed en wordt alle data veilig opgeslagen in een gerepliceerd cluster.
 
-# Architecture
-
+## Architecture
 Een architectuur kan er als volgt uit zien:
 
-![Architectuur](/assets/images/blog/kafka.png)
+![Architectuur](/img/blogs/2017/first-steps-kafka/kafka.png)
 
-# Gebruik
-
+## Gebruik
 Het installeert gemakkelijk, tenminste op de macbook. En vervolgens is de eerste activiteit een topic maken wat kan met het volgende commando.
 kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
 
@@ -33,27 +33,21 @@ Bij gebruik van de java api is er een extra maven dependency nodig:
 Berichten kunnen gepubliceerd worden op de volgende manier:
 
 ```java
-		KafkaProducer<String, String> producer= new KafkaProducer<String, String>(props)
-
- 		producer.send(new ProducerRecord<String, String>("topic-name", message, message));
- 
- 		producer.close();
+KafkaProducer<String, String> producer= new KafkaProducer<String, String>(props)
+producer.send(new ProducerRecord<String, String>("topic-name", message, message));
+producer.close();
 ```
  
 Nu staat er een bericht op het topic en de subscribers kunnen dit nu van de het topic verkrijgen.
 
 
 ```java
- kafkaConsumer.subscribe(topics );
+kafkaConsumer.subscribe(topics);
  
- 	while (true) {
- 	
-            	
-     ConsumerRecords<String, String> records = kafkaConsumer.poll(1000);
-                
-                for (ConsumerRecord<String, String> record : records)
-                   
-  }
+while (true) {	 
+	ConsumerRecords<String, String> records = kafkaConsumer.poll(1000);
+	for (ConsumerRecord<String, String> record : records)
+}
 ```
 
 

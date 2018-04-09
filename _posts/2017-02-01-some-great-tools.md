@@ -1,10 +1,12 @@
 ---
-title:  "SGT's: Some Great Tools"
-date:   2017-02-01 21:48:13 +0100
-categories: tools
-author: naipath
+layout: post
+authors: [naipath]
+title: 'SGTs: Some Great Tools'
+image: /img/blogs/default-blog.png
+tags: [Tools]
+category: Tools
+comments: true
 ---
-
 Here are some tools I have grown to love. Give em a spin!
 
 - [CCMenu](http://ccmenu.org/)

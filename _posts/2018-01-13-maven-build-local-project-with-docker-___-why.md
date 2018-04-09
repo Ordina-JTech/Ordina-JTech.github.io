@@ -1,24 +1,15 @@
 ---
-title:  "Maven Build Local Project With Docker ... Why?"
-date:   2018-01-13 13:43
-categories:
-- Programming
-tags:
-- java
-- docker
-- maven
-- build
-- centos
-- linux
-- mac
-- build
-- jdk
-- native bindings
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Maven Build Local Project With Docker ... Why?'
+image: /img/blogs/default-blog.png
+tags: [Java, Docker, Maven, Build, Centos, Linux, Mac, Build, Jdk, Native bindings]
+category: Programming
+comments: true
 ---
 
 
-<img src="/assets/images/blog/docker_maven.png" style="width:50%;height:50%;display: block;margin: 0 auto;"/>
+![Docker Maven](/img/blogs/2018/maven-build-local-project-with-docker-___-why/docker_maven.png)
 
 # Whaaat?
 
@@ -140,7 +131,7 @@ under the License.
 
   <localRepository>/repository</localRepository>
   
-  <!-- I removed all the commends to save space in this blog-->
+  <!-- I removed all the comments to save space in this blog-->
   
   <pluginGroups>
   </pluginGroups>

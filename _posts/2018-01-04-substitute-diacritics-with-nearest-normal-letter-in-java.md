@@ -1,15 +1,11 @@
 ---
-title:  "Substitute Diacritics With Nearest Normal Letter In Java"
-date:   2018-01-04 09:15
-categories:
-- Programming
-tags:
-- java
-- text
-- diacritics
-- special characters
-- accents
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Substitute Diacritics With Nearest Normal Letter In Java'
+image: /img/blogs/default-blog.png
+tags: [Java, Text, Diacritics, special characters, accents]
+category: Programming
+comments: true
 ---
 
 

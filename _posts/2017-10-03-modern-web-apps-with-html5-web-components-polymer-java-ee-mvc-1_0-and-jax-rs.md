@@ -1,12 +1,11 @@
 ---
-title:  "Modern Web Apps with HTML5 Web Components, Polymer, Java EE MVC 1.0, and JAX-RS"
-date:   2017-10-03 11:03
-categories:
-- JavaOne2017
-tags:
-- OOW17
-- java
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Modern Web Apps with HTML5 Web Components, Polymer, Java EE MVC 1.0, and JAX-RS'
+image: /img/blogs/default-blog.png
+tags: [OOW17, Java]
+category: JavaOne2017
+comments: true
 ---
 
 
@@ -31,15 +30,15 @@ This session covers the following topics:* Overview of MVC 1.0* Overview of HTML
 
 ## MVC
 
-<img src="/assets/images/blog/CON2716__modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs.jpg" style="width:50%;height:50%;"/>
+![modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs](/img/blogs/2017/modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs/CON2716__modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs.jpg)
 
 * Oracle dropped MVC from Java EE
 
-<img src="/assets/images/blog/CON2716__modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs_1.jpg" style="width:50%;height:50%;"/>
+![modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs](/img/blogs/2017/modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs/CON2716__modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs_1.jpg)
 
-<img src="/assets/images/blog/CON2716__modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs_2.jpg" style="width:50%;height:50%;"/>
+![modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs](/img/blogs/2017/modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs/CON2716__modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs_2.jpg)
 
-<img src="/assets/images/blog/CON2716__modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs_3.jpg" style="width:50%;height:50%;"/>
+![modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs](/img/blogs/2017/modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs/CON2716__modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs_3.jpg)
 
 * Built on top of JAX-RS
 * Controllers must use CDI
@@ -47,7 +46,7 @@ This session covers the following topics:* Overview of MVC 1.0* Overview of HTML
 * globally
 * Bring your own Templating Engine
 
-<img src="/assets/images/blog/CON2716__modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs_4.jpg" style="width:50%;height:50%;"/>
+![modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs](/img/blogs/2017/modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs/CON2716__modern-web-apps-with-html5-web-components-polymer-java-ee-mvc-1_0-and-jax-rs_4.jpg)
 
 * Build in support for CSRF
 

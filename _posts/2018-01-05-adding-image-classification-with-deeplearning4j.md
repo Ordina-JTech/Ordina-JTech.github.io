@@ -1,9 +1,11 @@
 ---
-title: "Adding Image classification with Deeplearning4J to your (Spring Boot) application"
-date: 2018-01-05 13:25:00 +0100
-categories: programming deeplearning
-author: remcorunge
-
+layout: post
+authors: [remco_runge]
+title: 'Adding Image classification with Deeplearning4J to your (Spring Boot) application'
+image: /img/blogs/default-blog.png
+tags: [Java, Deeplearning]
+category: Programming
+comments: true
 ---
 
 
@@ -19,7 +21,7 @@ In the image below you can see the result. Personally I did not know that the do
 But first I will try to give you some background information.
 
 
-![ANN](/assets/images/blog/DL-web-app.png)
+![ANN](/img/blogs/2018/adding-image-classification-with-deeplearning4j/DL-web-app.png)
 
 ### A bit of history
 Our brain is a very powerful machine which is able to perform a lot off tasks very efficiently while computers struggle at these tasks. Example of these tasks are recognising objects in the world around us, understanding speech and speaking itself. The field of Artificial Intelligence aims to brig this gap and bring the efficiency, learning capabilities and performance of humans to computers. 
@@ -34,12 +36,12 @@ In the last couple of years the usability of ANN has got a great boost thanks to
 
 While it is beyond the scope of this post to completely delve into the workings of deep learning, I will try to give a small theoretical introduction. As explained in the previous section, the workings of a ANN are loosely based on the neural networks in our head. Just like our brain acts on input from our senses, an ANN will also act on bases of a certain input.  An ANN is composed of nodes. Within these nodes, the computation takes place. These nodes loosely resemble the neurons in our brains. Just like neurons, the nodes will also fire based when stimuli exceed a certain threshold.
 
-![ANN](/assets/images/blog/DL-ANN1.png)
+![ANN](/img/blogs/2018/adding-image-classification-with-deeplearning4j/DL-ANN1.png)
 
 
 The first layer of a ANN consist of the input nodes. These nodes are activated by the input of the network. The output of these nodes are fed to the next layer called the ‘hidden layers’. The output of the last hidden layer is then used as input for the final layer of the network, called the ‘output’ layer. 
 
-![ANN2](/assets/images/blog/DL-ANN2.png)
+![ANN2](/img/blogs/2018/adding-image-classification-with-deeplearning4j/DL-ANN2.png)
 
 
 For each node, al the inputs are combined based on a weights for each connection. An activation function (σ(x)) then determines the output of that neuron. By adjusting the weights of the connections the network is able to learn. The learning process of the network is called the training phase. During this phase, the network is presented with a dataset filled with trainingsdata. This trainingsdata consist of the input, as well as the desired output. 
@@ -50,7 +52,7 @@ After the trainings phase, the weights are fixed and a new set of data is presen
 
 Deep learning is the process in which multiple large ANN’s (large = lots of hidden layers) are combined. Each of these networks specialise in certain features.  For example, in the first most basic layer, the networks might specialise in recognising vertical lines. In the second layer the ANN’s uses the output of the first layer to recognise, for example noses and eye, while the third layer again combines the output from the second layer to recognise faces. As you can see in the image below.
 
-![Deep Learning](/assets/images/blog/DL-ANN3.png)
+![Deep Learning](/img/blogs/2018/adding-image-classification-with-deeplearning4j/DL-ANN3.png)
 
 [Source](https://deeplearning4j.org/neuralnet-overview)
 

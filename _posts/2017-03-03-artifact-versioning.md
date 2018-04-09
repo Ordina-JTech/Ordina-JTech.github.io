@@ -1,8 +1,11 @@
 ---
-title: "Artifact Versioning"
-date: 2017-03-03 13:25:00 +0100
-categories: ci cd
-author: bertkoor
+layout: post
+authors: [bert_koorengevel]
+title: 'Artifact Versioning' 
+image: /img/blogs/ci-cd.png
+tags: [Terminal, CI, CD]
+category: Terminal
+comments: true
 ---
 
 A common problem in CI/CD (Continuous Integration / Continuous Delivery) build pipelines using Maven is to keep the artifact version unique. 

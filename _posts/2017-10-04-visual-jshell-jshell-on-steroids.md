@@ -1,12 +1,11 @@
 ---
-title:  "Visual JShell: JShell on Steroids"
-date:   2017-10-04 12:43
-categories:
-- JavaOne2017
-tags:
-- OOW17
-- java
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Visual JShell: JShell on Steroids'
+image: /img/blogs/default-blog.png
+tags: [OOW17, Java]
+category: JavaOne2017
+comments: true
 ---
 
 
@@ -29,11 +28,11 @@ JShell adds interactivity to the Java language and opens the door to a vast numb
 
 # My Notes
 
-<img src="/assets/images/blog/CON6166__visual-jshell-jshell-on-steroids.jpg" style="width:50%;height:50%;"/>
+![visual-jshell-jshell-on-steroids](/img/blogs/2017/visual-jshell-jshell-on-steroids/CON6166__visual-jshell-jshell-on-steroids.jpg)
 
 He tells about why it is important to have a REPL. And then does some stuff like Mark Reinhold dit during the keynote 
 
-<img src="/assets/images/blog/CON6166__visual-jshell-jshell-on-steroids_1.jpg" style="width:50%;height:50%;"/>
+![visual-jshell-jshell-on-steroids](/img/blogs/2017/visual-jshell-jshell-on-steroids/CON6166__visual-jshell-jshell-on-steroids_1.jpg)
 
 * github by bitterfox JavaFXforthejshell
 

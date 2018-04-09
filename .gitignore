@@ -1,9 +1,8 @@
+**/*.iml
 _site
 .sass-cache
-.jekyll-metadata
+.idea
+*.DS_Store
 Gemfile.lock
-
-/.idea/
-
-.DS_STORE
-.tmp
+.jekyll-metadata
+.bundle/

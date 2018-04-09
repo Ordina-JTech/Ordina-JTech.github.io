@@ -1,19 +1,15 @@
 ---
-title:  "Create your own mobile monitor - Part 1"
-date:   2018-01-28 18:56:54
-categories:
-- DIY
-- IoT
-tags:
-- iot
-- diy
-- driver board
-- monitor
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Create your own mobile monitor - Part 1'
+image: /img/blogs/default-blog.png
+tags: [Diy, IoT, Driver board, Monitor]
+category: DIY
+comments: true
 ---
 
 
-<img src="/assets/images/blog/2018/create-your-own-mobile-monitor---Part-1/old_monitor.jpg" style="width: 50%;height: 50%;display: block;margin: 0 auto;"/>
+![old_monitor](/img/blogs/2018/create-your-own-mobile-monitor---Part-1/old_monitor.jpg)
 
 This will be a multi-part blog about a hobby project I embarked upon.
 
@@ -79,11 +75,11 @@ Here the journey really started because it was not as straight forward as Intern
 inverter cable. I had two but was scared to connect them. After almost an hour of not having a backlight (I did see something on the screen but very dark) I 
 made an educated guess and tried both cables on my screen in the driver board. It made all the difference, but it could also have been the end of this project.
 
-<img src="/assets/images/blog/2018/create-your-own-mobile-monitor---Part-1/create-your-own-mobile-monitor---Part-1_03.JPG" style="width: 50%;height: 50%;display: block;margin: 0 auto;"/>
+![create-your-own-mobile-monitor---Part-1_03](/img/blogs/2018/create-your-own-mobile-monitor---Part-1/create-your-own-mobile-monitor---Part-1_03.jpg)
 
 Now I have a working screen, which is the most important part of the project 😄, but all the other parts were still in transit. The waiting game has started...
 
-<img src="/assets/images/blog/2018/create-your-own-mobile-monitor---Part-1/create-your-own-mobile-monitor---Part-1_06.JPG" style="width: 50%;height: 50%;display: block;margin: 0 auto;"/>
+![create-your-own-mobile-monitor---Part-1_06](/img/blogs/2018/create-your-own-mobile-monitor---Part-1/create-your-own-mobile-monitor---Part-1_06.jpg)
 
 There are cheaper driver boards available for this model screen, but as I wanted audio out and all the connectors I went for the one mentioned.
 Be careful to make sure the driver board is for your monitor!
@@ -94,12 +90,12 @@ A step up converter or also called a [boost converter](https://en.wikipedia.org/
 This is needed for the mobile power supply. I have 18650 batteries at my disposal and they provide 4.2 Volt fully charged and 3.7 Volt nominally. These
 batteries have been revived from old laptop batteries.
 
-<img src="/assets/images/blog/2018/create-your-own-mobile-monitor---Part-1/create-your-own-mobile-monitor---Part-1_1.jpg" style="width:50%;height:50%;display: block;margin: 0 auto;"/>
+![create-your-own-mobile-monitor---Part-1_1](/img/blogs/2018/create-your-own-mobile-monitor---Part-1/create-your-own-mobile-monitor---Part-1_1.jpg)
 
 This driver board requires DC 12V 3.3A input power for LCD size under 17inch. I'm a bit concerned about the 3.3A because that is quite a lot for batteries.
 I hope the boost converter will take care if this.
 
-<img src="/assets/images/blog/2018/create-your-own-mobile-monitor---Part-1/create-your-own-mobile-monitor---Part-1_2.jpg" style="width:50%;height:50%;display: block;margin: 0 auto;"/>
+![create-your-own-mobile-monitor---Part-1_2](/img/blogs/2018/create-your-own-mobile-monitor---Part-1/create-your-own-mobile-monitor---Part-1_2.jpg)
 
 I bought [XL6009](https://www.aliexpress.com/item/1pcs-DC-DC-Adjustable-Step-up-boost-Power-Converter-Module-XL6009-Replace-LM2577/32355892507.html) for € 3,39 for 5 pieces.
 
@@ -124,9 +120,9 @@ Luckily I have the time to do the research as I have not received all the compon
 * I have bought some 6 mm and 3 mm MDF wood board at my local DIY store. I want to have a sturdy screen. (about € 6,=)
 * I bought vinyl wrap [here](https://www.bol.com/nl/p/3d-carbon-car-wrap-folie-vinyl-auto-car-wrapping-carbonfolie-300-x-30-cm-zwart/9200000064224366/) which looks like carbon. It was actually quite expensive and I hope to be able to use it for more than 1 project, otherwise I'm building an expensive screen 😂. (€ 24,95)
 * I bought some [spacer screws](https://www.aliexpress.com/item/MTGATHER-160Pcs-M3-Nylon-Black-M-F-Hex-Spacers-Screw-Nut-Assortment-Kit-Stand-off-Set/32802369082.html) to get the board attached to the MDF board and give it a bit of breathing room and for the back plate. (€ € 2,94)
-<img src="/assets/images/blog/2018/create-your-own-mobile-monitor---Part-1/create-your-own-mobile-monitor---Part-1.jpg" style="width: 50%;height: 50%;display: block;margin: 0 auto;"/>
+![create-your-own-mobile-monitor---Part-1](/img/blogs/2018/create-your-own-mobile-monitor---Part-1/create-your-own-mobile-monitor---Part-1.jpg)
 * The TP4065 charger board for 18650 batteries I already had from other projects (about a $1,50 a piece)
-<img src="/assets/images/blog/2018/create-your-own-mobile-monitor---Part-1/tp4065.jpg" style="width: 50%;height: 50%;display: block;margin: 0 auto;"/>
+![tp4065](/img/blogs/2018/create-your-own-mobile-monitor---Part-1/tp4065.jpg)
 * The speakers come from [here](https://www.aliexpress.com/item/2pcs-for-V29-V59-V56-3070-4-Ohm-5W-Passive-Speaker-Small-Loudspeaker-Universal-LCD-Driver/32830708912.html) but have not yet arrived. (€ 3,09)
 * Stuff like solder and epoxy I have available
 

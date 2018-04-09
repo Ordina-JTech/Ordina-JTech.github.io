@@ -1,21 +1,15 @@
 ---
-title:  "Browser In Browser"
-date:   2018-02-07 20:38:30
-categories:
-- Docker
-tags:
-- web
-- browser
-- privacy
-- internet
-- docker
-- apache guacamole
-- justbecauseican
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Browser In Browser'
+image: /img/blogs/default-blog.png
+tags: [Web, Browser, Privacy, Internet, Docker, Apache guacamole, Justbecauseican]
+category: Docker
+comments: true
 ---
 
 
-<img src="/assets/images/blog/2018/browser-in-browser/browser-in-browser_1.jpg" style="width: 50%;height: 50%;display: block;margin: 0 auto;"/>
+![browser-in-browser_1](/img/blogs/2018/browser-in-browser/browser-in-browser_1.jpg)
 
 This project gives you a browser in a browser.
 

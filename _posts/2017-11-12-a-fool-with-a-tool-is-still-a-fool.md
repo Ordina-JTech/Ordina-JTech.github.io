@@ -1,8 +1,11 @@
 ---
-title: "A fool with a tool is still a fool"
-date: 2017-11-12 20:48:54 +0100
-categories: programming agile tools
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'A fool with a tool is still a fool'
+image: /img/blogs/tools.jpg
+tags: [Programming, Agile, Tools]
+category: Programming
+comments: true
 ---
 
 > A fool with a tool is still a fool

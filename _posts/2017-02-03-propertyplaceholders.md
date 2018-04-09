@@ -1,10 +1,12 @@
 ---
-title:  "Spring property placeholders and default values"
-date:   2017-02-03 14:02:13 +0100
-categories: spring
-author: michel_schudel
+layout: post
+authors: [michel_schudel]
+title: 'Spring property placeholders and default values'
+image: /img/blogs/default-blog.png
+tags: [Spring, Programming, Java]
+category: Programming
+comments: true
 ---
-
 I’ve seen quite a lot of Spring projects over the years that use multiple `PropertyPlaceholderConfigurer` instances in the same bean factory.
 Consider a project where maven module A depends on maven module B in the same maven project. The idea is that module A is self-sustaining and loads its own property files, and module B does as well. This philosophy is good, but can lead to a horrible mess when used in combination with default values.
 

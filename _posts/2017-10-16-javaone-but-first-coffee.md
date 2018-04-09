@@ -1,8 +1,11 @@
 ---
-title: "JavaOne - but first... Coffee !!"
-date: 2017-10-16 13:25:00 +0100
-categories: codesmiths conferences javaone coffee
-author: bertkoor
+layout: post
+authors: [bert_koorengevel]
+title: 'JavaOne - but first... Coffee !!'
+image: /img/blogs/default-blog.png
+tags: [codesmiths, conferences, javaone, coffee]
+category: JavaOne2017
+comments: true
 ---
 
 The first days of October 2017 the JTech CodeSmiths have visited the JavaOne conference, part of the gigantic Oracle Open World conference, held in San Francisco.
@@ -17,7 +20,7 @@ It was on the second day, a talk had finished at 12:30 and the next would start 
 So in that 15 minute break I figured I could get a cup of coffee outside on the Moscone Square.
 
 
-![Moscone Square](/assets/images/blog/MosconeSquare.jpg)
+![Moscone Square](/img/blogs/2017/javaone-but-first-coffee/MosconeSquare.jpg)
 
 The people responsible for the coffee stand were very busy rearranging their stuff. 
 I asked weather I could have some coffee, but one of them told me that was impossible. 
@@ -50,6 +53,6 @@ But it had taken fourty minutes to get it. Some bad luck. I was late for the nex
 
 So the next conference I'll visit, I will be wearing this neat TShirt
 
-![Coffee TShirt](/assets/images/blog/JanHeinFirstCoffeeUSA.png)
+![Coffee TShirt](/img/blogs/2017/javaone-but-first-coffee/JanHeinFirstCoffeeUSA.png)
 
 Oh, by the way, you can [have one too](/orderTshirt/) !

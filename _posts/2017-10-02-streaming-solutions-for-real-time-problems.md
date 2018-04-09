@@ -1,12 +1,11 @@
 ---
-title:  "Streaming Solutions for Real-Time Problems"
-date:   2017-10-02 12:00
-categories:
-- JavaOne2017
-tags:
-- OOW17
-- java
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Streaming Solutions for Real-Time Problems'
+image: /img/blogs/default-blog.png
+tags: [OOW17, Java]
+category: JavaOne2017
+comments: true
 ---
 
 
@@ -18,7 +17,7 @@ The world is going "real-time" and constantly producing what's popularly known a
 
 |Name|Title|Company|
 |:---|:---|:---|
-|Abhishek Gupta|Oracle||
+|Abhishek Gupta| |Oracle|
 
 
 ## Session Info
@@ -29,7 +28,7 @@ The world is going "real-time" and constantly producing what's popularly known a
 
 # My Notes
 
-<img src="/assets/images/blog/CON6059__streaming-solutions-for-real-time-problems.jpg" style="width:50%;height:50%;"/>
+![streaming-solutions-for-real-time-problems](/img/blogs/2017/streaming-solutions-for-real-time-problems/CON6059__streaming-solutions-for-real-time-problems.jpg)
 
 * goal
 	* Using a practical example to demonstrate streaming

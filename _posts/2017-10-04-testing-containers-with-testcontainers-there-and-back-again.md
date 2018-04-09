@@ -1,12 +1,11 @@
 ---
-title:  "Testing Containers with TestContainers: There and Back Again"
-date:   2017-10-04 11:39
-categories:
-- JavaOne2017
-tags:
-- OOW17
-- java
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Testing Containers with TestContainers: There and Back Again'
+image: /img/blogs/default-blog.png
+tags: [OOW17, Java]
+category: JavaOne2017
+comments: true
 ---
 
 
@@ -29,54 +28,54 @@ You never know how your application will perform once deployed to production. Su
 
 # My Notes
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again.jpg)
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_1.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_1.jpg)
 The braindump of the talk
 
 ## How
 
 * one thing should do in thing
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_2.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_2.jpg)
 
 ## maven
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_3.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_3.jpg)
 
 Or the Spotify maven plugin
 
 ## why not mutiple things in one container
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_4.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_4.jpg)
 
 ## Production 
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_5.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_5.jpg)
 
 ## Monitoring
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_6.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_6.jpg)
 
 ## testing
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_7.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_7.jpg)
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_8.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_8.jpg)
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_9.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_9.jpg)
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_10.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_10.jpg)
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_14.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_14.jpg)
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_15.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_15.jpg)
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_16.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_16.jpg)
 
 * confluenceinc on dockerhub
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_17.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_17.jpg)
 
 
 
@@ -86,21 +85,21 @@ Or the Spotify maven plugin
 
 * he demos it. Here some code snippets...
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_11.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_11.jpg)
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_12.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_12.jpg)
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_13.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_13.jpg)
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_18.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_18.jpg)
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_19.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_19.jpg)
 
 ## what to expect
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_20.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_20.jpg)
 
-<img src="/assets/images/blog/CON3034__testing-containers-with-testcontainers-there-and-back-again_21.jpg" style="width:50%;height:50%;"/>
+![testing-containers-with-testcontainers-there-and-back-again](/img/blogs/2017/testing-containers-with-testcontainers-there-and-back-again/CON3034__testing-containers-with-testcontainers-there-and-back-again_21.jpg)
 
 
 ## Conclusion 

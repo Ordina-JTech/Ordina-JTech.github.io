@@ -1,12 +1,11 @@
 ---
-title:  "The Java EE-stic (=No Dependencies) Way to Develop HTML5 Applications"
-date:   2017-10-04 09:24
-categories:
-- JavaOne2017
-tags:
-- OOW17
-- java
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'The Java EE-stic (=No Dependencies) Way to Develop HTML5 Applications'
+image: /img/blogs/default-blog.png
+tags: [OOW17, Java]
+category: JavaOne2017
+comments: true
 ---
 
 
@@ -31,28 +30,28 @@ Java EE (6/7/8) applications are lean and self-contained--no external dependenci
 
 Immediately into live coding. Loving it!
 
-<img src="/assets/images/blog/CON5567__the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications.jpg" style="width:50%;height:50%;"/>
+![the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications](/img/blogs/2017/the-java-ee-stic-no-dependencies-way-to-develop-html5-applications/CON5567__the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications.jpg)
 
 > The longer java developers wait the more JavaScript looks like Java
 
-<img src="/assets/images/blog/CON5567__the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications_2.jpg" style="width:50%;height:50%;"/>
+![the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications](/img/blogs/2017/the-java-ee-stic-no-dependencies-way-to-develop-html5-applications/CON5567__the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications_2.jpg)
 
-<img src="/assets/images/blog/CON5567__the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications_3.jpg" style="width:50%;height:50%;"/>
+![the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications](/img/blogs/2017/the-java-ee-stic-no-dependencies-way-to-develop-html5-applications/CON5567__the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications_3.jpg)
 
 `console.dir(this.div)`will print to consile the div with all its functions. 
 
-<img src="/assets/images/blog/CON5567__the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications_4.jpg" style="width:50%;height:50%;"/>
+![the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications](/img/blogs/2017/the-java-ee-stic-no-dependencies-way-to-develop-html5-applications/CON5567__the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications_4.jpg)
 
  *  layout
 
-<img src="/assets/images/blog/CON5567__the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications_5.jpg" style="width:50%;height:50%;"/>
+![the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications](/img/blogs/2017/the-java-ee-stic-no-dependencies-way-to-develop-html5-applications/CON5567__the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications_5.jpg)
 
 * service workers
 
 What should you do is learn the specks. 
 E.g. Use nav element because of screen readers
 
-<img src="/assets/images/blog/CON5567__the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications_6.jpg" style="width:50%;height:50%;"/>
+![the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications](/img/blogs/2017/the-java-ee-stic-no-dependencies-way-to-develop-html5-applications/CON5567__the-java-ee-stic-(=no-dependencies)-way-to-develop-html5-applications_6.jpg)
 
 # Conclusion 
 

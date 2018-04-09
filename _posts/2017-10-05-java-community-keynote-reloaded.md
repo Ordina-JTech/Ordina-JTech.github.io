@@ -1,12 +1,11 @@
 ---
-title:  "Java Community Keynote Reloaded"
-date:   2017-10-05 08:57
-categories:
-- JavaOne2017
-tags:
-- OOW17
-- java
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Java Community Keynote Reloaded'
+image: /img/blogs/default-blog.png
+tags: [OOW17, Java]
+category: JavaOne2017
+comments: true
 ---
 
 
@@ -35,7 +34,7 @@ You wake up in the morning and go to work, grab a cup of Java, and sit down at y
 # My Notes
 
 ## NLJUG is present Yeahhhhh!
-<img src="/assets/images/blog/KEY7694__java-community-keynote-reloaded.jpg" style="width:50%;height:50%;"/>
+![java-community-keynote-reloaded](/img/blogs/2017/java-community-keynote-reloaded/KEY7694__java-community-keynote-reloaded.jpg)
 
 Very nice 👍 to be with our Dutch friends!
 The keynote has started great!
@@ -50,41 +49,41 @@ Open sourced:
 
 Demo:
 
-<img src="/assets/images/blog/KEY7694__java-community-keynote-reloaded_1.jpg" style="width:50%;height:50%;"/>
+![java-community-keynote-reloaded](/img/blogs/2017/java-community-keynote-reloaded/KEY7694__java-community-keynote-reloaded_1.jpg)
 
 Buzzword compatible demo
 
-<img src="/assets/images/blog/KEY7694__java-community-keynote-reloaded_2.jpg" style="width:50%;height:50%;"/>
+![java-community-keynote-reloaded](/img/blogs/2017/java-community-keynote-reloaded/KEY7694__java-community-keynote-reloaded_2.jpg)
 
-<img src="/assets/images/blog/KEY7694__java-community-keynote-reloaded_3.jpg" style="width:50%;height:50%;"/>
+![java-community-keynote-reloaded](/img/blogs/2017/java-community-keynote-reloaded/KEY7694__java-community-keynote-reloaded_3.jpg)
 
 * 2X smaller memory footprint
 * 2X faster
 
-<img src="/assets/images/blog/KEY7694__java-community-keynote-reloaded_4.jpg" style="width:50%;height:50%;"/>
+![java-community-keynote-reloaded](/img/blogs/2017/java-community-keynote-reloaded/KEY7694__java-community-keynote-reloaded_4.jpg)
 
 * its free stuff!
 
-<img src="/assets/images/blog/KEY7694__java-community-keynote-reloaded_5.jpg" style="width:50%;height:50%;"/>
+![java-community-keynote-reloaded](/img/blogs/2017/java-community-keynote-reloaded/KEY7694__java-community-keynote-reloaded_5.jpg)
 
 Getting started with Open Liberty:
 
-<img src="/assets/images/blog/KEY7694__java-community-keynote-reloaded_6.jpg" style="width:50%;height:50%;"/>
+![java-community-keynote-reloaded](/img/blogs/2017/java-community-keynote-reloaded/KEY7694__java-community-keynote-reloaded_6.jpg)
 
-<img src="/assets/images/blog/KEY7694__java-community-keynote-reloaded_7.jpg" style="width:50%;height:50%;"/>
+![java-community-keynote-reloaded](/img/blogs/2017/java-community-keynote-reloaded/KEY7694__java-community-keynote-reloaded_7.jpg)
 
 There are lots off open source ibm projects out there 
 
 
 ## developer community 
 
-<img src="/assets/images/blog/KEY7694__java-community-keynote-reloaded_8.jpg" style="width:50%;height:50%;"/>
+![java-community-keynote-reloaded](/img/blogs/2017/java-community-keynote-reloaded/KEY7694__java-community-keynote-reloaded_8.jpg)
 
 Fun for all :-)
 
-<img src="/assets/images/blog/KEY7694__java-community-keynote-reloaded_9.jpg" style="width:50%;height:50%;"/>
+![java-community-keynote-reloaded](/img/blogs/2017/java-community-keynote-reloaded/KEY7694__java-community-keynote-reloaded_9.jpg)
 
-<img src="/assets/images/blog/KEY7694__java-community-keynote-reloaded_10.jpg" style="width:50%;height:50%;"/>
+![java-community-keynote-reloaded](/img/blogs/2017/java-community-keynote-reloaded/KEY7694__java-community-keynote-reloaded_10.jpg)
 
 * Take the blue pill or the red EE4J one :-)
 * we are vulnerable to secret injection attacks
@@ -93,13 +92,13 @@ Fun for all :-)
 * can you teach me karata to fight the jvm agents?
 	* we will learn you ‘kata’ wich means types. We like type safety
 
-<img src="/assets/images/blog/KEY7694__java-community-keynote-reloaded_11.jpg" style="width:50%;height:50%;"/>
+![java-community-keynote-reloaded](/img/blogs/2017/java-community-keynote-reloaded/KEY7694__java-community-keynote-reloaded_11.jpg)
 
 Very fun Matrix enactment 👍👊
 
-<img src="/assets/images/blog/KEY7694__java-community-keynote-reloaded_12.jpg" style="width:50%;height:50%;"/>
+![java-community-keynote-reloaded](/img/blogs/2017/java-community-keynote-reloaded/KEY7694__java-community-keynote-reloaded_12.jpg)
 
-<img src="/assets/images/blog/KEY7694__java-community-keynote-reloaded_13.jpg" style="width:50%;height:50%;"/>
+![java-community-keynote-reloaded](/img/blogs/2017/java-community-keynote-reloaded/KEY7694__java-community-keynote-reloaded_13.jpg)
 
 
 

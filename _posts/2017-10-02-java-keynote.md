@@ -1,12 +1,11 @@
 ---
-title:  "Java Keynote"
-date:   2017-10-02 15:02
-categories:
-- JavaOne2017
-tags:
-- OOW17
-- java
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Java Keynote'
+image: /img/blogs/default-blog.png
+tags: [OOW17, Java]
+category: JavaOne2017
+comments: true
 ---
 
 
@@ -33,7 +32,7 @@ Java KeynoteJava continues to innovate the application world around us. Through 
 
 # My Notes
 
-<img src="/assets/images/blog/KEY7692__java-keynote.jpg" style="width:50%;height:50%;"/>
+![java-keynote](/img/blogs/2017/java-keynote/KEY7692__java-keynote.jpg)
 
 Keynote has started. Yeah. 
 
@@ -43,23 +42,23 @@ Some jugs got to speaking.
 
 * the VP of Optimization Adam Green about data. Data by 2020 by Intel
 
-<img src="/assets/images/blog/KEY7692__java-keynote_1.jpg" style="width:50%;height:50%;"/>
+![java-keynote](/img/blogs/2017/java-keynote/KEY7692__java-keynote_1.jpg)
 
 Alibaba JDK
-<img src="/assets/images/blog/KEY7692__java-keynote_2.jpg" style="width:50%;height:50%;"/>
+![java-keynote](/img/blogs/2017/java-keynote/KEY7692__java-keynote_2.jpg)
 
 * running a milion jvms
 
-<img src="/assets/images/blog/KEY7692__java-keynote_3.jpg" style="width:50%;height:50%;"/>
+![java-keynote](/img/blogs/2017/java-keynote/KEY7692__java-keynote_3.jpg)
 
 * BigDL on github
 * the power vectorization
 * 
-* <img src="/assets/images/blog/KEY7692__java-keynote_4.jpg" style="width:50%;height:50%;"/>
+* ![java-keynote](/img/blogs/2017/java-keynote/KEY7692__java-keynote_4.jpg)
 
 ## Eclipse foundation
 
-<img src="/assets/images/blog/KEY7692__java-keynote_5.jpg" style="width:50%;height:50%;"/>
+![java-keynote](/img/blogs/2017/java-keynote/KEY7692__java-keynote_5.jpg)
 
 * redhat moved MicroProfile to eclipse. 
 * Java EE is also being moved to eclipse. 
@@ -68,23 +67,23 @@ It will be a community effort from now on.
 
 ## Java SE
 
-<img src="/assets/images/blog/KEY7692__java-keynote_6.jpg" style="width:50%;height:50%;"/>
+![java-keynote](/img/blogs/2017/java-keynote/KEY7692__java-keynote_6.jpg)
 
 Popularity scale: 
-<img src="/assets/images/blog/KEY7692__java-keynote_7.jpg" style="width:75%;height:75%;"/>
+![java-keynote](/img/blogs/2017/java-keynote/KEY7692__java-keynote_7.jpg)
 Java right on top...
 
 ## Spotify
 
-<img src="/assets/images/blog/KEY7692__java-keynote_8.jpg" style="width:50%;height:50%;"/>
+![java-keynote](/img/blogs/2017/java-keynote/KEY7692__java-keynote_8.jpg)
 
-<img src="/assets/images/blog/KEY7692__java-keynote_9.jpg" style="width:50%;height:50%;"/>
+![java-keynote](/img/blogs/2017/java-keynote/KEY7692__java-keynote_9.jpg)
 
-<img src="/assets/images/blog/KEY7692__java-keynote_10.jpg" style="width:50%;height:50%;"/>
+![java-keynote](/img/blogs/2017/java-keynote/KEY7692__java-keynote_10.jpg)
 
 ## Kubernetes
 
-<img src="/assets/images/blog/KEY7692__java-keynote_11.jpg" style="width:50%;height:50%;"/>
+![java-keynote](/img/blogs/2017/java-keynote/KEY7692__java-keynote_11.jpg)
 
 A kinda ‘standard’ for managing containers. 
 
@@ -94,7 +93,7 @@ Nice demo but no pictures 😐
 
 ## The Fn project
 
-<img src="/assets/images/blog/KEY7692__java-keynote_12.jpg" style="width:50%;height:50%;"/>
+![java-keynote](/img/blogs/2017/java-keynote/KEY7692__java-keynote_12.jpg)
 
 Just [open sourced on github](https://github.com/fnproject)
 
@@ -106,11 +105,11 @@ Not going  to  rehash it because internet knows...
 
 Well ok one then...
 
-<img src="/assets/images/blog/KEY7692__java-keynote_13.jpg" style="width:50%;height:50%;"/>
+![java-keynote](/img/blogs/2017/java-keynote/KEY7692__java-keynote_13.jpg)
 
 Ok two 😂 
 
-<img src="/assets/images/blog/KEY7692__java-keynote_14.jpg" style="width:50%;height:50%;"/>
+![java-keynote](/img/blogs/2017/java-keynote/KEY7692__java-keynote_14.jpg)
 
 * Collection factories
 * jshell
@@ -122,7 +121,7 @@ Ok two 😂
 *  Brian Goetz. About new java features. Project Amber
 
 Enhanced switch:
-<img src="/assets/images/blog/KEY7692__java-keynote_15.jpg" style="width:50%;height:50%;"/>
+![java-keynote](/img/blogs/2017/java-keynote/KEY7692__java-keynote_15.jpg)
 
 
 

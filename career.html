@@ -1,0 +1,230 @@
+---
+layout: default
+title: Jouw Ordina JTech carrière
+subtitle: Alle ruimte voor jouw ideeën. Jouw ontwikkeling. Jouw persoonlijkheid. Jouw vakmanschap. Jouw wensen.
+permalink: /launch-your-career/
+image: /img/career/career-launch.png
+---
+
+<section id="one" class="wrapper spotlight style2">
+    <div class="inner">
+        <div class="content">
+            <h2 class="major">Daarom Ordina JTech</h2>
+
+            <p>
+                Java Developers draaien een innovatief idee binnen no-time om in werkende functionaliteit. Met de
+                nieuwste frameworks, op basis van het continuous delivery gedachtegoed. Hiervoor moet je kennis altijd
+                up-to-date zijn. Daarom bieden we je alle ruimte om veel en vlug te leren, samen en individueel via de
+                Ordina Academy en internationale seminars zoals JavaOne of Devoxx.
+            </p>
+            <p>
+                Uiteraard gaan we samen ons best doen om jou zo snel mogelijk te introduceren bij één van onze vele
+                klanten. Je wordt daar opgenomen in een team van Ordina Developers en gaat een bijdrage leveren aan de
+                technische realisatie van Java software oplossingen. We doen daarbij niet aan rangen, standen en hokjes,
+                maar gaan samen toffe dingen maken en veel kennis delen. Waar het bij ons vooral om draait: elegante
+                code schrijven, innovatie toepassen en slimme oplossingen maken. En dat doen we met plezier in en passie
+                voor het vak.
+            </p>
+            <p>
+                En de werksfeer? De Java unit van Ordina, JTech, is een Nederlandse club van zo’n 150 eigenzinnige
+                Javanen die zich niet laten leiden door standaard loopbaanpaden. Als je goed bent, ben je goed. We doen
+                niet aan formele toestanden en stellen mensen boven regels. Ordina wordt namelijk vanuit Nederland
+                bestuurd en we kennen korte lijnen en een menselijke cultuur. We hebben ook geen “up or out”
+                mentaliteit, maar je kunt wel pijlsnel groeien als je die ambitie hebt. Je krijgt bovendien alle ruimte
+                om - als je daar klaar voor bent – zelf trainingen en presentaties te gaan verzorgen en je te gaan
+                profileren in de markt.
+            </p>
+
+            <h2 class="major">Je bent wat je bijdraagt</h2>
+
+            <p>
+                Werken bij Ordina doe je omdat je gelooft dat we ICT voor mensen kunnen laten werken. Samen duurzaam
+                innoveren. Daar staan we voor. We kennen onze klanten en zetten ICT in om hun klanten te helpen,
+                strategie te versterken en bedrijfsproces te verbeteren. Zo maken we de toegevoegde waarde van nieuwe
+                technologie concreet voor organisaties, mens en maatschappij.
+            </p>
+
+            <div style="clear: both;"></div>
+
+            <div id="container" style="width: 100%;"></div>
+        </div>
+    </div>
+</section>
+
+<section class="wrapper spotlight alt style1">
+    <div class="inner">
+        <div class="content" style="text-align: left;">
+
+            <h2 class="major">Young Professional Programma</h2>
+
+            <p>
+                Het <span class="accentuate">Young Professional Programma</span> Java is een tweejarig
+                ontwikkelprogramma met als doel jou op te leiden en te begeleiden tot een succesvol Java Developer. In
+                deze periode volg je een intensief vakgericht programma, georganiseerd door onze eigen specialisten en
+                de Ordina Academy. Dit bestaat onder andere uit Oracle Certified Associate(OCA), Oracle Certified
+                Professional(OCP), JAVA SE 8 training en JAVA EE. Denk ook aan Angular2, Polymer, Microservices, Docker,
+                Agile/Scrum werken, CD, CI, etc. We begeleiden je met het behalen van je OCA en OCP certificeringen en
+                je zet direct een belangrijke stap in je ontwikkeling.
+            </p>
+
+            <h2 class="major">Codesmith</h2>
+            <p>
+                JTech is het Java en Open Source huis van Ordina.
+                <br/><br/>
+                Het is onze missie om kennis te ontwikkelen, vergaren en delen op het gebied van 'Java & Open Source'.
+                Dit doen we voor en met de Community, collega's en onze klant (collega's). De voorhoede wordt gevormd
+                door de <span class="accentuate">Codesmith</span>.
+                <br/><br/>
+                Een Codesmith is een "guru" op zijn of haar expertisegebied en is gericht op innovatie.
+            </p>
+
+            <h3>Principes achter het Codesmith Manifesto</h3>
+            <ul>
+                <li>Kennis ontwikkel, vergaar en deel je met anderen!</li>
+                <li>Niets is belangrijker dan code en kennisdeling!</li>
+                <li>De community en klanten kennen ons vanwege en door innovatie!</li>
+                <li>Kennis maken en verspreiden we op alle mogelijke manieren. Online, offline, virtueel!</li>
+                <li>JTech = Codesmith = JTech</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-3d.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+<script>
+    var seriesData = [
+        ["Junior", 150],
+        ["→", 60,
+            "Young Professional Programma:" +
+            "<ul>" +
+            "<li>JAVA SE 8 en JAVA EE training</li>" +
+            "<li>Oracle Certified Associate(OCA)</li>" +
+            "<li>Oracle Certified Professional(OCP)</li>" +
+            "<li>Kennis van tools & technieken:" +
+            "<ul>" +
+            "<li>Angular</li>" +
+            "<li>Docker</li>" +
+            "<li>Scrum</li>" +
+            "<li>CI / CD</li>" +
+            "<li>etc.</li>" +
+            "</ul>" +
+            "</li>" +
+            "</ul>"
+        ],
+        ["Medior", 250],
+        // Label needs to be unique, otherwise popup information is incorrect
+        [" → ", 0],
+        ["Senior", 600],
+        ["  →  ", 0],
+        ["Codesmith", 1200]
+    ];
+
+    function findProgramme(name) {
+        for (i = 0; i < seriesData.length; ++i) {
+            if (i in seriesData) {
+                if (seriesData[i][0] === name && seriesData[i][2] !== undefined) {
+                    return seriesData[i][2];
+                }
+            }
+        }
+        return false;
+    }
+
+    var chart = new Highcharts.Chart({
+        chart: {
+            backgroundColor: 'transparent',
+            renderTo: 'container',
+            type: 'column',
+            options3d: {
+                enabled: true,
+                alpha: 0,
+                beta: 0,
+                depth: 10,
+                viewDistance: 50
+            }
+        },
+        // colors for x-axis: set color to transparent if it should not be present
+        colors: ['#e98300', '#dd2100', '#e98300', 'transparent', '#e98300', 'transparent', '#e98300'],
+        xAxis: {
+            tickInterval: 1,
+            labels: {
+                enabled: true,
+                formatter: function () {
+                    return seriesData[this.value][0];
+                },
+                style: {
+                    'font-family': 'Futura Md BT',
+                    'fontSize': '1.4rem'
+                }
+            },
+            lineWidth: 0,
+            gridLineWidth: 0
+        },
+        yAxis: [{
+            labels: {
+                enabled: false
+            },
+            title: {
+                enabled: false
+            },
+            lineWidth: 0,
+            gridLineWidth: 0
+        }],
+        title: {
+            text: null
+        },
+        credits: {
+            enabled: false
+        },
+        legend: {
+            enabled: false
+        },
+        exporting: {
+            enabled: false
+        },
+        tooltip: {
+            padding: 15,
+            headerFormat: '',
+            hideDelay: 0,
+            style: {
+                'fontFamily': 'Futura Md BT',
+                'fontSize': '1.1rem',
+                'fontWeight': 'bold',
+                'width': '200px'
+            },
+            formatter: function () {
+                // to disable the tooltip at a point return false
+                return findProgramme(this.point.name);
+            },
+            useHTML: true
+        },
+        plotOptions: {
+            column: {
+                colorByPoint: true,
+                depth: 25
+            }
+        },
+        series: [{
+            data: seriesData
+        }, {
+            type: 'spline',
+            name: 'Average',
+            data: [100, 150, 225, 350, 550, 800, 1150],
+            marker: {
+                lineWidth: 2,
+                lineColor: Highcharts.getOptions().colors[3],
+                fillColor: 'white'
+            }
+        }]
+    });
+
+    // Activate the sliders
+    $('#sliders input').on('input change', function () {
+        chart.options.chart.options3d[this.id] = parseFloat(this.value);
+        chart.redraw(false);
+    });
+</script>

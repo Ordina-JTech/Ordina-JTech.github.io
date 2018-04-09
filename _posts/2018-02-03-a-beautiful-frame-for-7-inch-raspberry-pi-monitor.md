@@ -1,18 +1,11 @@
 ---
-title:  "A Beautiful Frame For 7 Inch Raspberry Pi Monitor"
-date:   2018-02-03 23:55
-categories:
-- DIY
-- IoT
-tags:
-- hobby
-- rpi
-- raspberry pi
-- monitor
-- media
-- lifehacks
-- IoT
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'A Beautiful Frame For 7 Inch Raspberry Pi Monitor'
+image: /img/blogs/default-blog.png
+tags: [Diy, IoT, Hobby, Raspberry Pi, Monitor, Media, Lifehacks, Rpi]
+category: DIY
+comments: true
 ---
 
 

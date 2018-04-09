@@ -1,0 +1,59 @@
+---
+layout: default
+title: 'Kennisdeling'
+subtitle: 'Powered by <img src="/img/ordina-logo-orange-300px.png" class="header-logo">'
+show_logo: true
+transparent_header: false
+---
+
+<section id="one" class="wrapper spotlight alt style1">
+    <div class="inner">
+        <div class="content" style="text-align: left">
+            <h2 class="major">Taining Sessies</h2>
+            <section class="features">
+                {% for session in site.training %}
+                <article onclick="openPage(event, '{{ session.url | prepend: site.baseurl }}')" class="session">
+                    <div class="image-container">
+                        <img src="{{ session.image | prepend: site.baseurl }}" class="article-image" alt="{{ session.title }}">
+                    </div>
+                    <div class="article-info">
+                        <h3 class="major">{{ session.title }}</h3>
+                        <p>{{ session.subtitle }}</p>
+
+                        <p><span>Trainer:</span>{{ session.trainer }}</p>
+                        <p><span>Duur:</span>{{ session.duration }}</p>
+                        <p><span>Niveau:</span>{{ session.level }}</p>
+                    </div>
+                    <a href="{{ session.url | prepend: site.baseurl }}" class="special">Meer info</a>
+                </article>
+                {% endfor %}
+            </section>
+        </div>
+    </div>
+</section>
+
+<section id="two" class="wrapper spotlight style2">
+    <div class="inner">
+        <div class="content" style="text-align: left">
+            <h2 class="major">Talks</h2>
+            <section class="features">
+                {% for talk in site.talks %}
+                <article onclick="openPage(event, '{{ talk.url | prepend: site.baseurl }}')" class="talk">
+                    <div class="image-container">
+                        <img src="{{ talk.image | prepend: site.baseurl }}" class="article-image" alt="{{ talk.title }}">
+                    </div>
+                    <div class="article-info">
+                        <h3 class="major">{{ talk.title }}</h3>
+                        <p>{{ talk.subtitle }}</p>
+
+                        <p><span>Spreker:</span>{{ talk.speaker }}</p>
+                        <p><span>Duur:</span>{{ talk.duration }}</p>
+                        <p><span>Niveau:</span>{{ talk.level }}</p>
+                    </div>
+                    <a href="{{ talk.url | prepend: site.baseurl }}" class="special">Meer info</a>
+                </article>
+                {% endfor %}
+            </section>
+        </div>
+    </div>
+</section>

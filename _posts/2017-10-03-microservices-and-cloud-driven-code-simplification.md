@@ -1,12 +1,11 @@
 ---
-title:  "Microservices and Cloud-Driven Code Simplification"
-date:   2017-10-03 09:25
-categories:
-- JavaOne2017
-tags:
-- OOW17
-- java
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Microservices and Cloud-Driven Code Simplification'
+image: /img/blogs/default-blog.png
+tags: [OOW17, Java]
+category: JavaOne2017
+comments: true
 ---
 
 
@@ -31,7 +30,7 @@ Microservices enforce self-containment and platform neutrality. Clouds and conta
 
 Only at a 🤓 conference can a speaker ask the audience: "does anyone have a USB-C to HDMI converter" and get one  😂 
 
-<img src="/assets/images/blog/CON5252__microservices-and-cloud-driven-code-simplification.jpg" style="width:50%;height:50%;"/>
+![microservices-and-cloud-driven-code-simplification](/img/blogs/2017/microservices-and-cloud-driven-code-simplification/CON5252__microservices-and-cloud-driven-code-simplification.jpg)
 
 * EARs have no use whatsoever anymore
 * All Microservices are WARs
@@ -41,16 +40,16 @@ Only at a 🤓 conference can a speaker ask the audience: "does anyone have a US
 * black and white architecture 
 * so WARs are completely decoupled from other wars
 
-<img src="/assets/images/blog/CON5252__microservices-and-cloud-driven-code-simplification_1.jpg" style="width:50%;height:50%;"/>
+![microservices-and-cloud-driven-code-simplification](/img/blogs/2017/microservices-and-cloud-driven-code-simplification/CON5252__microservices-and-cloud-driven-code-simplification_1.jpg)
 
 * javadoc is not used!
 
-<img src="/assets/images/blog/CON5252__microservices-and-cloud-driven-code-simplification_2.jpg" style="width:50%;height:50%;"/>
+![microservices-and-cloud-driven-code-simplification](/img/blogs/2017/microservices-and-cloud-driven-code-simplification/CON5252__microservices-and-cloud-driven-code-simplification_2.jpg)
 
 * start with concrete classes first and add abstractions  later if necessary 
 * system testing done by new project and version it according to the corresponding Microservice. Now you can apply all older versions for backwards compatibility 
 
-<img src="/assets/images/blog/CON5252__microservices-and-cloud-driven-code-simplification_3.jpg" style="width:50%;height:50%;"/>
+![microservices-and-cloud-driven-code-simplification](/img/blogs/2017/microservices-and-cloud-driven-code-simplification/CON5252__microservices-and-cloud-driven-code-simplification_3.jpg)
 
 * monitor the use cases
 	* slowest method

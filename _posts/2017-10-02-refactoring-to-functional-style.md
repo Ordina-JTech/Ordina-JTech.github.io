@@ -1,12 +1,11 @@
 ---
-title:  "Refactoring to Functional Style"
-date:   2017-10-02 12:42
-categories:
-- JavaOne2017
-tags:
-- OOW17
-- java
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Refactoring to Functional Style'
+image: /img/blogs/default-blog.png
+tags: [OOW17, Java]
+category: JavaOne2017
+comments: true
 ---
 
 
@@ -31,7 +30,7 @@ In Java we've programmed with the imperative style for a few decades now. With J
 
 Venkat is of course doing a great job. 
 
-<img src="/assets/images/blog/CON7323__refactoring-to-functional-style.jpg" style="width:50%;height:50%;"/>
+![refactoring-to-functional-style](/img/blogs/2017/refactoring-to-functional-style/CON7323__refactoring-to-functional-style.jpg)
 
 * can you talk about your code with a Business Analyst. 
 

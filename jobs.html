@@ -1,0 +1,43 @@
+---
+layout: default
+title: Vacatures
+subtitle: 'Wil jij werken bij Ordina JTech?'
+permalink: /jobs/
+---
+
+<section id="four" class="wrapper alt style1">
+    <div class="inner">
+        <h2 class="major">JTech in het kort...</h2>
+
+        <p>
+            JTech is de Java unit van Ordina. Een Nederlandse club van zo’n 150 eigenzinnige Javanen die zich niet laten leiden door standaard loopbaanpaden.
+        </p>
+        <p>
+            Als je goed bent, ben je goed. We doen niet aan formele toestanden en stellen mensen boven regels.
+        </p>
+        <p>Verkies je een <span class="accentuate">Macbook</span> met IntelliJ boven een Windows laptop met Eclipse? Geen probleem!
+        </p>
+        <p>
+            Doe jij met ons mee?
+        </p>
+
+        <section class="features">
+
+            {% for job in site.jobs %}
+            <article onclick="openPage(event, '{{ job.url | prepend: site.baseurl }}')">
+                <div class="image-container">
+                    <img src="{{ job.image | prepend: site.baseurl }}" class="article-image" alt="{{ job.title }}">
+                </div>
+                <div class="article-info">
+                    <h3 class="major">{{ job.title }}</h3>
+                    <p>{{ job.subtitle }}</p>
+                </div>
+                <a href="{{ job.url | prepend: site.baseurl }}" class="special">Bekijk vacature</a>
+
+            </article>
+            {% endfor %}
+
+        </section>
+
+    </div>
+</section>

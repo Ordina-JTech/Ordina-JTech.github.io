@@ -1,75 +1,86 @@
-ivonet:
-  name             : Ivo Woltring
-  avatar           : /assets/images/bio/ivo-bio.jpg
-  bio              : I am a Software Engineer and Codesmith. I have a healthy urge to share my experiences, findings and thoughts through public speaking, making and giving courses and writing articles. I also have a passion for books, and good beer :-).
-  email            : ivo.woltring@ordina.nl
-  uri              : https://www.ivonet.nl
-  github           : ivonet
-bertkoor:
-  name             : Bert Koorengevel
-  avatar           : /assets/images/bio/bertkoor-bio.jpg
-  bio              : Life is what happens while you are busy making other plans.
-  email            : bert.koorengevel@ordina.nl
-  linkedin         : bertkoor
-  github           : BertKoor
-edwin_derks:
-  name             : Edwin Derks
-  avatar           : /assets/images/bio/edwinderks-bio.png
-  bio              : Long-time Java developer with a passion for architecture and complexity. 
-  email            : edwin.derks@ordina.nl
-  linkedin         : edwin-derks-2522a916
-  github           : ederks85
-rogier_vanapeldoorn:
-  name             : Rogier van Apeldoorn
-  avatar           : /assets/images/bio/rogier-bio.jpg
-  bio              : Love coding apps.
-  email            : rogier.van.apeldoorn@ordina.nl
-  linkedin         : rogier-van-apeldoorn-3265794
-  github           : rogiervapeldoorn
-etmuller:
-  name             : Eelco Muller
-  email            : eelco.muller@ordina.nl
-  avatar           : /assets/images/bio/emu16460-bio.jpg
-  linkedin         : eelco-muller-4446a52
-  github           : EelcoMuller
-omerergul:
-  name             : Omer Ergul
-  avatar           : /assets/images/bio/omerergul-bio.jpg
-  bio              : archery, coding and riding my motorcycle
-  email            : omer.ergul@ordina.nl
-  linkedin         : omer-ergul
-  github           : OErgul
-naipath:      
-  name             : Teije van Sloten     
-  avatar           : /assets/images/bio/naipath-bio.png       
-  bio              : I do stuff... sometimes with computers       
-  github           : naipath      
-  active           : false        
-michel_schudel:       
-  name             : Michel Schudel       
-  avatar           : /assets/images/bio/michel-bio.jpg        
-  bio              : Coding, Craftsmanship, Music, Movies and more...     
-  github           : MichelSchudel        
-  active           : false
-casmarrav:
-  name             : Casper Ravenhorst
-  avatar           : /assets/images/bio/casmarrav-bio.png
-  bio              : Software / Music / Music software
-  email            : casper.ravenhorst@ordina.nl
-  linkedin         : casperravenhorst
-  github           : casmarrav
-  active           : false
-remcorunge:
-  name             : Remco Runge
-  avatar           : /assets/images/bio/remcorunge-bio.jpg
-  bio              : Software Engineer with a background in Artificial Intelligence.
-  email            : remco.runge@ordina.nl
-  linkedin         : remcorunge
-  github           : RRunge
-petereijgermans:       
-  name             : Peter Eijgermans      
-  avatar           : /assets/images/bio/petereijgermans-bio.jpeg        
-  bio              : I am a passionated Codesmith with a love for front-end frameworks, Java and making innovative Apps. Always keen to push the web forward with courses, talks and code. 
-  github           : petereijgermans11    
-  email            : peter.eijgermans@ordina.nl    
+# add yourself as an author with the following items:
+# At least fill in the fields that are marked with *
+#
+# first_name: [first name] *
+# last_name: [last name] *
+# github: [github account name]
+# twitter: [twitter account name]
+# linkedin: [linkedin account name]
+# permalink: /author/[full name with hyphens] *
+# avatar: [the image filename you added in the /img/author directory] *
+# title: [your profession] *
+# title2: [your second profession]
+# email: [your Ordina mail address]
+# phone: [0031612345678] (don't use +31.. since it will remove the plus sign)
+# bio: [some info about you] (can be multiline) *
 
+ivo_woltring:
+  first_name: Ivo
+  last_name: Woltring
+  github: ivonet
+  twitter: ivonet
+  linkedin: ivonet
+  permalink: /author/ivo-woltring/
+  avatar: ivo-bio.jpg
+  title: Software Architect
+  email: ivo.woltring@ordina.nl
+  bio: I'm a Passionate Software Craftsman with a love for Python and Java and to my great surprise JavaScript more and more.
+bert_koorengevel:
+  first_name: Bert
+  last_name: Koorengevel
+  github: BertKoor
+  linkedin: bertkoor
+  permalink: /author/bert-koorengevel/
+  avatar: bertkoor-bio.jpg
+  title: Java Software Engineer
+  email: bert.koorengevel@ordina.nl
+  bio: Life is what happens while you are busy making other plans.
+edwin_derks:
+  first_name: Edwin
+  last_name: Derks
+  github: ederks85
+  linkedin: edwin-derks-2522a916
+  permalink: /author/edwin-derks/
+  avatar: edwinderks-bio.png
+  title: Software Architect
+  email: edwin.derks@ordina.nl
+  bio: Long-time Java developer with a passion for architecture and complexity. 
+rogier_vanapeldoorn:
+  first_name: Rogier 
+  last_name: van Apeldoorn
+  github: rogiervapeldoorn
+  linkedin: rogier-van-apeldoorn-3265794
+  permalink: /author/rogier-van-apeldoorn/
+  avatar: rogier-bio.jpg
+  title: CodeSmith
+  email: rogier.van.apeldoorn@ordina.nl
+  bio: Love coding apps.
+eelco_muller:
+  first_name: Eelco 
+  last_name: Muller
+  github: EelcoMuller
+  linkedin: eelco-muller-4446a52
+  permalink: /author/eelco-muller/
+  avatar: eelco-bio.png
+  title: Software Engineer
+  email: eelco.muller@ordina.nl
+  bio: Software Engineer in J2EE Java and XML. Certified Sun Enterprise Architect.
+remco_runge:
+  first_name: Remco
+  last_name: Runge
+  github: RRunge
+  linkedin: remcorunge
+  permalink: /author/remco-runge/
+  avatar: remcorunge-bio.jpg
+  title: Software Engineer
+  email: remco.runge@ordina.nl
+  bio: Software Engineer with a background in Artificial Intelligence.
+peter_eijgermans:
+  first_name: Peter
+  last_name: Eijgermans
+  github: petereijgermans11
+  permalink: /author/peter-eijgermans/
+  avatar: petereijgermans-bio.jpeg
+  title: CodeSmith
+  email: peter.eijgermans@ordina.nl
+  bio: I am a passionated Codesmith with a love for front-end frameworks, Java and making innovative Apps. Always keen to push the web forward with courses, talks and code.

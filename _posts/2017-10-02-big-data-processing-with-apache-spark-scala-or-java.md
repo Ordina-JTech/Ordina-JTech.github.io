@@ -1,12 +1,11 @@
 ---
-title:  "Big Data Processing with Apache Spark: Scala or Java?"
-date:   2017-10-02 18:35
-categories:
-- JavaOne2017
-tags:
-- OOW17
-- java
-author: ivonet
+layout: post
+authors: [ivo_woltring]
+title: 'Big Data Processing with Apache Spark: Scala or Java?'
+image: /img/blogs/default-blog.png
+tags: [OOW17, Java]
+category: JavaOne2017
+comments: true
 ---
 
 
@@ -29,63 +28,64 @@ As the de facto standard for large-scale data processing in the Java world, Apac
 
 # My Notes
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java.jpg" style="width:50%;height:50%;"/>
+
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java.jpg)
 
 # What’s Big Data
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java.jpg)
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java_1.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java_1.jpg)
 
 You need to kearn your Math if you want to dabble in Big Data
 
 ## Spark
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java_2.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java_2.jpg)
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java_3.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java_3.jpg)
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java_4.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java_4.jpg)
 
 # dive in
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java_5.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java_5.jpg)
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java_6.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java_6.jpg)
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java_7.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java_7.jpg)
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java_8.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java_8.jpg)
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java_9.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java_9.jpg)
 
 ## Spark streaming
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java_10.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java_10.jpg)
 
 He provides a slide demo (not included here)
 
 # questions, questions...
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java_11.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java_11.jpg)
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java_12.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java_12.jpg)
 
 The scala vs java question is still not completely answered... 
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java_13.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java_13.jpg)
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java_14.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java_14.jpg)
 
 # wrap up
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java_15.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java_15.jpg)
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java_16.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java_16.jpg)
 
 # summary 
 
-<img src="/assets/images/blog/BOF1337__big-data-processing-with-apache-spark-scala-or-java_17.jpg" style="width:50%;height:50%;"/>
+![big data processing with apache spark scala or java](/img/blogs/2017/big-data-processing-with-apache-spark-scala-or-java/BOF1337__big-data-processing-with-apache-spark-scala-or-java_17.jpg)
 
 
 # Conclusion 
