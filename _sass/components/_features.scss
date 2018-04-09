@@ -12,29 +12,39 @@
   margin: 0 0 _size(element-margin) 0;
 
   article {
-    //@include padding(1.75em, 1.75em);
-    //background-color: rgba(255, 255, 255, 0.5);
+    @include vendor('display', 'flex');
+    @include vendor('flex-direction', 'column');
+    @include vendor('justify-content', 'space-between');
     background-color: _palette(grey);
     color:_palette(fg-header);
     border-radius: _size(border-radius);
     margin: (_size(section-spacing, large) * 0.5) _size(section-spacing, large) (_size(section-spacing, large) * 0.5) 0;
     width: calc(50% - #{_size(section-spacing, large) * 0.5});
-    position: relative;
 
-    .image-container {
-      position: absolute;
-      height: 270px;
-      width: 100%;
+    .article-container {
+      @include vendor('display', 'flex');
+      @include vendor('flex-direction', 'column');
+
+      .image-container {
+        overflow: hidden;
+      }
+
+      .article-info {
+        padding: 1.75em;
+      }
     }
 
-    .article-info {
-      padding: 1.75em;
-      margin-bottom: 4em;
+    .read-more-container {
+      @include vendor('display', 'flex');
+      @include vendor('flex-direction', 'column');
+
+      .date {
+        margin: 0 1.75em;
+      }
     }
 
     h3, a {
       color:_palette(fg-header);
-      margin-top:270px;
     }
 
     p {
@@ -59,24 +69,7 @@
     .article-image {
       background-color: _palette(bg-post);
       border-radius: _size(border-radius) _size(border-radius) 0 0;
-      display: block;
-      //margin-bottom: 1.75em;
-      //margin-left: -1.75em;
-      //margin-top: -1.75em;
-      position: absolute;
       width: 100%;
-      //width: calc(100% + #{3.54em});
-
-      img {
-        border-radius: _size(border-radius) _size(border-radius) 0 0;
-        width: 100%;
-      }
-    }
-
-    .date {
-      position: absolute;
-      left: 2em;
-      bottom: 2em;
     }
   }
 
@@ -93,15 +86,22 @@
 
   @include breakpoint(small) {
     article {
-      @include padding(1.5em, 1.5em);
       margin: (_size(section-spacing, small) * 0.5) _size(section-spacing, small) (_size(section-spacing, small) * 0.5) 0;
       width: calc(50% - #{_size(section-spacing, small) * 0.5} - 1px);
 
       .article-image {
-        margin-bottom: 1.5em;
-        margin-left: -1.5em;
-        margin-top: -1.5em;
-        width: calc(100% + #{3em});
+        width: 100%
+      }
+
+      .article-container {
+        .article-info {
+          padding: 1em 1em 1.75em;
+        }
+      }
+      .read-more-container {
+        .date {
+          margin: 0 1em;
+        }
       }
     }
   }

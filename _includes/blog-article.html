@@ -1,11 +1,15 @@
 <article onclick="openPage(event, '{{post.url}}')">
-    <div class="image-container">
-        <img src="{{post.image}}" onerror="this.src='/img/blogs/default-blog.png';" alt="" class="article-image"/>
+    <div class="article-container">
+        <div class="image-container">
+            <img src="{{post.image}}" onerror="this.src='/img/blogs/default-blog.png';" alt="" class="article-image"/>
+        </div>
+        <div class="article-info">
+            <h3 class="major">{{ post.title }}</h3>
+            <p class="clamp">{{ post.intro }}</p>
+        </div>
     </div>
-    <div class="article-info">
-        <h3 class="major">{{ post.title }}</h3>
-        <p class="clamp">{{ post.intro }}</p>
+    <div class="read-more-container">
+        <p class="date">{{ post.date | date_to_string }} {{ post.heading }}</p>
+        <a href="{{post.url}}" class="special">Lees blog</a>
     </div>
-    <p class="date">{{ post.date | date_to_string }} {{ post.heading }}</p>
-    <a href="{{post.url}}" class="special">Lees blog</a>
 </article>

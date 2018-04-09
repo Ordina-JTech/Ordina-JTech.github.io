@@ -13,18 +13,23 @@ transparent_header: false
             <section class="features">
                 {% for session in site.training %}
                 <article onclick="openPage(event, '{{ session.url | prepend: site.baseurl }}')" class="session">
-                    <div class="image-container">
-                        <img src="{{ session.image | prepend: site.baseurl }}" class="article-image" alt="{{ session.title }}">
-                    </div>
-                    <div class="article-info">
-                        <h3 class="major">{{ session.title }}</h3>
-                        <p>{{ session.subtitle }}</p>
+                    <div class="article-container">
+                        <div class="image-container">
+                            <img src="{{ session.image | prepend: site.baseurl }}" class="article-image"
+                                 alt="{{ session.title }}">
+                        </div>
+                        <div class="article-info">
+                            <h3 class="major">{{ session.title }}</h3>
+                            <p>{{ session.subtitle }}</p>
 
-                        <p><span>Trainer:</span>{{ session.trainer }}</p>
-                        <p><span>Duur:</span>{{ session.duration }}</p>
-                        <p><span>Niveau:</span>{{ session.level }}</p>
+                            <p><span>Trainer:</span>{{ session.trainer }}</p>
+                            <p><span>Duur:</span>{{ session.duration }}</p>
+                            <p><span>Niveau:</span>{{ session.level }}</p>
+                        </div>
                     </div>
-                    <a href="{{ session.url | prepend: site.baseurl }}" class="special">Meer info</a>
+                    <div class="read-more-container">
+                        <a href="{{ session.url | prepend: site.baseurl }}" class="special">Meer info</a>
+                    </div>
                 </article>
                 {% endfor %}
             </section>
@@ -39,18 +44,23 @@ transparent_header: false
             <section class="features">
                 {% for talk in site.talks %}
                 <article onclick="openPage(event, '{{ talk.url | prepend: site.baseurl }}')" class="talk">
-                    <div class="image-container">
-                        <img src="{{ talk.image | prepend: site.baseurl }}" class="article-image" alt="{{ talk.title }}">
-                    </div>
-                    <div class="article-info">
-                        <h3 class="major">{{ talk.title }}</h3>
-                        <p>{{ talk.subtitle }}</p>
+                    <div class="article-container">
+                        <div class="image-container">
+                            <img src="{{ talk.image | prepend: site.baseurl }}" class="article-image"
+                                 alt="{{ talk.title }}">
+                        </div>
+                        <div class="article-info">
+                            <h3 class="major">{{ talk.title }}</h3>
+                            <p>{{ talk.subtitle }}</p>
 
-                        <p><span>Spreker:</span>{{ talk.speaker }}</p>
-                        <p><span>Duur:</span>{{ talk.duration }}</p>
-                        <p><span>Niveau:</span>{{ talk.level }}</p>
+                            <p><span>Spreker:</span>{{ talk.speaker }}</p>
+                            <p><span>Duur:</span>{{ talk.duration }}</p>
+                            <p><span>Niveau:</span>{{ talk.level }}</p>
+                        </div>
                     </div>
-                    <a href="{{ talk.url | prepend: site.baseurl }}" class="special">Meer info</a>
+                    <div class="read-more-container">
+                        <a href="{{ talk.url | prepend: site.baseurl }}" class="special">Meer info</a>
+                    </div>
                 </article>
                 {% endfor %}
             </section>

@@ -18,17 +18,21 @@ some_variable: "jeckyll wont update js without frontmatter.."
                 var item = store[results[i].ref];
                 if (item.type === 'post') {
                     appendPost += '<article onclick="openPage(event, \'' + item.url + '\')">';
+                    appendPost += '<div class="article-container">';
                     appendPost += '<div class="image-container">';
                     appendPost += '<img src="' + item.image + '" alt="" class="article-image">';
                     appendPost += '</div><div class="article-info">';
                     appendPost += '<h3 class="major">' + item.title + '</h3>';
                     appendPost += '<p class="clamp">' + item.intro + '</p>';
-                    appendPost += '</div>';
+                    appendPost += '</div></div>';
+                    appendPost += '<div class="read-more-container">';
                     appendPost += '<p class="date">' + item.date + '</p>';
                     appendPost += '<a href="' + item.url + '" class="special">Lees blog</a>';
+                    appendPost += '</div>';
                     appendPost += '</article>';
                 } else if (item.type === 'training') {
                     appendTraining += '<article onclick="openPage(event, \'' + item.url + '\')" class="session">';
+                    appendTraining += '<div class="article-container">';
                     appendTraining += '<div class="image-container">';
                     appendTraining += '<img src="' + item.image + '" alt="" class="article-image">';
                     appendTraining += '</div><div class="article-info">';
@@ -37,11 +41,14 @@ some_variable: "jeckyll wont update js without frontmatter.."
                     appendTraining += '<p><span>Trainer:</span>' + item.trainer + '</p>';
                     appendTraining += '<p><span>Duur:</span>' + item.duration + '</p>';
                     appendTraining += '<p><span>Niveau:</span>' + item.level + '</p>';
-                    appendTraining += '</div>';
+                    appendTraining += '</div></div>';
+                    appendTraining += '<div class="read-more-container">';
                     appendTraining += '<a href="' + item.url + '" class="special">Meer info</a>';
+                    appendTraining += '</div>';
                     appendTraining += '</article>';
                 } else if (item.type === 'talk') {
                     appendTalk += '<article onclick="openPage(event, \'' + item.url + '\')" class="talk">';
+                    appendTalk += '<div class="article-container">';
                     appendTalk += '<div class="image-container">';
                     appendTalk += '<img src="' + item.image + '" alt="" class="article-image">';
                     appendTalk += '</div><div class="article-info">';
@@ -50,8 +57,10 @@ some_variable: "jeckyll wont update js without frontmatter.."
                     appendTalk += '<p><span>Spreker:</span>' + item.speaker + '</p>';
                     appendTalk += '<p><span>Duur:</span>' + item.duration + '</p>';
                     appendTalk += '<p><span>Niveau:</span>' + item.level + '</p>';
-                    appendTalk += '</div>';
+                    appendTalk += '</div></div>';
+                    appendTalk += '<div class="read-more-container">';
                     appendTalk += '<a href="' + item.url + '" class="special">Meer info</a>';
+                    appendTalk += '</div>';
                     appendTalk += '</article>';
                 }
             }

@@ -52,12 +52,9 @@ a {
     font-size: 0.8em;
     font-weight: _font(weight-heading-bold);
     letter-spacing: _font(kern-heading);
-    //margin: 0 0 _size(element-margin) 0;
-    margin: 0;
+    margin: 0 2em 1em;
     text-transform: uppercase;
-    position: absolute;
-    right: 2em;
-    bottom: 2em;
+    align-self: flex-end;
 
     &:before {
       @include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
@@ -68,7 +65,7 @@ a {
       font-size: 1.25em;
       height: 2em;
       line-height: 1.65em;
-      margin-right: 0.85em;
+      margin-right: 0.5em;
       text-align: center;
       text-indent: 0.15em;
       vertical-align: middle;
@@ -85,6 +82,13 @@ a {
       &:before {
         background-color: _palette(border2-bg);
       }
+    }
+  }
+}
+@include breakpoint(small) {
+  a {
+    &.special:not(.button) {
+      margin: 0 1em 1em;
     }
   }
 }

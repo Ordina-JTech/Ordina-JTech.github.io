@@ -224,6 +224,24 @@ $(document).ready(function(){
 	});
 });
 
+/* *************************** */
+/* calculate height for images */
+/* *************************** */
+
+$(document).ready(function(){
+    rescaleImage();
+});
+
+window.onresize = function() {
+    rescaleImage();
+};
+
+function rescaleImage() {
+    let div = $('.image-container');
+    let width = div.width();
+    div.css('height', width * 0.6);
+}
+
 /*
  Solid State by HTML5 UP
  html5up.net | @ajlkn
