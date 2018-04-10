@@ -22,22 +22,22 @@ permalink: /jobs/
         </p>
 
         <section class="features">
-
             {% for job in site.jobs %}
             <article onclick="openPage(event, '{{ job.url | prepend: site.baseurl }}')">
-                <div class="image-container">
-                    <img src="{{ job.image | prepend: site.baseurl }}" class="article-image" alt="{{ job.title }}">
+                <div class="article-container">
+                    <div class="image-container">
+                        <img src="{{ job.image | prepend: site.baseurl }}" class="article-image" alt="{{ job.title }}">
+                    </div>
+                    <div class="article-info">
+                        <h3 class="major">{{ job.title }}</h3>
+                        <p>{{ job.subtitle }}</p>
+                    </div>
                 </div>
-                <div class="article-info">
-                    <h3 class="major">{{ job.title }}</h3>
-                    <p>{{ job.subtitle }}</p>
+                <div class="read-more-container">
+                    <a href="{{ job.url | prepend: site.baseurl }}" class="special">Bekijk vacature</a>
                 </div>
-                <a href="{{ job.url | prepend: site.baseurl }}" class="special">Bekijk vacature</a>
-
             </article>
             {% endfor %}
-
         </section>
-
     </div>
 </section>
