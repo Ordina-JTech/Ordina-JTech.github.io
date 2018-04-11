@@ -27,8 +27,9 @@ docker run -v $(pwd):/srv/jekyll jekyll/jekyll:3.4.3 jekyll build
 
 ## Building and deploying
 
+from the `source` branch
+
 ```bash
-git checkout source
 docker run -v $(pwd):/srv/jekyll jekyll/jekyll:3.4.3 jekyll build
 git checkout master
 cp -vaR _site/. . 
