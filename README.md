@@ -27,7 +27,8 @@ docker run -v $(pwd):/srv/jekyll jekyll/jekyll:3.4.3 jekyll build
 
 ## Building and deploying
 
-from the `source` branch
+Make sure all changes have first been committed to the source branch.
+from the `source` branch:
 
 ```bash
 docker run --rm -v $(pwd):/srv/jekyll jekyll/jekyll:3.4.3 jekyll build
@@ -36,7 +37,7 @@ rm -f _site/docker-compose.yml _site/README.md
 cp -vaR _site/. . 
 rm -rf _site
 git add .
-git commit -m "deploying static site $(date +"%y-%m-%d")"
+git commit -m "Deploying static site at: $(date +"%Y-%m-%d %H:%M:%S")"
 git push
 git checkout source
 ```
