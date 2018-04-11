@@ -32,6 +32,7 @@ from the `source` branch
 ```bash
 docker run -v $(pwd):/srv/jekyll jekyll/jekyll:3.4.3 jekyll build
 git checkout master
+rm -f _site/docker-compose.yml _site/README.md
 cp -vaR _site/. . 
 rm -rf _site
 git add .
