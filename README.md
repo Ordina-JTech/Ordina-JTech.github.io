@@ -38,6 +38,7 @@ rm -rf _site
 git add .
 git commit -m "deploying static site"
 git push
+git checkout source
 ```
 
 ## Setting up Jekyll on your Mac or Linux
