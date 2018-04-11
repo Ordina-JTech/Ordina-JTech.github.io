@@ -25,6 +25,19 @@ From the source branch root folder run the following command...
 docker run -v $(pwd):/srv/jekyll jekyll/jekyll:3.4.3 jekyll build
 ```
 
+## Building and deploying
+
+```bash
+git checkout source
+docker run -v $(pwd):/srv/jekyll jekyll/jekyll:3.4.3 jekyll build
+git checkout master
+cp -vaR _site/. . 
+rm -rf _site
+git add .
+git commit -m "deploying static site"
+git push
+```
+
 ## Setting up Jekyll on your Mac or Linux
 
 > **Prerequisites:**
