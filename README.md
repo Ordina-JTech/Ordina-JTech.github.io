@@ -16,6 +16,14 @@ For running the blog locally you can either opt for using Docker or setting up J
     - Execute `docker-compose up -d`
     - Browse to [http://localhost:4000/](http://localhost:4000/)
     - After making changes in the blog, the blog is automatically rebuilt
+    
+## Build locally with docker
+
+From the source branch root folder run the following command...
+
+```bash
+docker run -v $(pwd):/srv/jekyll jekyll/jekyll:3.4.3 jekyll build
+```
 
 ## Setting up Jekyll on your Mac or Linux
 
