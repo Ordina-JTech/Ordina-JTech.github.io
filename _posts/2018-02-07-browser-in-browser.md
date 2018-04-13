@@ -49,7 +49,7 @@ But how to get them into Docker as gui applications?
 Luckily I had already done something like that before with the [ivonet/robotframework-ride](http://ivo2u.nl/YY) docker image.
 I used [Apache Guacamole](https://guacamole.apache.org/) as a clientless remote desktop gateway.
 
-Dockerile:
+Dockerfile:
 
 ```dockerfile
 FROM hurricane/dockergui:x11rdp1.3
