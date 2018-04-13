@@ -9,6 +9,9 @@
         </div>
     </div>
     <div class="read-more-container">
+        <div class="author-icon">
+            <img src="../img/author/{{post.authors[0].avatar}}" />
+        </div>
         <p class="date">{{ post.date | date_to_string }} {{ post.heading }}</p>
         <a href="{{post.url}}" class="special">Lees blog</a>
     </div>
