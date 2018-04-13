@@ -40,7 +40,9 @@
                 </div>
                 {% endif %}
 
+                {% if page.title %}
                 <h2>{{ page.title }}</h2>
+                {% endif %}
 
                 {% if page.title == 'Zoeken' %}
                 <form action="/search/" method="get" class="search-form">

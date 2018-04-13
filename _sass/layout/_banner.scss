@@ -7,7 +7,7 @@
 /* Banner */
 
 #banner {
-  @include padding(10em, 0, (0, 0, _size(wrapper-edges, large) * -0.5, 0));
+  @include padding(7em, 0, (0, 0, _size(wrapper-edges, large) * -0.5, 0));
 
   z-index: -20;
 
