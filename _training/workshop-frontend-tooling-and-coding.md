@@ -1,6 +1,6 @@
 ---
 layout: training
-trainer: Peter Eijgermans
+authors: [peter_eijgermans]
 title: Workshop frontend tooling & coding
 subtitle: subtitle
 duration: 120 minuten

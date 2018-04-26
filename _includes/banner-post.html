@@ -1,16 +1,32 @@
-Posted {{ page.date | date: "%b %-d, %Y" }}
+Geplaatst op {{ page.date | date: "%-d" }}
+{% assign m = page.date | date: "%-m" %}
+{% case m %}
+{% when '1' %}januari
+{% when '2' %}februari
+{% when '3' %}maart
+{% when '4' %}april
+{% when '5' %}mei
+{% when '6' %}juni
+{% when '7' %}juli
+{% when '8' %}augustus
+{% when '9' %}september
+{% when '10' %}oktober
+{% when '11' %}november
+{% when '12' %}december
+{% endcase %}
+{{ page.date | date: "%Y" }}
 
 {% if page.category %}
     in <a href="/categories/{{ page.category | downcase | replace:' ','-' }}/">{{ page.category }}</a>
 {% endif %}
 
 {% if page.authors != empty %}
-    by
+    door
     {% for author in page.authors %}
         <a href="{{ author.permalink | prepend: site.baseurl }}">{{author.first_name}} {{author.last_name}}</a>
         {% if forloop.last == false %}
             {% if forloop.rindex0 == 1 %}
-                 and 
+                 en
         {% else %}
                 , 
             {% endif %}

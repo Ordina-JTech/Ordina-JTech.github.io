@@ -1,6 +1,6 @@
 ---
 layout: talk
-speaker: Peter Eijgermans
+authors: [peter_eijgermans]
 title: Angular versus ReactJS
 subtitle: subtitle
 duration: 120 minuten

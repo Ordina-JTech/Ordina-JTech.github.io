@@ -1,6 +1,6 @@
 ---
 layout: training
-trainer: Bert Koorengevel
+authors: [bert_koorengevel]
 title: Continuous Integration met Jenkins
 subtitle: subtitle
 duration: 180 minuten

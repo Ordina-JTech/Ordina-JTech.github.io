@@ -1,6 +1,6 @@
 ---
 layout: talk
-speaker: Peter Eijgermans
+authors: [peter_eijgermans]
 title: NativeScript with Angular and Vue.js
 subtitle: subtitle
 duration: 60 minuten

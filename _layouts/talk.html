@@ -23,6 +23,46 @@ layout: default
     </div>
 </section>
 
+<section id="two" class="wrapper alt spotlight style2">
+    {% if page.authors != empty %}
+    {% for author in page.authors %}
+    <div class="inner">
+        <div class="post-image">
+            <a href="{{ author.permalink | prepend: site.baseurl }}" class="image spotlight-image">
+                <img src="{{ '/img/author/' | append: author.avatar | prepend: site.baseurl }}"
+                     onerror="this.src='/img/author/default-author.png';"
+                     alt="{{ author.name }}"
+                     class="p-image"/>
+            </a>
+        </div>
+
+        <div class="content">
+            <h2>{{ author.first_name }} {{ author.last_name }}</h2>
+            <span class="team-member-title">{{ author.title }}</span>
+            {% if author.bio %}
+            <p>{{ author.bio | markdownify }}</p>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+    {% else %}
+    <div class="inner">
+        <div class="post-image">
+            <div class="image spotlight-image">
+                <img src="/img/author/default-author.png"
+                     onerror="this.src='/img/author/default-author.png';"
+                     alt="JTech"
+                     class="p-image"/>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>JTech</h2>
+        </div>
+    </div>
+    {% endif %}
+</section>
+
 {% if page.comments %}
 <section id="three" class="wrapper spotlight style3">
     <div class="inner">

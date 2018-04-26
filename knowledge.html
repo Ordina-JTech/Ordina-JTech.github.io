@@ -27,6 +27,15 @@ transparent_header: false
                         </div>
                     </div>
                     <div class="read-more-container">
+                        <div class="authors space">
+                            {% if session.authors != empty %}
+                                {% for author in session.authors %}
+                                    <div class="author-icon">
+                                        <img src="/img/author/{{author.avatar}}" onerror="this.src='img/author/default-author.png';" />
+                                    </div>
+                                {% endfor %}
+                            {% endif %}
+                        </div>
                         <a href="{{ session.url | prepend: site.baseurl }}" class="special">Meer info</a>
                     </div>
                 </article>
@@ -58,6 +67,15 @@ transparent_header: false
                         </div>
                     </div>
                     <div class="read-more-container">
+                        <div class="authors space">
+                            {% if talk.authors != empty %}
+                                {% for author in talk.authors %}
+                                    <div class="author-icon">
+                                        <img src="/img/author/{{author.avatar}}" onerror="this.src='img/author/default-author.png';" />
+                                    </div>
+                                {% endfor %}
+                            {% endif %}
+                        </div>
                         <a href="{{ talk.url | prepend: site.baseurl }}" class="special">Meer info</a>
                     </div>
                 </article>

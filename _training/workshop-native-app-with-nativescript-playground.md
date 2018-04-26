@@ -1,6 +1,6 @@
 ---
 layout: training
-trainer: Peter Eijgermans
+authors: [peter_eijgermans]
 title: Workshop bouw een Native app met NativeScript Playground
 subtitle: subtitle
 duration: 30 minuten

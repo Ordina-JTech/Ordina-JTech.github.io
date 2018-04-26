@@ -1,6 +1,6 @@
 ---
 layout: talk
-speaker: Peter Eijgermans
+authors: [peter_eijgermans]
 title: Microservices or Monolith
 subtitle: subtitle
 duration: 60 minuten

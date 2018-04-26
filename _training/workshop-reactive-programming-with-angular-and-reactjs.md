@@ -1,6 +1,6 @@
 ---
 layout: training
-trainer: Peter Eijgermans
+authors: [peter_eijgermans]
 title: Workshop reactive programmeren met Angular en ReactJS
 subtitle: subtitle
 duration: 180 minuten

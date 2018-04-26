@@ -9,8 +9,14 @@
         </div>
     </div>
     <div class="read-more-container">
-        <div class="author-icon">
-            <img src="../img/author/{{post.authors[0].avatar}}" />
+        <div class="authors">
+            {% if post.authors != empty %}
+                {% for author in post.authors %}
+                    <div class="author-icon">
+                        <img src="/img/author/{{author.avatar}}" onerror="this.src='/img/author/default-author.png';" />
+                    </div>
+                {% endfor %}
+            {% endif %}
         </div>
         <p class="date">{{ post.date | date_to_string }} {{ post.heading }}</p>
         <a href="{{post.url}}" class="special">Lees blog</a>

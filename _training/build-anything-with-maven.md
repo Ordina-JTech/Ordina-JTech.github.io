@@ -1,6 +1,6 @@
 ---
 layout: training
-trainer: Bert Koorengevel
+authors: [bert_koorengevel]
 title: Met Maven kun je Alles Bouwen
 subtitle: subtitle
 duration: 180 minuten

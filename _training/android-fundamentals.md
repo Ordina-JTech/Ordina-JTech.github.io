@@ -1,6 +1,6 @@
 ---
 layout: training
-trainer: Peter Eijgermans
+authors: [peter_eijgermans]
 title: Android fundamentals
 subtitle: subtitle
 duration: 120 minuten

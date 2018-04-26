@@ -4,19 +4,6 @@
 <head>
     {% include header-default-meta.html %}
 
-    {% if page.layout == 'post' %}
-        {% for author in page.authors %}
-            {% capture authors %}{{ authors | default: ' -' }} {{author.first_name}} {{author.last_name}}{% endcapture %}
-            {% if forloop.last != true %}
-                {% if forloop.rindex0 == 1 %}
-                     {% capture authors %}{{ authors }} and{% endcapture %}
-                {% else %}
-                    {% capture authors %}{{ authors }},{% endcapture %}
-                {% endif %}
-            {% endif%}
-        {% endfor %}
-    {% endif %}
-
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{ page.title }}{% if authors %}{{ authors }}{% endif %}">
@@ -30,13 +17,23 @@
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.title }}{% endif %}"/>
     <meta property="og:image" content="{% if page.imagesocial %}http://ordina-jtech.github.io{{ page.imagesocial }}{% else %}{% if page.image %}http://ordina-jworks.github.io{{ page.image }}{% else %}http://ordina-jworks.github.io/img/jworks/jworks-1200x630.png{% endif %}{% endif %}"/>
 
-    {% if page.layout == 'post' %}
-    <title>{{ page.title }}{% if authors %}{{ authors }}{% endif %} &mdash; {{ site.title }}</title>
+    {% if page.layout == 'post' or page.layout == 'training' or page.layout == 'talk' %}
+        {% for author in page.authors %}
+            {% capture authors %}{{ authors | default: ' -' }} {{author.first_name}} {{author.last_name}}{% endcapture %}
+            {% if forloop.last != true %}
+                {% if forloop.rindex0 == 1 %}
+                    {% capture authors %}{{ authors }} and{% endcapture %}
+                {% else %}
+                    {% capture authors %}{{ authors }},{% endcapture %}
+                {% endif %}
+            {% endif%}
+        {% endfor %}
+        <title>{{ page.title }}{% if authors %}{{ authors }}{% endif %} &mdash; {{ site.title }}</title>
     {% else %}
         {% if page.url == '/' %}
-        <title>{{ site.title }}</title>
+            <title>{{ site.title }}</title>
         {% else %}
-        <title>{{ page.title }} &mdash; {{ site.title }}</title>
+            <title>{{ page.title }} &mdash; {{ site.title }}</title>
         {% endif %}
     {% endif %}
 

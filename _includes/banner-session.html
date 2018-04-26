@@ -1,9 +1,21 @@
-{% if page.layout == 'talk' %}
-Spreker: {{page.speaker}} <br />
-{% endif %}
-{% if page.layout == 'training' %}
-Trainer: {{page.trainer}} <br />
-{% endif %}
+{% if page.authors != empty %}
+    {% if page.layout == 'talk' %}
+        Spreker(s):
+    {% endif %}
+    {% if page.layout == 'training' %}
+        Trainer(s):
+    {% endif %}
+    {% for author in page.authors %}
+        <a href="{{ author.permalink | prepend: site.baseurl }}">{{author.first_name}} {{author.last_name}}</a>
+        {% if forloop.last == false %}
+            {% if forloop.rindex0 == 1 %}
+                en
+            {% else %}
+                ,
+            {% endif %}
+        {% endif%}
+    {% endfor %}
+{% endif %}<br />
 Duur: {{page.duration}} <br />
 Niveau: {{page.level}} <br />
 
