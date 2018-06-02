@@ -79,17 +79,21 @@ class Metadata(object):
                 image = image[0]
         return """---
 layout: post
-title: %s
-image: %s
-date: %s
-category: %s
-tags: [%s]
 authors: [%s]
+title: %s
+intro: TODO
+image: %s
+tags: [%s]
+category: %s
 comments: true
 ---
 
 %s        
-""" % (self.title.replace('"', "'"), image, self.date, self.categories[0], ",".join(self.tags), self.author,
+""" % (self.author,
+       self.title.replace('"', "'"),
+       image,
+       ",".join(self.tags),
+       self.categories[0],
        self.get_blog())
 
 

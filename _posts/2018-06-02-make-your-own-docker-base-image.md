@@ -1,13 +1,14 @@
 ---
 layout: post
-title: 'Make Your Own Docker Base Image'
-image: /img/blogs/2018/make-your-own-docker-base-image/build.png
-date: 2018-06-02 19:06
-category: docker
-tags: [docker,containerization,image]
 authors: [ivo_woltring]
+title: 'Make Your Own Docker Base Image'
+intro: This blog is about how to create your own base image for docker.
+image: /img/blogs/2018/make-your-own-docker-base-image/build.png
+tags: [docker,containerization,image]
+category: docker
 comments: true
 ---
+
 
 
 This blog is about how to create your own base image for docker.
