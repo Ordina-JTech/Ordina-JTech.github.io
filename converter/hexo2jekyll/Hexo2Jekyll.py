@@ -35,13 +35,8 @@ class Metadata(object):
         self.categories = []
         self.tags = []
         self.author = "ivo_woltring"
-        self.dict = {}
-        self.dict["title"] = self.set_title
-        self.dict["layout"] = self.set_layout
-        self.dict["date"] = self.set_date
-        self.dict["comments"] = self.set_comments
-        self.dict["published"] = self.set_published
-        self.dict["author"] = self.set_author
+        self.dict = {"title": self.set_title, "layout": self.set_layout, "date": self.set_date,
+                     "comments": self.set_comments, "published": self.set_published, "author": self.set_author}
         self.blog = []
 
     def set_title(self, value):
@@ -137,6 +132,7 @@ def main(out_path):
                     if len(strings) > 1:
                         key = strings[0]
                         value = ": ".join(strings[1:])
+                        print key, value
                         if meta.dict.has_key(key):
                             meta.dict[key](value)
                             continue
@@ -153,6 +149,7 @@ def main(out_path):
                 else:
                     meta.blog.append(line)
             print meta.filename()
+            print str(meta)
             with open(os.path.join(out_path, meta.filename()), "w") as blog_post:
                 blog_post.write(str(meta))
 
