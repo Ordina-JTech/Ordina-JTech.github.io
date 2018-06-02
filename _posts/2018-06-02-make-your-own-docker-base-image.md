@@ -9,7 +9,7 @@ category: docker
 comments: true
 ---
 
-<img src="/img/blogs/2018/make-your-own-docker-base-image/build.png" style="width:50%;height:50%;display: block;margin: 0 auto;"/>
+![build]()/img/blogs/2018/make-your-own-docker-base-image/build.png)
 
 This blog is about how to create your own base image for docker.
 From a security standpoint it might be a good idea to base all your images on your own base image.
