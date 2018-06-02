@@ -92,7 +92,7 @@ comments: true
 """ % (self.author,
        self.title.replace('"', "'"),
        image,
-       ",".join(self.tags),
+       ", ".join(self.tags),
        self.categories[0],
        self.get_blog())
 
