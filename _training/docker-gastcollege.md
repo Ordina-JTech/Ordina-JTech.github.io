@@ -5,7 +5,7 @@ title: Docker gastcollege
 subtitle: College gemaakt voor HBO-Informatica studies
 duration: 1 dag deel of langer als workshop
 level: gemiddeld
-image: /img/training/docker.png
+image: /img/training/docker/docker.png
 tags: [docker, containerization]
 category: Training
 comments: false
@@ -43,4 +43,6 @@ binnen het curriculum van de opleiding.
 Ook is het fijn om mee te krijgen hoe heerlijk het ook op je lokale pc kan zijn om
 met docker te werken.
 
- 
+## Impression
+
+![](/img/training/docker/college_ivo.jpg)
