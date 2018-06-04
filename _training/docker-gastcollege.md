@@ -3,7 +3,7 @@ layout: training
 authors: [ivo_woltring]
 title: Docker gastcollege
 subtitle: College gemaakt voor HBO-Informatica studies
-duration: 1 dag deel of langer als workshop
+duration: 1 dag deel of langer (als workshop)
 level: gemiddeld
 image: /img/training/docker/docker.png
 tags: [docker, containerization]
