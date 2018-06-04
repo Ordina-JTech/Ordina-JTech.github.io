@@ -9,6 +9,7 @@ category: Docker
 comments: true
 ---
 
+
 ![build](/img/blogs/2018/make-your-own-docker-base-image/build.png)
 
 This blog is about how to create your own base image for docker.
@@ -74,6 +75,7 @@ mkbase() {
 	   --initdb add alpine-base
 }
 ```
+
 This `mkbase` method builds the base image in the temporary root file system folder created in the `tmp` method with docker.
 Docker is used to run `apk.static` on a macbook. Docker mounts the temp folders needed to build into the image as volumes and gives the
 `apk.static` command all the parameters needed to build a base alpine file system. When finished the docker container is cleaned (`--rm`)
