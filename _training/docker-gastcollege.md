@@ -1,11 +1,11 @@
 ---
 layout: training
-authors: [peter_eijgermans]
+authors: [ivo_woltring]
 title: Docker gastcollege
 subtitle: College gemaakt voor HBO-Informatica studies
 duration: 1 dag deel of langer als workshop
 level: gemiddeld
-image: /img/blogs/default-blog.png
+image: /img/training/docker.png
 tags: [docker, containerization]
 category: Training
 comments: false
