@@ -19,6 +19,9 @@ checkit "$?"
 echo "Switching to the master branch..."
 git checkout master
 checkit "$?"
+git pull
+checkit "$?"
+
 
 echo "Copying changes..."
 rm -f _site/docker-compose.yml _site/README.md
