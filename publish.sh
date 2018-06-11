@@ -47,7 +47,15 @@ rm -rf _site
 checkit "$?"
 
 echo "Creating readme..."
-echo "# JTech Blog\n\nThis site is generated so do not edit.\n\nPlease change to the 'source' branch to go to the source code." >README.md
+README=$(
+cat > README.md <<-EOF
+# JTech Blog
+
+This site is generated so please do not edit.
+
+Change to the 'source' branch if you need to edit the contents of this site.
+EOF
+)
 
 echo "Committing changes..."
 git add .
