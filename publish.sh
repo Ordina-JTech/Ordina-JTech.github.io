@@ -39,7 +39,7 @@ checkit "$?"
 
 echo "Copying changes..."
 rm -f _site/docker-compose.yml
-cp -vaR _site/. .
+cp -aR _site/. .
 checkit "$?"
 
 echo "Cleanup..."
