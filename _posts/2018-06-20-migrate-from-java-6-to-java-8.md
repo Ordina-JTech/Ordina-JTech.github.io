@@ -39,7 +39,7 @@ Java 11 will be an LTS release, but migration to that version will probably have
     * stop telling the compiler what to do
 * From Sequential to Parallel
     * execute code in parallel without extra effort
-    * divide problems into subproblems, solving subproblems simultaniously and combining the results
+    * divide problems into subproblems, solving subproblems simultaneously and combining the results
     * aggregate operations iso Fork/Join
     
 ## Major new Features / Changes
@@ -114,10 +114,10 @@ If all works fine and regression tests have not found anything, you have success
 
 # Migration done now lets migrate
 
-Just because the base migration was successful does not mean that all the work is done. Not the real work begins.
+Just because the base migration was successful does not mean that all the work is done. Now the real work begins.
 Writing to the new features of the language and migrating to the new features. Luckily it does not have to be done all at once.
 
-Every time a piece of code needs to change because of am rfc (request for change) you might want to use the boy-scout 
+Every time a piece of code needs to change because of a request for change you might want to use the boy-scout 
 rule (leave the ground you play on cleaner than you found it). Cleaning a small piece of code by introducing Java 8 features.
 
 ## Using Java 8 features
