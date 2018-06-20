@@ -33,14 +33,13 @@ Java 11 will be an LTS release, but migration to that version will probably have
 # Java 8 language changes
 
 * From Imperative to Functional
-    * Modern constructs other newer language use
+    * Modern constructs other newer languages use
     * Enhance code readability
     * Strip out boilerplate code
-    * stop telling the compiler what to do
 * From Sequential to Parallel
     * execute code in parallel without extra effort
-    * divide problems into subproblems, solving subproblems simultaneously and combining the results
-    * aggregate operations iso Fork/Join
+    * divide problems into smaller pieces, solving these simultaneously and combining the results
+    * aggregate operations
     
 ## Major new Features / Changes
 
