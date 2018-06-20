@@ -101,6 +101,8 @@ This is a great way to learn about new features and pitfalls when migrating. It 
 was "clean" when still running under java 1.6. If your code has never been statically tested before by tools like SonarQube, you
 might not want to look at what is found in either version 😂. You might not like what you see...
 
+You can read more on this subject [here](https://ordina-jtech.github.io/programming/2018/01/20/sonarqube-just-do-it!.html)
+
 ## Deploy your application 
 
 During deployment you might find other issues, like version incompatibility between e.g. application server and newly compiled
